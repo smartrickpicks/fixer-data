@@ -2,143 +2,9 @@
  "sport": "World Cup",
  "experimental": true,
  "disclaimer": "EXPERIMENTAL: crude Elo reference vs market, partly approximate ratings, NO track record yet (building it live). Not the MLB engine. Leans, not locks.",
- "generated_at": "2026-06-26T19:30:02.503872Z",
+ "generated_at": "2026-06-27T19:30:02.689400Z",
  "elo_asof": "2026-06-18 (top-20 confirmed; others approximate)",
  "games": [
-  {
-   "commence": "2026-06-26T19:01:00Z",
-   "home": "Norway",
-   "away": "France",
-   "model": {
-    "home": 0.208,
-    "draw": 0.165,
-    "away": 0.627
-   },
-   "market": {
-    "home": 0.053,
-    "draw": 0.113,
-    "away": 0.835
-   },
-   "pick": "Norway",
-   "model_prob": 0.208,
-   "market_prob": 0.053,
-   "edge": 0.155,
-   "elo_approx": false,
-   "score": {
-    "home": "1",
-    "away": "2",
-    "final": false
-   }
-  },
-  {
-   "commence": "2026-06-26T19:02:00Z",
-   "home": "Senegal",
-   "away": "Iraq",
-   "model": {
-    "home": 0.654,
-    "draw": 0.146,
-    "away": 0.2
-   },
-   "market": {
-    "home": 0.944,
-    "draw": 0.041,
-    "away": 0.015
-   },
-   "pick": "Iraq",
-   "model_prob": 0.2,
-   "market_prob": 0.015,
-   "edge": 0.185,
-   "elo_approx": true,
-   "score": {
-    "home": "1",
-    "away": "0",
-    "final": false
-   }
-  },
-  {
-   "commence": "2026-06-27T00:00:00Z",
-   "home": "Cape Verde",
-   "away": "Saudi Arabia",
-   "model": {
-    "home": 0.277,
-    "draw": 0.274,
-    "away": 0.448
-   },
-   "market": {
-    "home": 0.362,
-    "draw": 0.292,
-    "away": 0.346
-   },
-   "pick": "Saudi Arabia",
-   "model_prob": 0.448,
-   "market_prob": 0.346,
-   "edge": 0.102,
-   "elo_approx": true,
-   "score": null
-  },
-  {
-   "commence": "2026-06-27T00:00:00Z",
-   "home": "Uruguay",
-   "away": "Spain",
-   "model": {
-    "home": 0.156,
-    "draw": 0.056,
-    "away": 0.788
-   },
-   "market": {
-    "home": 0.159,
-    "draw": 0.275,
-    "away": 0.566
-   },
-   "pick": "Spain",
-   "model_prob": 0.788,
-   "market_prob": 0.566,
-   "edge": 0.222,
-   "elo_approx": false,
-   "score": null
-  },
-  {
-   "commence": "2026-06-27T03:00:00Z",
-   "home": "New Zealand",
-   "away": "Belgium",
-   "model": {
-    "home": 0.151,
-    "draw": 0.049,
-    "away": 0.8
-   },
-   "market": {
-    "home": 0.073,
-    "draw": 0.126,
-    "away": 0.801
-   },
-   "pick": "New Zealand",
-   "model_prob": 0.151,
-   "market_prob": 0.073,
-   "edge": 0.078,
-   "elo_approx": true,
-   "score": null
-  },
-  {
-   "commence": "2026-06-27T03:00:00Z",
-   "home": "Egypt",
-   "away": "Iran",
-   "model": {
-    "home": 0.336,
-    "draw": 0.299,
-    "away": 0.365
-   },
-   "market": {
-    "home": 0.396,
-    "draw": 0.361,
-    "away": 0.243
-   },
-   "pick": "Iran",
-   "model_prob": 0.365,
-   "market_prob": 0.243,
-   "edge": 0.122,
-   "elo_approx": true,
-   "score": null
-  },
   {
    "commence": "2026-06-27T23:30:00Z",
    "home": "Colombia",
@@ -149,14 +15,14 @@
     "away": 0.309
    },
    "market": {
-    "home": 0.232,
-    "draw": 0.258,
-    "away": 0.509
+    "home": 0.285,
+    "draw": 0.25,
+    "away": 0.465
    },
    "pick": "Colombia",
    "model_prob": 0.398,
-   "market_prob": 0.232,
-   "edge": 0.166,
+   "market_prob": 0.285,
+   "edge": 0.113,
    "elo_approx": false,
    "score": null
   },
@@ -170,14 +36,14 @@
     "away": 0.452
    },
    "market": {
-    "home": 0.236,
-    "draw": 0.434,
-    "away": 0.33
+    "home": 0.266,
+    "draw": 0.471,
+    "away": 0.262
    },
    "pick": "Austria",
    "model_prob": 0.452,
-   "market_prob": 0.33,
-   "edge": 0.122,
+   "market_prob": 0.262,
+   "edge": 0.19,
    "elo_approx": true,
    "score": null
   },
@@ -191,14 +57,14 @@
     "away": 0.932
    },
    "market": {
-    "home": 0.064,
-    "draw": 0.124,
-    "away": 0.812
+    "home": 0.052,
+    "draw": 0.108,
+    "away": 0.84
    },
    "pick": "Argentina",
    "model_prob": 0.932,
-   "market_prob": 0.812,
-   "edge": 0.12,
+   "market_prob": 0.84,
+   "edge": 0.092,
    "elo_approx": true,
    "score": null
   },
@@ -212,23 +78,86 @@
     "away": 0.27
    },
    "market": {
-    "home": 0.555,
-    "draw": 0.256,
-    "away": 0.188
+    "home": 0.565,
+    "draw": 0.251,
+    "away": 0.185
    },
    "pick": "Japan",
    "model_prob": 0.27,
-   "market_prob": 0.188,
-   "edge": 0.082,
+   "market_prob": 0.185,
+   "edge": 0.085,
    "elo_approx": false,
+   "score": null
+  },
+  {
+   "commence": "2026-06-30T17:00:00Z",
+   "home": "Ivory Coast",
+   "away": "Norway",
+   "model": {
+    "home": 0.237,
+    "draw": 0.223,
+    "away": 0.54
+   },
+   "market": {
+    "home": 0.265,
+    "draw": 0.273,
+    "away": 0.463
+   },
+   "pick": "Norway",
+   "model_prob": 0.54,
+   "market_prob": 0.463,
+   "edge": 0.077,
+   "elo_approx": true,
+   "score": null
+  },
+  {
+   "commence": "2026-06-30T21:00:00Z",
+   "home": "France",
+   "away": "Sweden",
+   "model": {
+    "home": 0.8,
+    "draw": 0.049,
+    "away": 0.151
+   },
+   "market": {
+    "home": 0.74,
+    "draw": 0.166,
+    "away": 0.093
+   },
+   "pick": "France",
+   "model_prob": 0.8,
+   "market_prob": 0.74,
+   "edge": 0.06,
+   "elo_approx": true,
+   "score": null
+  },
+  {
+   "commence": "2026-07-03T22:00:00Z",
+   "home": "Argentina",
+   "away": "Cape Verde",
+   "model": {
+    "home": 0.94,
+    "draw": 0.001,
+    "away": 0.06
+   },
+   "market": {
+    "home": 0.828,
+    "draw": 0.121,
+    "away": 0.051
+   },
+   "pick": "Argentina",
+   "model_prob": 0.94,
+   "market_prob": 0.828,
+   "edge": 0.112,
+   "elo_approx": true,
    "score": null
   }
  ],
  "record": {
-  "w": 0,
-  "l": 4,
-  "pct": 0.0,
-  "n": 4,
-  "graded_at": "2026-06-26T19:25:02.425268Z"
+  "w": 2,
+  "l": 10,
+  "pct": 0.167,
+  "n": 12,
+  "graded_at": "2026-06-27T19:25:02.420858Z"
  }
 }
