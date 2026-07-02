@@ -1,7 +1,7 @@
 {
  "date": "2026-07-02",
  "sport": "MLB",
- "generated_at": "2026-07-02T17:05:15.630266Z",
+ "generated_at": "2026-07-02T19:05:17.516791Z",
  "record": {
   "w": 705,
   "l": 614,
@@ -30,12 +30,45 @@
  },
  "games": [
   {
+   "away": "San Diego Padres",
+   "home": "Los Angeles Dodgers",
+   "pick": "San Diego Padres",
+   "model": 0.474,
+   "market": 0.325,
+   "edge": 0.149,
+   "model_side": "Los Angeles Dodgers",
+   "model_conf": 0.526,
+   "raw_conf": 0.547,
+   "raw_model": 0.453,
+   "calibrated": true,
+   "dec_odds": 3.01,
+   "best_dec_odds": 3.01,
+   "start": "2026-07-04T02:11:00Z",
+   "hp": "Roki Sasaki",
+   "ap": "Randy V\u00e1squez",
+   "hp_stat": {
+    "era": "4.88",
+    "w": 3,
+    "l": 5,
+    "ip": "72.0",
+    "so": 72
+   },
+   "ap_stat": {
+    "era": "4.44",
+    "w": 6,
+    "l": 6,
+    "ip": "81.0",
+    "so": 60
+   },
+   "changed": "edge +10.9\u2192+14.9 \u00b7 price +167\u2192+201"
+  },
+  {
    "away": "Los Angeles Angels",
    "home": "Seattle Mariners",
    "pick": "Los Angeles Angels",
    "model": 0.471,
-   "market": 0.344,
-   "edge": 0.127,
+   "market": 0.343,
+   "edge": 0.128,
    "model_side": "Seattle Mariners",
    "model_conf": 0.529,
    "raw_conf": 0.611,
@@ -59,38 +92,6 @@
     "l": 6,
     "ip": "71.2",
     "so": 69
-   }
-  },
-  {
-   "away": "San Diego Padres",
-   "home": "Los Angeles Dodgers",
-   "pick": "San Diego Padres",
-   "model": 0.474,
-   "market": 0.364,
-   "edge": 0.109,
-   "model_side": "Los Angeles Dodgers",
-   "model_conf": 0.526,
-   "raw_conf": 0.547,
-   "raw_model": 0.453,
-   "calibrated": true,
-   "dec_odds": 2.65,
-   "best_dec_odds": 2.67,
-   "start": "2026-07-03T02:11:00Z",
-   "hp": "Roki Sasaki",
-   "ap": "Randy V\u00e1squez",
-   "hp_stat": {
-    "era": "4.88",
-    "w": 3,
-    "l": 5,
-    "ip": "72.0",
-    "so": 72
-   },
-   "ap_stat": {
-    "era": "4.44",
-    "w": 6,
-    "l": 6,
-    "ip": "81.0",
-    "so": 60
    }
   },
   {
@@ -124,54 +125,23 @@
     "ip": "91.2",
     "so": 112
    },
-   "changed": "price +171\u2192+179"
-  },
-  {
-   "away": "Chicago White Sox",
-   "home": "Cleveland Guardians",
-   "pick": "Cleveland Guardians",
-   "model": 0.579,
-   "market": 0.503,
-   "edge": 0.076,
-   "model_side": "Cleveland Guardians",
-   "model_conf": 0.579,
-   "raw_conf": 0.71,
-   "raw_model": 0.71,
-   "calibrated": true,
-   "dec_odds": 1.917,
-   "best_dec_odds": 1.943,
-   "start": "2026-07-02T22:41:00Z",
-   "hp": "Slade Cecconi",
-   "ap": "Davis Martin",
-   "hp_stat": {
-    "era": "4.18",
-    "w": 4,
-    "l": 6,
-    "ip": "90.1",
-    "so": 70
-   },
-   "ap_stat": {
-    "era": "3.00",
-    "w": 9,
-    "l": 3,
-    "ip": "93.0",
-    "so": 90
-   }
+   "changed": "price +171\u2192+179",
+   "frozen": true
   },
   {
    "away": "Tampa Bay Rays",
    "home": "Kansas City Royals",
    "pick": "Kansas City Royals",
    "model": 0.529,
-   "market": 0.468,
-   "edge": 0.061,
+   "market": 0.466,
+   "edge": 0.063,
    "model_side": "Kansas City Royals",
    "model_conf": 0.529,
    "raw_conf": 0.593,
    "raw_model": 0.593,
    "calibrated": true,
    "dec_odds": 2.06,
-   "best_dec_odds": 2.09,
+   "best_dec_odds": 2.1,
    "start": "2026-07-02T23:41:00Z",
    "hp": "Stephen Kolek",
    "ap": "Ian Seymour",
@@ -191,19 +161,85 @@
    }
   },
   {
+   "away": "Chicago White Sox",
+   "home": "Cleveland Guardians",
+   "pick": "Cleveland Guardians",
+   "model": 0.579,
+   "market": 0.548,
+   "edge": 0.031,
+   "model_side": "Cleveland Guardians",
+   "model_conf": 0.579,
+   "raw_conf": 0.71,
+   "raw_model": 0.71,
+   "calibrated": true,
+   "dec_odds": 1.781,
+   "best_dec_odds": 1.781,
+   "start": "2026-07-03T23:11:00Z",
+   "hp": "Slade Cecconi",
+   "ap": "Davis Martin",
+   "hp_stat": {
+    "era": "4.18",
+    "w": 4,
+    "l": 6,
+    "ip": "90.1",
+    "so": 70
+   },
+   "ap_stat": {
+    "era": "3.00",
+    "w": 9,
+    "l": 3,
+    "ip": "93.0",
+    "so": 90
+   },
+   "changed": "edge +7.6\u2192+3.1 \u00b7 price -106\u2192-128"
+  },
+  {
+   "away": "Detroit Tigers",
+   "home": "Texas Rangers",
+   "pick": "Texas Rangers",
+   "model": 0.529,
+   "market": 0.503,
+   "edge": 0.027,
+   "model_side": "Texas Rangers",
+   "model_conf": 0.529,
+   "raw_conf": 0.609,
+   "raw_model": 0.609,
+   "calibrated": true,
+   "dec_odds": 1.909,
+   "best_dec_odds": 1.952,
+   "start": "2026-07-03T00:06:00Z",
+   "hp": "Nathan Eovaldi",
+   "ap": "Framber Valdez",
+   "hp_stat": {
+    "era": "3.95",
+    "w": 8,
+    "l": 7,
+    "ip": "100.1",
+    "so": 101
+   },
+   "ap_stat": {
+    "era": "4.05",
+    "w": 4,
+    "l": 5,
+    "ip": "95.2",
+    "so": 77
+   },
+   "changed": "edge +1.5\u2192+2.7"
+  },
+  {
    "away": "Miami Marlins",
    "home": "Colorado Rockies",
    "pick": "Colorado Rockies",
    "model": 0.467,
-   "market": 0.441,
-   "edge": 0.026,
+   "market": 0.447,
+   "edge": 0.02,
    "model_side": "Miami Marlins",
    "model_conf": 0.533,
    "raw_conf": 0.674,
    "raw_model": 0.326,
    "calibrated": true,
-   "dec_odds": 2.19,
-   "best_dec_odds": 2.22,
+   "dec_odds": 2.16,
+   "best_dec_odds": 2.18,
    "start": "2026-07-02T19:11:00Z",
    "hp": "Michael Lorenzen",
    "ap": "Ryan Gusto",
@@ -220,23 +256,22 @@
     "l": 2,
     "ip": "21.1",
     "so": 20
-   },
-   "changed": "edge +1.3\u2192+2.6"
+   }
   },
   {
    "away": "St. Louis Cardinals",
    "home": "Atlanta Braves",
    "pick": "Atlanta Braves",
    "model": 0.531,
-   "market": 0.509,
-   "edge": 0.022,
+   "market": 0.513,
+   "edge": 0.017,
    "model_side": "Atlanta Braves",
    "model_conf": 0.531,
    "raw_conf": 0.644,
    "raw_model": 0.644,
    "calibrated": true,
-   "dec_odds": 1.877,
-   "best_dec_odds": 1.943,
+   "dec_odds": 1.87,
+   "best_dec_odds": 1.909,
    "start": "2026-07-02T23:16:00Z",
    "hp": "Hurston Waldrep",
    "ap": "Dustin May",
@@ -287,38 +322,6 @@
     "so": 25
    },
    "frozen": true
-  },
-  {
-   "away": "Detroit Tigers",
-   "home": "Texas Rangers",
-   "pick": "Texas Rangers",
-   "model": 0.529,
-   "market": 0.514,
-   "edge": 0.015,
-   "model_side": "Texas Rangers",
-   "model_conf": 0.529,
-   "raw_conf": 0.609,
-   "raw_model": 0.609,
-   "calibrated": true,
-   "dec_odds": 1.87,
-   "best_dec_odds": 1.909,
-   "start": "2026-07-03T00:06:00Z",
-   "hp": "Nathan Eovaldi",
-   "ap": "Framber Valdez",
-   "hp_stat": {
-    "era": "3.95",
-    "w": 8,
-    "l": 7,
-    "ip": "100.1",
-    "so": 101
-   },
-   "ap_stat": {
-    "era": "4.05",
-    "w": 4,
-    "l": 5,
-    "ip": "95.2",
-    "so": 77
-   }
   }
  ]
 }
