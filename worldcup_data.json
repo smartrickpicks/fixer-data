@@ -2,51 +2,9 @@
  "sport": "World Cup",
  "experimental": true,
  "disclaimer": "EXPERIMENTAL: crude Elo reference vs market, partly approximate ratings, NO track record yet (building it live). Not the MLB engine. Leans, not locks.",
- "generated_at": "2026-07-05T19:30:02.688081Z",
+ "generated_at": "2026-07-06T19:30:02.352716Z",
  "elo_asof": "2026-06-18 (top-20 confirmed; others approximate)",
  "games": [
-  {
-   "commence": "2026-07-05T20:00:00Z",
-   "home": "Brazil",
-   "away": "Norway",
-   "model": {
-    "home": 0.429,
-    "draw": 0.283,
-    "away": 0.289
-   },
-   "market": {
-    "home": 0.537,
-    "draw": 0.257,
-    "away": 0.206
-   },
-   "pick": "Norway",
-   "model_prob": 0.289,
-   "market_prob": 0.206,
-   "edge": 0.083,
-   "elo_approx": false,
-   "score": null
-  },
-  {
-   "commence": "2026-07-06T00:00:00Z",
-   "home": "Mexico",
-   "away": "England",
-   "model": {
-    "home": 0.26,
-    "draw": 0.257,
-    "away": 0.483
-   },
-   "market": {
-    "home": 0.315,
-    "draw": 0.305,
-    "away": 0.38
-   },
-   "pick": "England",
-   "model_prob": 0.483,
-   "market_prob": 0.38,
-   "edge": 0.103,
-   "elo_approx": false,
-   "score": null
-  },
   {
    "commence": "2026-07-06T19:00:00Z",
    "home": "Portugal",
@@ -57,16 +15,20 @@
     "away": 0.64
    },
    "market": {
-    "home": 0.242,
-    "draw": 0.264,
-    "away": 0.494
+    "home": 0.245,
+    "draw": 0.298,
+    "away": 0.456
    },
    "pick": "Spain",
    "model_prob": 0.64,
-   "market_prob": 0.494,
-   "edge": 0.146,
+   "market_prob": 0.456,
+   "edge": 0.184,
    "elo_approx": false,
-   "score": null
+   "score": {
+    "home": "0",
+    "away": "0",
+    "final": false
+   }
   },
   {
    "commence": "2026-07-07T16:00:00Z",
@@ -78,14 +40,14 @@
     "away": 0.121
    },
    "market": {
-    "home": 0.693,
-    "draw": 0.201,
-    "away": 0.106
+    "home": 0.7,
+    "draw": 0.198,
+    "away": 0.102
    },
    "pick": "Argentina",
    "model_prob": 0.858,
-   "market_prob": 0.693,
-   "edge": 0.165,
+   "market_prob": 0.7,
+   "edge": 0.158,
    "elo_approx": true,
    "score": null
   },
@@ -100,22 +62,43 @@
    },
    "market": {
     "home": 0.271,
-    "draw": 0.308,
-    "away": 0.421
+    "draw": 0.311,
+    "away": 0.418
    },
    "pick": "Colombia",
    "model_prob": 0.548,
-   "market_prob": 0.421,
-   "edge": 0.127,
+   "market_prob": 0.418,
+   "edge": 0.13,
+   "elo_approx": false,
+   "score": null
+  },
+  {
+   "commence": "2026-07-11T21:00:00Z",
+   "home": "Norway",
+   "away": "England",
+   "model": {
+    "home": 0.225,
+    "draw": 0.202,
+    "away": 0.573
+   },
+   "market": {
+    "home": 0.238,
+    "draw": 0.26,
+    "away": 0.502
+   },
+   "pick": "England",
+   "model_prob": 0.573,
+   "market_prob": 0.502,
+   "edge": 0.071,
    "elo_approx": false,
    "score": null
   }
  ],
  "record": {
-  "w": 2,
-  "l": 1,
-  "pct": 0.667,
+  "w": 3,
+  "l": 0,
+  "pct": 1.0,
   "n": 3,
-  "graded_at": "2026-07-05T19:25:01.694266Z"
+  "graded_at": "2026-07-06T19:25:01.750988Z"
  }
 }
