@@ -1,60 +1,60 @@
 {
- "graded_at": "2026-07-09T12:33:43.673645Z",
- "n_picks": 1410,
+ "graded_at": "2026-07-10T12:33:45.485001Z",
+ "n_picks": 1423,
  "overall_pred_conf": 0.6017,
- "overall_realized": 0.5312,
- "overconfidence": 0.0705,
- "ece": 0.0823,
+ "overall_realized": 0.532,
+ "overconfidence": 0.0697,
+ "ece": 0.0791,
  "mce": 0.3489,
- "brier": 0.2575,
+ "brier": 0.257,
  "reliability": [
   {
    "lo": 0.5,
    "hi": 0.55,
-   "n": 436,
+   "n": 441,
    "pred_mean": 0.5246,
-   "realized": 0.5436,
-   "gap": 0.019
+   "realized": 0.5397,
+   "gap": 0.015
   },
   {
    "lo": 0.55,
    "hi": 0.6,
-   "n": 350,
+   "n": 354,
    "pred_mean": 0.5741,
-   "realized": 0.5029,
-   "gap": -0.0713
+   "realized": 0.5056,
+   "gap": -0.0685
   },
   {
    "lo": 0.6,
    "hi": 0.65,
-   "n": 282,
+   "n": 283,
    "pred_mean": 0.6243,
-   "realized": 0.5106,
-   "gap": -0.1136
+   "realized": 0.5124,
+   "gap": -0.1119
   },
   {
    "lo": 0.65,
    "hi": 0.7,
-   "n": 181,
-   "pred_mean": 0.6736,
-   "realized": 0.5193,
-   "gap": -0.1543
+   "n": 182,
+   "pred_mean": 0.6737,
+   "realized": 0.522,
+   "gap": -0.1517
   },
   {
    "lo": 0.7,
    "hi": 0.75,
-   "n": 98,
+   "n": 99,
    "pred_mean": 0.7227,
-   "realized": 0.6122,
-   "gap": -0.1104
+   "realized": 0.6162,
+   "gap": -0.1065
   },
   {
    "lo": 0.75,
    "hi": 0.8,
-   "n": 40,
-   "pred_mean": 0.773,
-   "realized": 0.65,
-   "gap": -0.123
+   "n": 41,
+   "pred_mean": 0.7726,
+   "realized": 0.6585,
+   "gap": -0.1141
   },
   {
    "lo": 0.8,
@@ -92,11 +92,15 @@
  "isotonic_map": [
   {
    "raw": 0.5246,
-   "calibrated": 0.5212
+   "calibrated": 0.5213
+  },
+  {
+   "raw": 0.6737,
+   "calibrated": 0.522
   },
   {
    "raw": 0.7227,
-   "calibrated": 0.6051
+   "calibrated": 0.6101
   },
   {
    "raw": 0.8637,
