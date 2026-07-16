@@ -2,40 +2,57 @@
  "sport": "World Cup",
  "experimental": true,
  "disclaimer": "EXPERIMENTAL: crude Elo reference vs market, partly approximate ratings, NO track record yet (building it live). Not the MLB engine. Leans, not locks.",
- "generated_at": "2026-07-15T19:30:02.420535Z",
+ "generated_at": "2026-07-16T19:30:01.973848Z",
  "elo_asof": "2026-06-18 (top-20 confirmed; others approximate)",
  "games": [
   {
-   "commence": "2026-07-15T19:00:00Z",
-   "home": "England",
-   "away": "Argentina",
+   "commence": "2026-07-18T21:00:00Z",
+   "home": "France",
+   "away": "England",
    "model": {
-    "home": 0.265,
-    "draw": 0.263,
-    "away": 0.472
+    "home": 0.395,
+    "draw": 0.294,
+    "away": 0.311
    },
    "market": {
-    "home": 0.35,
-    "draw": 0.367,
-    "away": 0.283
+    "home": 0.502,
+    "draw": 0.247,
+    "away": 0.251
+   },
+   "pick": "England",
+   "model_prob": 0.311,
+   "market_prob": 0.251,
+   "edge": 0.06,
+   "elo_approx": false,
+   "score": null
+  },
+  {
+   "commence": "2026-07-19T19:00:00Z",
+   "home": "Spain",
+   "away": "Argentina",
+   "model": {
+    "home": 0.351,
+    "draw": 0.3,
+    "away": 0.349
+   },
+   "market": {
+    "home": 0.415,
+    "draw": 0.318,
+    "away": 0.268
    },
    "pick": "Argentina",
-   "model_prob": 0.472,
-   "market_prob": 0.283,
-   "edge": 0.189,
+   "model_prob": 0.349,
+   "market_prob": 0.268,
+   "edge": 0.081,
    "elo_approx": false,
-   "score": {
-    "home": "0",
-    "away": "0",
-    "final": false
-   }
+   "score": null
   }
  ],
  "record": {
-  "w": 1,
+  "w": 2,
   "l": 0,
   "pct": 1.0,
-  "n": 1,
-  "graded_at": "2026-07-15T19:25:01.715569Z"
+  "n": 2,
+  "graded_at": "2026-07-16T19:25:01.916656Z"
  }
 }
