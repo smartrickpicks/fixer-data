@@ -1,7 +1,7 @@
 {
  "date": "2026-07-19",
  "sport": "MLB",
- "generated_at": "2026-07-19T21:05:02.133765Z",
+ "generated_at": "2026-07-19T23:05:02.484127Z",
  "record": {
   "w": 797,
   "l": 701,
@@ -34,20 +34,26 @@
    "away": "Los Angeles Dodgers",
    "home": "New York Yankees",
    "pick": "New York Yankees",
-   "model": 0.52,
-   "market": 0.464,
-   "edge": 0.056,
-   "model_side": "New York Yankees",
-   "model_conf": 0.52,
-   "raw_conf": 0.552,
-   "raw_model": 0.552,
+   "model": 0.482,
+   "market": 0.442,
+   "edge": 0.04,
+   "model_side": "Los Angeles Dodgers",
+   "model_conf": 0.518,
+   "raw_conf": 0.52,
+   "raw_model": 0.48,
    "calibrated": true,
-   "dec_odds": 2.14,
-   "best_dec_odds": 2.14,
+   "dec_odds": 2.22,
+   "best_dec_odds": 2.22,
    "start": "2026-07-19T23:21:00Z",
-   "hp": "",
+   "hp": "Ryan Yarbrough",
    "ap": "Will Klein",
-   "hp_stat": null,
+   "hp_stat": {
+    "era": "4.14",
+    "w": 2,
+    "l": 0,
+    "ip": "37.0",
+    "so": 27
+   },
    "ap_stat": {
     "era": "2.41",
     "w": 3,
@@ -56,80 +62,75 @@
     "so": 43
    },
    "asmt": {
-    "assessment_id": "asmt_2026-07-19_los-angeles-dodgers_new-york-yankees_fa09563adb50",
+    "assessment_id": "asmt_2026-07-19_los-angeles-dodgers_new-york-yankees_cc52753a716c",
     "policy_version": "assessment_policy_v1",
     "model_version": "mlb_baseline_v1",
     "devig_method": "proportional_v1",
-    "created_at": "2026-07-19T21:05:03.653149Z",
+    "created_at": "2026-07-19T23:05:04.127688Z",
     "date": "2026-07-19",
     "away": "Los Angeles Dodgers",
     "home": "New York Yankees",
     "commence_time": "2026-07-19T23:21:00Z",
     "likely_side": {
-     "label": "New York Yankees",
-     "probability": 0.5196
+     "label": "Los Angeles Dodgers",
+     "probability": 0.5182
     },
     "value_side": {
      "label": "New York Yankees",
-     "expected_value_per_unit": 0.1119,
-     "value_points": 5.6,
-     "american_odds": 114,
-     "decimal_odds": 2.14,
-     "book_key": "betus",
-     "book": "BetUS"
+     "expected_value_per_unit": 0.0696,
+     "value_points": 4.0,
+     "american_odds": 122,
+     "decimal_odds": 2.22,
+     "book_key": "betonlineag",
+     "book": "BetOnline.ag"
     },
-    "selection": null,
-    "status": "watch",
-    "grade": "F",
-    "score": 49,
-    "fair_probability": 0.5196,
-    "market_break_even": 0.4673,
-    "market_reference_probability": 0.4637,
-    "price_limit_american": -103,
-    "quote_age_seconds": 5,
+    "selection": "New York Yankees",
+    "status": "lean",
+    "grade": "C",
+    "score": 73,
+    "fair_probability": 0.4818,
+    "market_break_even": 0.4505,
+    "market_reference_probability": 0.4417,
+    "price_limit_american": 112,
+    "quote_age_seconds": 32,
     "components": {
-     "value": 25,
+     "value": 22,
      "calibration": 9,
      "agreement": 7,
      "stability": 15,
-     "data_certainty": 8,
+     "data_certainty": 15,
      "price_quality": 5
     },
-    "penalties": [
-     {
-      "code": "STARTER_UNCERTAIN",
-      "points": -20
-     }
-    ],
+    "penalties": [],
     "reason_codes": [
      "POSITIVE_EV",
      "PRICE_ABOVE_LIMIT",
      "QUOTE_FRESH",
-     "STARTER_UNCERTAIN",
+     "STARTER_CONFIRMED",
      "MARKET_STABLE"
     ],
     "receipt": {
      "model_version": "mlb_baseline_v1",
      "calibration_id": "cal_mlb_ml_2026-07-19",
-     "forecast_generated_at": "2026-07-19T21:05:02.133765Z",
-     "quote_observed_at": "2026-07-19T21:04:58Z",
+     "forecast_generated_at": "2026-07-19T23:05:02.484127Z",
+     "quote_observed_at": "2026-07-19T23:04:32Z",
      "book_count": 9,
      "policy_version": "assessment_policy_v1",
-     "published_at": "2026-07-19T21:05:03.653149Z",
-     "sealed_at": "2026-07-19T21:05:03.653149Z"
+     "published_at": "2026-07-19T23:05:04.127688Z",
+     "sealed_at": "2026-07-19T23:05:04.127688Z"
     },
     "forecast": {
-     "fair_home": 0.5196,
-     "raw_home": 0.5518,
-     "ref_home": 0.4637
+     "fair_home": 0.4818,
+     "raw_home": 0.4797,
+     "ref_home": 0.4417
     },
-    "seal": "seal_fa09563adb50",
+    "seal": "seal_cc52753a716c",
     "tier": {
-     "label": "Watch",
-     "kind": "watch"
+     "label": "Lean",
+     "kind": "lean"
     }
    },
-   "changed": "Los SP TBD\u2192Will Klein"
+   "changed": "value +5.6\u2192+4.0 \u00b7 price +114\u2192+122 \u00b7 New SP TBD\u2192Ryan Yarbrough \u00b7 status WATCH\u2192LEAN"
   },
   {
    "away": "Detroit Tigers",
