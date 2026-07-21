@@ -54,6 +54,12 @@ STOP = {"new", "los", "san", "the", "york", "city", "bay", "white", "red", "blue
         "game", "team", "says", "will", "with", "from", "over", "into", "after",
         "night", "this", "that", "back", "star", "mlb", "baseball", "league"}
 
+# Sportsbook ads dressed as headlines — drop them, they're not news.
+PROMO_RX = re.compile(
+    r"promo code|bonus code|bonus bets|\$\d+\s*(?:in\s*)?bonus|odds boost|sign[\-\s]?up offer|"
+    r"use code|first bet|no[\-\s]?sweat|bet \$\d+ get|welcome offer|betmgm|draftkings promo|fanduel promo",
+    re.I)
+
 # ── deterministic tag lexicons (attributed, never asserted) ──────────────────
 FACTOR_RX = {
     "injury": r"injur|\bout\b|\bil\b|\bdl\b|scratch|strain|sore|hamstring|elbow|"
@@ -222,6 +228,9 @@ def run(do_extract: bool, out_path: str) -> dict:
             print(f"feed {name} error: {e}", file=sys.stderr); continue
         for title, desc, link in items:
             blob = f"{title}. {desc}".strip()
+            if PROMO_RX.search(blob):          # sportsbook ad, not news — drop
+                dropped += 1
+                continue
             read = cold_read(blob, vocab_weight, tok_to_games)
             relevance = ("HOT" if (read["score"] >= HOT_SCORE and read["topDoc"] and read["bridges"])
                          else "WARM" if read["score"] >= WARM_SCORE
