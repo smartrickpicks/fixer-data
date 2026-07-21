@@ -36,8 +36,10 @@ git add news_data.json
 if git diff --cached --quiet; then
   say "feed unchanged — nothing to push"
 else
-  git commit -m "news feed $(date -u +%Y-%m-%dT%H:%MZ)" >/dev/null && git push -q \
-    && say "pushed news_data.json" || { say "ERR: git push failed"; }
+  git commit -m "news feed $(date -u +%Y-%m-%dT%H:%MZ)" >/dev/null
+  # rebase onto any picks-pipeline commits first so the two jobs never race
+  git pull --rebase -q 2>/dev/null || true
+  git push -q && say "pushed news_data.json" || say "ERR: git push failed"
 fi
 
 # 3) ping hivesync to route HOT/WARM to Discord (dedup makes this safe to repeat)
