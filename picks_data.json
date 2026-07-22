@@ -1,103 +1,103 @@
 {
- "date": "2026-07-21",
+ "date": "2026-07-22",
  "sport": "MLB",
- "generated_at": "2026-07-22T01:05:02.256957Z",
+ "generated_at": "2026-07-22T13:05:01.661051Z",
  "record": {
-  "w": 811,
-  "l": 718,
-  "pct": 0.53,
-  "hi_w": 365,
-  "hi_l": 305,
-  "hi_pct": 0.545,
-  "days": 117,
-  "n": 1529,
+  "w": 819,
+  "l": 723,
+  "pct": 0.531,
+  "hi_w": 367,
+  "hi_l": 308,
+  "hi_pct": 0.544,
+  "days": 118,
+  "n": 1542,
   "span_start": "2026-03-21",
-  "span_end": "2026-07-20",
-  "graded_at": "2026-07-21T12:30:49.760571Z",
+  "span_end": "2026-07-21",
+  "graded_at": "2026-07-22T12:30:50.326020Z",
   "top_w": 111,
   "top_l": 66,
   "top_pct": 0.627,
   "top_threshold": 0.7
  },
  "calibration": {
-  "ece": 0.0733,
+  "ece": 0.0737,
   "mce": 0.3216,
   "brier": 0.2567,
-  "n_picks": 1529,
-  "overconfidence": 0.0708,
-  "overall_realized": 0.5304,
-  "graded_at": "2026-07-21T12:33:50.610760Z"
+  "n_picks": 1542,
+  "overconfidence": 0.07,
+  "overall_realized": 0.5311,
+  "graded_at": "2026-07-22T12:33:48.758977Z"
  },
  "min_ev": 0.02,
  "games": [
   {
-   "away": "Cincinnati Reds",
-   "home": "Seattle Mariners",
-   "pick": "Cincinnati Reds",
-   "model": 0.478,
-   "market": 0.419,
-   "edge": 0.059,
-   "model_side": "Seattle Mariners",
-   "model_conf": 0.522,
-   "raw_conf": 0.646,
-   "raw_model": 0.354,
+   "away": "New York Mets",
+   "home": "Milwaukee Brewers",
+   "pick": "New York Mets",
+   "model": 0.48,
+   "market": 0.43,
+   "edge": 0.05,
+   "model_side": "Milwaukee Brewers",
+   "model_conf": 0.52,
+   "raw_conf": 0.671,
+   "raw_model": 0.329,
    "calibrated": true,
-   "dec_odds": 2.36,
-   "best_dec_odds": 2.36,
-   "start": "2026-07-22T19:41:00Z",
-   "hp": "Luis Castillo",
-   "ap": "Chase Burns",
+   "dec_odds": 2.32,
+   "best_dec_odds": 2.32,
+   "start": "2026-07-22T18:11:00Z",
+   "hp": "Logan Henderson",
+   "ap": "Christian Scott",
    "hp_stat": {
-    "era": "4.93",
+    "era": "2.97",
     "w": 3,
-    "l": 8,
-    "ip": "87.2",
-    "so": 81
+    "l": 1,
+    "ip": "33.1",
+    "so": 38
    },
    "ap_stat": {
-    "era": "2.54",
-    "w": 11,
+    "era": "2.87",
+    "w": 3,
     "l": 1,
-    "ip": "102.2",
-    "so": 118
+    "ip": "59.2",
+    "so": 72
    },
    "asmt": {
-    "assessment_id": "asmt_2026-07-21_cincinnati-reds_seattle-mariners_0d3e9053bc8c",
+    "assessment_id": "asmt_2026-07-22_new-york-mets_milwaukee-brewers_2d164339627a",
     "policy_version": "assessment_policy_v1",
     "model_version": "mlb_baseline_v1",
     "devig_method": "proportional_v1",
-    "created_at": "2026-07-22T01:05:19.469889Z",
-    "date": "2026-07-21",
-    "away": "Cincinnati Reds",
-    "home": "Seattle Mariners",
-    "commence_time": "2026-07-22T19:41:00Z",
+    "created_at": "2026-07-22T13:05:08.320765Z",
+    "date": "2026-07-22",
+    "away": "New York Mets",
+    "home": "Milwaukee Brewers",
+    "commence_time": "2026-07-22T18:11:00Z",
     "likely_side": {
-     "label": "Seattle Mariners",
-     "probability": 0.5217
+     "label": "Milwaukee Brewers",
+     "probability": 0.52
     },
     "value_side": {
-     "label": "Cincinnati Reds",
-     "expected_value_per_unit": 0.1287,
-     "value_points": 5.9,
-     "american_odds": 136,
-     "decimal_odds": 2.36,
-     "book_key": "lowvig",
-     "book": "LowVig.ag"
+     "label": "New York Mets",
+     "expected_value_per_unit": 0.1137,
+     "value_points": 5.0,
+     "american_odds": 132,
+     "decimal_odds": 2.32,
+     "book_key": "betrivers",
+     "book": "BetRivers"
     },
-    "selection": "Cincinnati Reds",
+    "selection": "New York Mets",
     "status": "qualified",
     "grade": "B",
     "score": 75,
-    "fair_probability": 0.4783,
-    "market_break_even": 0.4237,
-    "market_reference_probability": 0.4193,
-    "price_limit_american": 114,
-    "quote_age_seconds": 45,
+    "fair_probability": 0.48,
+    "market_break_even": 0.431,
+    "market_reference_probability": 0.4304,
+    "price_limit_american": 113,
+    "quote_age_seconds": 29,
     "components": {
-     "value": 24,
+     "value": 25,
      "calibration": 9,
      "agreement": 7,
-     "stability": 15,
+     "stability": 14,
      "data_certainty": 15,
      "price_quality": 5
     },
@@ -111,20 +111,20 @@
     ],
     "receipt": {
      "model_version": "mlb_baseline_v1",
-     "calibration_id": "cal_mlb_ml_2026-07-21",
-     "forecast_generated_at": "2026-07-22T01:05:02.256957Z",
-     "quote_observed_at": "2026-07-22T01:04:34Z",
-     "book_count": 8,
+     "calibration_id": "cal_mlb_ml_2026-07-22",
+     "forecast_generated_at": "2026-07-22T13:05:01.661051Z",
+     "quote_observed_at": "2026-07-22T13:04:39Z",
+     "book_count": 9,
      "policy_version": "assessment_policy_v1",
-     "published_at": "2026-07-22T01:05:19.469889Z",
-     "sealed_at": "2026-07-22T01:05:19.469889Z"
+     "published_at": "2026-07-22T13:05:08.320765Z",
+     "sealed_at": "2026-07-22T13:05:08.320765Z"
     },
     "forecast": {
-     "fair_home": 0.5217,
-     "raw_home": 0.6463,
-     "ref_home": 0.5807
+     "fair_home": 0.52,
+     "raw_home": 0.6708,
+     "ref_home": 0.5696
     },
-    "seal": "seal_0d3e9053bc8c",
+    "seal": "seal_2d164339627a",
     "tier": {
      "label": "Qualified",
      "kind": "play"
@@ -132,73 +132,73 @@
    }
   },
   {
-   "away": "Washington Nationals",
-   "home": "Colorado Rockies",
-   "pick": "Colorado Rockies",
+   "away": "St. Louis Cardinals",
+   "home": "Los Angeles Angels",
+   "pick": "St. Louis Cardinals",
    "model": 0.519,
-   "market": 0.447,
-   "edge": 0.072,
-   "model_side": "Colorado Rockies",
+   "market": 0.472,
+   "edge": 0.047,
+   "model_side": "St. Louis Cardinals",
    "model_conf": 0.519,
-   "raw_conf": 0.586,
-   "raw_model": 0.586,
+   "raw_conf": 0.585,
+   "raw_model": 0.585,
    "calibrated": true,
-   "dec_odds": 2.21,
-   "best_dec_odds": 2.21,
-   "start": "2026-07-22T19:11:00Z",
-   "hp": "Michael Lorenzen",
-   "ap": "Carson Palmquist",
+   "dec_odds": 2.08,
+   "best_dec_odds": 2.08,
+   "start": "2026-07-22T20:08:00Z",
+   "hp": "Reid Detmers",
+   "ap": "Hunter Dobbins",
    "hp_stat": {
-    "era": "6.29",
+    "era": "4.16",
     "w": 3,
-    "l": 9,
-    "ip": "98.2",
-    "so": 76
+    "l": 6,
+    "ip": "114.2",
+    "so": 130
    },
    "ap_stat": {
-    "era": "5.91",
-    "w": 0,
+    "era": "4.03",
+    "w": 1,
     "l": 1,
-    "ip": "10.2",
-    "so": 13
+    "ip": "22.1",
+    "so": 23
    },
    "asmt": {
-    "assessment_id": "asmt_2026-07-21_washington-nationals_colorado-rockies_71e9498a6e6e",
+    "assessment_id": "asmt_2026-07-22_st.-louis-cardinals_los-angeles-angels_1c2263891a56",
     "policy_version": "assessment_policy_v1",
     "model_version": "mlb_baseline_v1",
     "devig_method": "proportional_v1",
-    "created_at": "2026-07-22T01:05:14.983212Z",
-    "date": "2026-07-21",
-    "away": "Washington Nationals",
-    "home": "Colorado Rockies",
-    "commence_time": "2026-07-22T19:11:00Z",
+    "created_at": "2026-07-22T13:05:14.112717Z",
+    "date": "2026-07-22",
+    "away": "St. Louis Cardinals",
+    "home": "Los Angeles Angels",
+    "commence_time": "2026-07-22T20:08:00Z",
     "likely_side": {
-     "label": "Colorado Rockies",
-     "probability": 0.5193
+     "label": "St. Louis Cardinals",
+     "probability": 0.5191
     },
     "value_side": {
-     "label": "Colorado Rockies",
-     "expected_value_per_unit": 0.1478,
-     "value_points": 7.2,
-     "american_odds": 121,
-     "decimal_odds": 2.21,
-     "book_key": "lowvig",
-     "book": "LowVig.ag"
+     "label": "St. Louis Cardinals",
+     "expected_value_per_unit": 0.0797,
+     "value_points": 4.7,
+     "american_odds": 108,
+     "decimal_odds": 2.08,
+     "book_key": "fanduel",
+     "book": "FanDuel"
     },
-    "selection": "Colorado Rockies",
-    "status": "lean",
-    "grade": "C",
-    "score": 73,
-    "fair_probability": 0.5193,
-    "market_break_even": 0.4525,
-    "market_reference_probability": 0.4474,
+    "selection": "St. Louis Cardinals",
+    "status": "qualified",
+    "grade": "B",
+    "score": 75,
+    "fair_probability": 0.5191,
+    "market_break_even": 0.4808,
+    "market_reference_probability": 0.4724,
     "price_limit_american": -103,
-    "quote_age_seconds": 40,
+    "quote_age_seconds": 37,
     "components": {
-     "value": 22,
+     "value": 25,
      "calibration": 9,
      "agreement": 7,
-     "stability": 15,
+     "stability": 14,
      "data_certainty": 15,
      "price_quality": 5
     },
@@ -212,20 +212,121 @@
     ],
     "receipt": {
      "model_version": "mlb_baseline_v1",
-     "calibration_id": "cal_mlb_ml_2026-07-21",
-     "forecast_generated_at": "2026-07-22T01:05:02.256957Z",
-     "quote_observed_at": "2026-07-22T01:04:34Z",
+     "calibration_id": "cal_mlb_ml_2026-07-22",
+     "forecast_generated_at": "2026-07-22T13:05:01.661051Z",
+     "quote_observed_at": "2026-07-22T13:04:37Z",
      "book_count": 9,
      "policy_version": "assessment_policy_v1",
-     "published_at": "2026-07-22T01:05:14.983212Z",
-     "sealed_at": "2026-07-22T01:05:14.983212Z"
+     "published_at": "2026-07-22T13:05:14.112717Z",
+     "sealed_at": "2026-07-22T13:05:14.112717Z"
     },
     "forecast": {
-     "fair_home": 0.5193,
-     "raw_home": 0.5864,
-     "ref_home": 0.4474
+     "fair_home": 0.4809,
+     "raw_home": 0.4151,
+     "ref_home": 0.5276
     },
-    "seal": "seal_71e9498a6e6e",
+    "seal": "seal_1c2263891a56",
+    "tier": {
+     "label": "Qualified",
+     "kind": "play"
+    }
+   }
+  },
+  {
+   "away": "Cincinnati Reds",
+   "home": "Seattle Mariners",
+   "pick": "Cincinnati Reds",
+   "model": 0.482,
+   "market": 0.419,
+   "edge": 0.063,
+   "model_side": "Seattle Mariners",
+   "model_conf": 0.518,
+   "raw_conf": 0.51,
+   "raw_model": 0.49,
+   "calibrated": true,
+   "dec_odds": 2.36,
+   "best_dec_odds": 2.36,
+   "start": "2026-07-22T19:41:00Z",
+   "hp": "Emerson Hancock",
+   "ap": "Brady Singer",
+   "hp_stat": {
+    "era": "3.17",
+    "w": 6,
+    "l": 4,
+    "ip": "99.1",
+    "so": 94
+   },
+   "ap_stat": {
+    "era": "4.56",
+    "w": 4,
+    "l": 9,
+    "ip": "96.2",
+    "so": 82
+   },
+   "asmt": {
+    "assessment_id": "asmt_2026-07-22_cincinnati-reds_seattle-mariners_1d3a06f7f9b1",
+    "policy_version": "assessment_policy_v1",
+    "model_version": "mlb_baseline_v1",
+    "devig_method": "proportional_v1",
+    "created_at": "2026-07-22T13:05:12.774140Z",
+    "date": "2026-07-22",
+    "away": "Cincinnati Reds",
+    "home": "Seattle Mariners",
+    "commence_time": "2026-07-22T19:41:00Z",
+    "likely_side": {
+     "label": "Seattle Mariners",
+     "probability": 0.5185
+    },
+    "value_side": {
+     "label": "Cincinnati Reds",
+     "expected_value_per_unit": 0.1363,
+     "value_points": 6.3,
+     "american_odds": 136,
+     "decimal_odds": 2.36,
+     "book_key": "lowvig",
+     "book": "LowVig.ag"
+    },
+    "selection": "Cincinnati Reds",
+    "status": "lean",
+    "grade": "C",
+    "score": 73,
+    "fair_probability": 0.4815,
+    "market_break_even": 0.4237,
+    "market_reference_probability": 0.4186,
+    "price_limit_american": 112,
+    "quote_age_seconds": 89,
+    "components": {
+     "value": 23,
+     "calibration": 9,
+     "agreement": 7,
+     "stability": 14,
+     "data_certainty": 15,
+     "price_quality": 5
+    },
+    "penalties": [],
+    "reason_codes": [
+     "POSITIVE_EV",
+     "PRICE_ABOVE_LIMIT",
+     "QUOTE_FRESH",
+     "STARTER_CONFIRMED",
+     "MARKET_STABLE"
+    ],
+    "receipt": {
+     "model_version": "mlb_baseline_v1",
+     "calibration_id": "cal_mlb_ml_2026-07-22",
+     "forecast_generated_at": "2026-07-22T13:05:01.661051Z",
+     "quote_observed_at": "2026-07-22T13:03:43Z",
+     "book_count": 9,
+     "policy_version": "assessment_policy_v1",
+     "published_at": "2026-07-22T13:05:12.774140Z",
+     "sealed_at": "2026-07-22T13:05:12.774140Z"
+    },
+    "forecast": {
+     "fair_home": 0.5185,
+     "raw_home": 0.5098,
+     "ref_home": 0.5814
+    },
+    "seal": "seal_1d3a06f7f9b1",
     "tier": {
      "label": "Lean",
      "kind": "lean"
@@ -233,29 +334,527 @@
    }
   },
   {
+   "away": "Washington Nationals",
+   "home": "Colorado Rockies",
+   "pick": "Colorado Rockies",
+   "model": 0.482,
+   "market": 0.445,
+   "edge": 0.037,
+   "model_side": "Washington Nationals",
+   "model_conf": 0.518,
+   "raw_conf": 0.516,
+   "raw_model": 0.484,
+   "calibrated": true,
+   "dec_odds": 2.23,
+   "best_dec_odds": 2.23,
+   "start": "2026-07-22T19:11:00Z",
+   "hp": "Gabriel Hughes",
+   "ap": "Cade Cavalli",
+   "hp_stat": {
+    "era": "3.14",
+    "w": 0,
+    "l": 1,
+    "ip": "14.1",
+    "so": 14
+   },
+   "ap_stat": {
+    "era": "3.78",
+    "w": 6,
+    "l": 4,
+    "ip": "104.2",
+    "so": 119
+   },
+   "asmt": {
+    "assessment_id": "asmt_2026-07-22_washington-nationals_colorado-rockies_b1675a4efcc3",
+    "policy_version": "assessment_policy_v1",
+    "model_version": "mlb_baseline_v1",
+    "devig_method": "proportional_v1",
+    "created_at": "2026-07-22T13:05:09.807592Z",
+    "date": "2026-07-22",
+    "away": "Washington Nationals",
+    "home": "Colorado Rockies",
+    "commence_time": "2026-07-22T19:11:00Z",
+    "likely_side": {
+     "label": "Washington Nationals",
+     "probability": 0.5185
+    },
+    "value_side": {
+     "label": "Colorado Rockies",
+     "expected_value_per_unit": 0.0737,
+     "value_points": 3.7,
+     "american_odds": 123,
+     "decimal_odds": 2.23,
+     "book_key": "betrivers",
+     "book": "BetRivers"
+    },
+    "selection": "Colorado Rockies",
+    "status": "lean",
+    "grade": "C",
+    "score": 73,
+    "fair_probability": 0.4815,
+    "market_break_even": 0.4484,
+    "market_reference_probability": 0.4445,
+    "price_limit_american": 112,
+    "quote_age_seconds": 30,
+    "components": {
+     "value": 23,
+     "calibration": 9,
+     "agreement": 7,
+     "stability": 14,
+     "data_certainty": 15,
+     "price_quality": 5
+    },
+    "penalties": [],
+    "reason_codes": [
+     "POSITIVE_EV",
+     "PRICE_ABOVE_LIMIT",
+     "QUOTE_FRESH",
+     "STARTER_CONFIRMED",
+     "MARKET_STABLE"
+    ],
+    "receipt": {
+     "model_version": "mlb_baseline_v1",
+     "calibration_id": "cal_mlb_ml_2026-07-22",
+     "forecast_generated_at": "2026-07-22T13:05:01.661051Z",
+     "quote_observed_at": "2026-07-22T13:04:39Z",
+     "book_count": 9,
+     "policy_version": "assessment_policy_v1",
+     "published_at": "2026-07-22T13:05:09.807592Z",
+     "sealed_at": "2026-07-22T13:05:09.807592Z"
+    },
+    "forecast": {
+     "fair_home": 0.4815,
+     "raw_home": 0.4839,
+     "ref_home": 0.4445
+    },
+    "seal": "seal_b1675a4efcc3",
+    "tier": {
+     "label": "Lean",
+     "kind": "lean"
+    }
+   }
+  },
+  {
+   "away": "Athletics",
+   "home": "Arizona Diamondbacks",
+   "pick": "Athletics",
+   "model": 0.519,
+   "market": 0.478,
+   "edge": 0.041,
+   "model_side": "Athletics",
+   "model_conf": 0.519,
+   "raw_conf": 0.529,
+   "raw_model": 0.529,
+   "calibrated": true,
+   "dec_odds": 2.05,
+   "best_dec_odds": 2.05,
+   "start": "2026-07-22T19:41:00Z",
+   "hp": "Merrill Kelly",
+   "ap": "Gage Jump",
+   "hp_stat": {
+    "era": "5.20",
+    "w": 7,
+    "l": 8,
+    "ip": "98.2",
+    "so": 62
+   },
+   "ap_stat": {
+    "era": "3.78",
+    "w": 3,
+    "l": 5,
+    "ip": "52.1",
+    "so": 56
+   },
+   "asmt": {
+    "assessment_id": "asmt_2026-07-22_athletics_arizona-diamondbacks_0f7b65d0a34b",
+    "policy_version": "assessment_policy_v1",
+    "model_version": "mlb_baseline_v1",
+    "devig_method": "proportional_v1",
+    "created_at": "2026-07-22T13:05:11.351676Z",
+    "date": "2026-07-22",
+    "away": "Athletics",
+    "home": "Arizona Diamondbacks",
+    "commence_time": "2026-07-22T19:41:00Z",
+    "likely_side": {
+     "label": "Athletics",
+     "probability": 0.5185
+    },
+    "value_side": {
+     "label": "Athletics",
+     "expected_value_per_unit": 0.063,
+     "value_points": 4.1,
+     "american_odds": 105,
+     "decimal_odds": 2.05,
+     "book_key": "betrivers",
+     "book": "BetRivers"
+    },
+    "selection": "Athletics",
+    "status": "lean",
+    "grade": "C",
+    "score": 71,
+    "fair_probability": 0.5185,
+    "market_break_even": 0.4878,
+    "market_reference_probability": 0.4777,
+    "price_limit_american": -103,
+    "quote_age_seconds": 32,
+    "components": {
+     "value": 21,
+     "calibration": 9,
+     "agreement": 7,
+     "stability": 14,
+     "data_certainty": 15,
+     "price_quality": 5
+    },
+    "penalties": [],
+    "reason_codes": [
+     "POSITIVE_EV",
+     "PRICE_ABOVE_LIMIT",
+     "QUOTE_FRESH",
+     "STARTER_CONFIRMED",
+     "MARKET_STABLE"
+    ],
+    "receipt": {
+     "model_version": "mlb_baseline_v1",
+     "calibration_id": "cal_mlb_ml_2026-07-22",
+     "forecast_generated_at": "2026-07-22T13:05:01.661051Z",
+     "quote_observed_at": "2026-07-22T13:04:39Z",
+     "book_count": 9,
+     "policy_version": "assessment_policy_v1",
+     "published_at": "2026-07-22T13:05:11.351676Z",
+     "sealed_at": "2026-07-22T13:05:11.351676Z"
+    },
+    "forecast": {
+     "fair_home": 0.4815,
+     "raw_home": 0.4711,
+     "ref_home": 0.5223
+    },
+    "seal": "seal_0f7b65d0a34b",
+    "tier": {
+     "label": "Lean",
+     "kind": "lean"
+    }
+   }
+  },
+  {
+   "away": "San Diego Padres",
+   "home": "Atlanta Braves",
+   "pick": "San Diego Padres",
+   "model": 0.519,
+   "market": 0.486,
+   "edge": 0.033,
+   "model_side": "San Diego Padres",
+   "model_conf": 0.519,
+   "raw_conf": 0.571,
+   "raw_model": 0.571,
+   "calibrated": true,
+   "dec_odds": 2.04,
+   "best_dec_odds": 2.04,
+   "start": "2026-07-22T23:16:00Z",
+   "hp": "Mart\u00edn P\u00e9rez",
+   "ap": "Michael King",
+   "hp_stat": {
+    "era": "3.54",
+    "w": 6,
+    "l": 6,
+    "ip": "81.1",
+    "so": 62
+   },
+   "ap_stat": {
+    "era": "3.34",
+    "w": 6,
+    "l": 7,
+    "ip": "113.1",
+    "so": 96
+   },
+   "asmt": {
+    "assessment_id": "asmt_2026-07-22_san-diego-padres_atlanta-braves_15075789ee59",
+    "policy_version": "assessment_policy_v1",
+    "model_version": "mlb_baseline_v1",
+    "devig_method": "proportional_v1",
+    "created_at": "2026-07-22T13:05:20.119806Z",
+    "date": "2026-07-22",
+    "away": "San Diego Padres",
+    "home": "Atlanta Braves",
+    "commence_time": "2026-07-22T23:16:00Z",
+    "likely_side": {
+     "label": "San Diego Padres",
+     "probability": 0.519
+    },
+    "value_side": {
+     "label": "San Diego Padres",
+     "expected_value_per_unit": 0.0587,
+     "value_points": 3.3,
+     "american_odds": 104,
+     "decimal_odds": 2.04,
+     "book_key": "betrivers",
+     "book": "BetRivers"
+    },
+    "selection": "San Diego Padres",
+    "status": "lean",
+    "grade": "C",
+    "score": 70,
+    "fair_probability": 0.519,
+    "market_break_even": 0.4902,
+    "market_reference_probability": 0.4859,
+    "price_limit_american": -103,
+    "quote_age_seconds": 41,
+    "components": {
+     "value": 20,
+     "calibration": 9,
+     "agreement": 7,
+     "stability": 14,
+     "data_certainty": 15,
+     "price_quality": 5
+    },
+    "penalties": [],
+    "reason_codes": [
+     "POSITIVE_EV",
+     "PRICE_ABOVE_LIMIT",
+     "QUOTE_FRESH",
+     "STARTER_CONFIRMED",
+     "MARKET_STABLE"
+    ],
+    "receipt": {
+     "model_version": "mlb_baseline_v1",
+     "calibration_id": "cal_mlb_ml_2026-07-22",
+     "forecast_generated_at": "2026-07-22T13:05:01.661051Z",
+     "quote_observed_at": "2026-07-22T13:04:39Z",
+     "book_count": 9,
+     "policy_version": "assessment_policy_v1",
+     "published_at": "2026-07-22T13:05:20.119806Z",
+     "sealed_at": "2026-07-22T13:05:20.119806Z"
+    },
+    "forecast": {
+     "fair_home": 0.481,
+     "raw_home": 0.4292,
+     "ref_home": 0.5141
+    },
+    "seal": "seal_15075789ee59",
+    "tier": {
+     "label": "Lean",
+     "kind": "lean"
+    }
+   }
+  },
+  {
+   "away": "Pittsburgh Pirates",
+   "home": "New York Yankees",
+   "pick": "Pittsburgh Pirates",
+   "model": 0.48,
+   "market": 0.395,
+   "edge": 0.085,
+   "model_side": "New York Yankees",
+   "model_conf": 0.52,
+   "raw_conf": 0.651,
+   "raw_model": 0.349,
+   "calibrated": true,
+   "dec_odds": 2.5,
+   "best_dec_odds": 2.5,
+   "start": "2026-07-22T23:05:00Z",
+   "hp": "Max Fried",
+   "ap": "Bubba Chandler",
+   "hp_stat": {
+    "era": "3.21",
+    "w": 4,
+    "l": 3,
+    "ip": "61.2",
+    "so": 50
+   },
+   "ap_stat": {
+    "era": "4.77",
+    "w": 3,
+    "l": 8,
+    "ip": "94.1",
+    "so": 85
+   },
+   "asmt": {
+    "assessment_id": "asmt_2026-07-22_pittsburgh-pirates_new-york-yankees_98c81fd1f23f",
+    "policy_version": "assessment_policy_v1",
+    "model_version": "mlb_baseline_v1",
+    "devig_method": "proportional_v1",
+    "created_at": "2026-07-22T13:05:03.234986Z",
+    "date": "2026-07-22",
+    "away": "Pittsburgh Pirates",
+    "home": "New York Yankees",
+    "commence_time": "2026-07-22T23:05:00Z",
+    "likely_side": {
+     "label": "New York Yankees",
+     "probability": 0.5198
+    },
+    "value_side": {
+     "label": "Pittsburgh Pirates",
+     "expected_value_per_unit": 0.2006,
+     "value_points": 8.5,
+     "american_odds": 150,
+     "decimal_odds": 2.5,
+     "book_key": "fanduel",
+     "book": "FanDuel"
+    },
+    "selection": "Pittsburgh Pirates",
+    "status": "lean",
+    "grade": "C",
+    "score": 67,
+    "fair_probability": 0.4802,
+    "market_break_even": 0.4,
+    "market_reference_probability": 0.3949,
+    "price_limit_american": 113,
+    "quote_age_seconds": 26,
+    "components": {
+     "value": 17,
+     "calibration": 9,
+     "agreement": 7,
+     "stability": 14,
+     "data_certainty": 15,
+     "price_quality": 5
+    },
+    "penalties": [],
+    "reason_codes": [
+     "POSITIVE_EV",
+     "PRICE_ABOVE_LIMIT",
+     "QUOTE_FRESH",
+     "STARTER_CONFIRMED",
+     "MARKET_STABLE"
+    ],
+    "receipt": {
+     "model_version": "mlb_baseline_v1",
+     "calibration_id": "cal_mlb_ml_2026-07-22",
+     "forecast_generated_at": "2026-07-22T13:05:01.661051Z",
+     "quote_observed_at": "2026-07-22T13:04:37Z",
+     "book_count": 9,
+     "policy_version": "assessment_policy_v1",
+     "published_at": "2026-07-22T13:05:03.234986Z",
+     "sealed_at": "2026-07-22T13:05:03.234986Z"
+    },
+    "forecast": {
+     "fair_home": 0.5198,
+     "raw_home": 0.6514,
+     "ref_home": 0.6051
+    },
+    "seal": "seal_98c81fd1f23f",
+    "tier": {
+     "label": "Lean",
+     "kind": "lean"
+    }
+   }
+  },
+  {
+   "away": "Chicago White Sox",
+   "home": "Texas Rangers",
+   "pick": "Texas Rangers",
+   "model": 0.52,
+   "market": 0.5,
+   "edge": 0.02,
+   "model_side": "Texas Rangers",
+   "model_conf": 0.52,
+   "raw_conf": 0.659,
+   "raw_model": 0.659,
+   "calibrated": true,
+   "dec_odds": 1.952,
+   "best_dec_odds": 1.952,
+   "start": "2026-07-23T00:06:00Z",
+   "hp": "Tyler Alexander",
+   "ap": "Anthony Kay",
+   "hp_stat": {
+    "era": "2.79",
+    "w": 1,
+    "l": 1,
+    "ip": "42.0",
+    "so": 38
+   },
+   "ap_stat": {
+    "era": "4.24",
+    "w": 6,
+    "l": 4,
+    "ip": "93.1",
+    "so": 76
+   },
+   "asmt": {
+    "assessment_id": "asmt_2026-07-22_chicago-white-sox_texas-rangers_149ddda53a00",
+    "policy_version": "assessment_policy_v1",
+    "model_version": "mlb_baseline_v1",
+    "devig_method": "proportional_v1",
+    "created_at": "2026-07-22T13:05:21.536565Z",
+    "date": "2026-07-22",
+    "away": "Chicago White Sox",
+    "home": "Texas Rangers",
+    "commence_time": "2026-07-23T00:06:00Z",
+    "likely_side": {
+     "label": "Texas Rangers",
+     "probability": 0.5199
+    },
+    "value_side": {
+     "label": "Texas Rangers",
+     "expected_value_per_unit": 0.015,
+     "value_points": 2.0,
+     "american_odds": -105,
+     "decimal_odds": 1.952,
+     "book_key": "lowvig",
+     "book": "LowVig.ag"
+    },
+    "selection": null,
+    "status": "wait",
+    "grade": "F",
+    "score": 45,
+    "fair_probability": 0.5199,
+    "market_break_even": 0.5122,
+    "market_reference_probability": 0.4998,
+    "price_limit_american": -103,
+    "quote_age_seconds": 98,
+    "components": {
+     "value": 0,
+     "calibration": 9,
+     "agreement": 7,
+     "stability": 14,
+     "data_certainty": 15,
+     "price_quality": 0
+    },
+    "penalties": [],
+    "reason_codes": [
+     "PRICE_BELOW_LIMIT",
+     "QUOTE_FRESH",
+     "STARTER_CONFIRMED",
+     "MARKET_STABLE"
+    ],
+    "receipt": {
+     "model_version": "mlb_baseline_v1",
+     "calibration_id": "cal_mlb_ml_2026-07-22",
+     "forecast_generated_at": "2026-07-22T13:05:01.661051Z",
+     "quote_observed_at": "2026-07-22T13:03:43Z",
+     "book_count": 9,
+     "policy_version": "assessment_policy_v1",
+     "published_at": "2026-07-22T13:05:21.536565Z",
+     "sealed_at": "2026-07-22T13:05:21.536565Z"
+    },
+    "forecast": {
+     "fair_home": 0.5199,
+     "raw_home": 0.6589,
+     "ref_home": 0.4998
+    },
+    "seal": "seal_149ddda53a00",
+    "tier": {
+     "label": "Wait",
+     "kind": "wait"
+    }
+   }
+  },
+  {
    "away": "Baltimore Orioles",
    "home": "Boston Red Sox",
    "pick": "Baltimore Orioles",
-   "model": 0.518,
-   "market": 0.443,
-   "edge": 0.074,
+   "model": 0.519,
+   "market": 0.434,
+   "edge": 0.085,
    "model_side": "Baltimore Orioles",
-   "model_conf": 0.518,
+   "model_conf": 0.519,
    "raw_conf": 0.545,
    "raw_model": 0.545,
    "calibrated": true,
-   "dec_odds": 2.2,
-   "best_dec_odds": 2.2,
-   "start": "2026-07-22T17:36:00Z",
-   "hp": "Eduardo Rivera",
+   "dec_odds": 2.28,
+   "best_dec_odds": 2.28,
+   "start": "2026-07-22T23:10:00Z",
+   "hp": "",
    "ap": "Kyle Bradish",
-   "hp_stat": {
-    "era": "2.89",
-    "w": 0,
-    "l": 0,
-    "ip": "9.1",
-    "so": 9
-   },
+   "hp_stat": null,
    "ap_stat": {
     "era": "3.61",
     "w": 6,
@@ -264,550 +863,148 @@
     "so": 106
    },
    "asmt": {
-    "assessment_id": "asmt_2026-07-21_baltimore-orioles_boston-red-sox_74afa56003c4",
+    "assessment_id": "asmt_2026-07-22_baltimore-orioles_boston-red-sox_addecafc99a0",
     "policy_version": "assessment_policy_v1",
     "model_version": "mlb_baseline_v1",
     "devig_method": "proportional_v1",
-    "created_at": "2026-07-22T01:05:21.132426Z",
-    "date": "2026-07-21",
+    "created_at": "2026-07-22T13:05:06.031988Z",
+    "date": "2026-07-22",
     "away": "Baltimore Orioles",
     "home": "Boston Red Sox",
-    "commence_time": "2026-07-22T17:36:00Z",
+    "commence_time": "2026-07-22T23:10:00Z",
     "likely_side": {
      "label": "Baltimore Orioles",
-     "probability": 0.5177
+     "probability": 0.5187
     },
     "value_side": {
      "label": "Baltimore Orioles",
-     "expected_value_per_unit": 0.139,
-     "value_points": 7.4,
-     "american_odds": 120,
-     "decimal_odds": 2.2,
-     "book_key": "fanduel",
-     "book": "FanDuel"
+     "expected_value_per_unit": 0.1827,
+     "value_points": 8.5,
+     "american_odds": 128,
+     "decimal_odds": 2.28,
+     "book_key": "betonlineag",
+     "book": "BetOnline.ag"
     },
-    "selection": "Baltimore Orioles",
-    "status": "lean",
-    "grade": "C",
-    "score": 72,
-    "fair_probability": 0.5177,
-    "market_break_even": 0.4545,
-    "market_reference_probability": 0.4433,
+    "selection": null,
+    "status": "watch",
+    "grade": "F",
+    "score": 42,
+    "fair_probability": 0.5187,
+    "market_break_even": 0.4386,
+    "market_reference_probability": 0.434,
     "price_limit_american": -103,
-    "quote_age_seconds": 29,
+    "quote_age_seconds": 47,
     "components": {
-     "value": 23,
+     "value": 19,
      "calibration": 9,
      "agreement": 7,
-     "stability": 13,
-     "data_certainty": 15,
+     "stability": 14,
+     "data_certainty": 8,
      "price_quality": 5
     },
-    "penalties": [],
+    "penalties": [
+     {
+      "code": "STARTER_UNCERTAIN",
+      "points": -20
+     }
+    ],
     "reason_codes": [
      "POSITIVE_EV",
      "PRICE_ABOVE_LIMIT",
      "QUOTE_FRESH",
-     "STARTER_CONFIRMED",
+     "STARTER_UNCERTAIN",
      "MARKET_STABLE"
     ],
     "receipt": {
      "model_version": "mlb_baseline_v1",
-     "calibration_id": "cal_mlb_ml_2026-07-21",
-     "forecast_generated_at": "2026-07-22T01:05:02.256957Z",
-     "quote_observed_at": "2026-07-22T01:04:52Z",
-     "book_count": 3,
+     "calibration_id": "cal_mlb_ml_2026-07-22",
+     "forecast_generated_at": "2026-07-22T13:05:01.661051Z",
+     "quote_observed_at": "2026-07-22T13:04:19Z",
+     "book_count": 6,
      "policy_version": "assessment_policy_v1",
-     "published_at": "2026-07-22T01:05:21.132426Z",
-     "sealed_at": "2026-07-22T01:05:21.132426Z"
+     "published_at": "2026-07-22T13:05:06.031988Z",
+     "sealed_at": "2026-07-22T13:05:06.031988Z"
     },
     "forecast": {
-     "fair_home": 0.4823,
+     "fair_home": 0.4813,
      "raw_home": 0.4547,
-     "ref_home": 0.5567
+     "ref_home": 0.566
     },
-    "seal": "seal_74afa56003c4",
+    "seal": "seal_addecafc99a0",
     "tier": {
-     "label": "Lean",
-     "kind": "lean"
+     "label": "Watch",
+     "kind": "watch"
     }
    }
   },
   {
-   "away": "Los Angeles Dodgers",
-   "home": "Philadelphia Phillies",
-   "pick": "Philadelphia Phillies",
-   "model": 0.519,
-   "market": 0.482,
-   "edge": 0.038,
-   "model_side": "Philadelphia Phillies",
-   "model_conf": 0.519,
-   "raw_conf": 0.589,
-   "raw_model": 0.589,
-   "calibrated": true,
-   "dec_odds": 2.05,
-   "best_dec_odds": 2.05,
-   "start": "2026-07-22T22:40:00Z",
-   "hp": "Zack Wheeler",
-   "ap": "Justin Wrobleski",
-   "hp_stat": {
-    "era": "2.23",
-    "w": 10,
-    "l": 1,
-    "ip": "97.0",
-    "so": 111
-   },
-   "ap_stat": {
-    "era": "2.67",
-    "w": 10,
-    "l": 2,
-    "ip": "104.1",
-    "so": 78
-   },
-   "asmt": {
-    "assessment_id": "asmt_2026-07-21_los-angeles-dodgers_philadelphia-phillies_2ed5cf04d512",
-    "policy_version": "assessment_policy_v1",
-    "model_version": "mlb_baseline_v1",
-    "devig_method": "proportional_v1",
-    "created_at": "2026-07-22T01:05:04.012191Z",
-    "date": "2026-07-21",
-    "away": "Los Angeles Dodgers",
-    "home": "Philadelphia Phillies",
-    "commence_time": "2026-07-22T22:40:00Z",
-    "likely_side": {
-     "label": "Philadelphia Phillies",
-     "probability": 0.5195
-    },
-    "value_side": {
-     "label": "Philadelphia Phillies",
-     "expected_value_per_unit": 0.0649,
-     "value_points": 3.8,
-     "american_odds": 105,
-     "decimal_odds": 2.05,
-     "book_key": "betus",
-     "book": "BetUS"
-    },
-    "selection": "Philadelphia Phillies",
-    "status": "lean",
-    "grade": "C",
-    "score": 72,
-    "fair_probability": 0.5195,
-    "market_break_even": 0.4878,
-    "market_reference_probability": 0.4819,
-    "price_limit_american": -103,
-    "quote_age_seconds": 51,
-    "components": {
-     "value": 21,
-     "calibration": 9,
-     "agreement": 7,
-     "stability": 15,
-     "data_certainty": 15,
-     "price_quality": 5
-    },
-    "penalties": [],
-    "reason_codes": [
-     "POSITIVE_EV",
-     "PRICE_ABOVE_LIMIT",
-     "QUOTE_FRESH",
-     "STARTER_CONFIRMED",
-     "MARKET_STABLE"
-    ],
-    "receipt": {
-     "model_version": "mlb_baseline_v1",
-     "calibration_id": "cal_mlb_ml_2026-07-21",
-     "forecast_generated_at": "2026-07-22T01:05:02.256957Z",
-     "quote_observed_at": "2026-07-22T01:04:13Z",
-     "book_count": 9,
-     "policy_version": "assessment_policy_v1",
-     "published_at": "2026-07-22T01:05:04.012191Z",
-     "sealed_at": "2026-07-22T01:05:04.012191Z"
-    },
-    "forecast": {
-     "fair_home": 0.5195,
-     "raw_home": 0.5892,
-     "ref_home": 0.4819
-    },
-    "seal": "seal_2ed5cf04d512",
-    "tier": {
-     "label": "Lean",
-     "kind": "lean"
-    }
-   },
-   "changed": "value +2.2\u2192+3.8 \u00b7 price -104\u2192+105 \u00b7 status WAIT\u2192LEAN"
-  },
-  {
    "away": "San Francisco Giants",
    "home": "Kansas City Royals",
-   "pick": "San Francisco Giants",
-   "model": 0.562,
-   "market": 0.517,
-   "edge": 0.046,
+   "pick": "Kansas City Royals",
+   "model": 0.481,
+   "market": 0.475,
+   "edge": 0.006,
    "model_side": "San Francisco Giants",
-   "model_conf": 0.562,
-   "raw_conf": 0.692,
-   "raw_model": 0.692,
+   "model_conf": 0.519,
+   "raw_conf": 0.564,
+   "raw_model": 0.436,
    "calibrated": true,
-   "dec_odds": 1.885,
-   "best_dec_odds": 1.885,
+   "dec_odds": 2.09,
+   "best_dec_odds": 2.09,
    "start": "2026-07-22T18:11:00Z",
-   "hp": "Luinder Avila",
-   "ap": "Tyler Mahle",
+   "hp": "Seth Lugo",
+   "ap": "Landen Roupp",
    "hp_stat": {
-    "era": "4.82",
-    "w": 4,
-    "l": 3,
-    "ip": "61.2",
-    "so": 56
+    "era": "4.39",
+    "w": 3,
+    "l": 6,
+    "ip": "110.2",
+    "so": 89
    },
    "ap_stat": {
-    "era": "5.10",
-    "w": 2,
+    "era": "3.98",
+    "w": 7,
     "l": 8,
-    "ip": "83.0",
-    "so": 77
+    "ip": "104.0",
+    "so": 106
    },
    "asmt": {
-    "assessment_id": "asmt_2026-07-21_san-francisco-giants_kansas-city-royals_537f5fd40e01",
+    "assessment_id": "asmt_2026-07-22_san-francisco-giants_kansas-city-royals_b6e090d66267",
     "policy_version": "assessment_policy_v1",
     "model_version": "mlb_baseline_v1",
     "devig_method": "proportional_v1",
-    "created_at": "2026-07-22T01:05:07.006965Z",
-    "date": "2026-07-21",
+    "created_at": "2026-07-22T13:05:06.803036Z",
+    "date": "2026-07-22",
     "away": "San Francisco Giants",
     "home": "Kansas City Royals",
     "commence_time": "2026-07-22T18:11:00Z",
     "likely_side": {
      "label": "San Francisco Giants",
-     "probability": 0.5621
+     "probability": 0.5189
     },
     "value_side": {
-     "label": "San Francisco Giants",
-     "expected_value_per_unit": 0.0596,
-     "value_points": 4.6,
-     "american_odds": -113,
-     "decimal_odds": 1.885,
-     "book_key": "mybookieag",
-     "book": "MyBookie.ag"
-    },
-    "selection": "San Francisco Giants",
-    "status": "lean",
-    "grade": "C",
-    "score": 71,
-    "fair_probability": 0.5621,
-    "market_break_even": 0.5305,
-    "market_reference_probability": 0.5166,
-    "price_limit_american": -122,
-    "quote_age_seconds": 73,
-    "components": {
-     "value": 20,
-     "calibration": 9,
-     "agreement": 7,
-     "stability": 15,
-     "data_certainty": 15,
-     "price_quality": 5
-    },
-    "penalties": [],
-    "reason_codes": [
-     "POSITIVE_EV",
-     "PRICE_ABOVE_LIMIT",
-     "QUOTE_FRESH",
-     "STARTER_CONFIRMED",
-     "MARKET_STABLE"
-    ],
-    "receipt": {
-     "model_version": "mlb_baseline_v1",
-     "calibration_id": "cal_mlb_ml_2026-07-21",
-     "forecast_generated_at": "2026-07-22T01:05:02.256957Z",
-     "quote_observed_at": "2026-07-22T01:03:54Z",
-     "book_count": 9,
-     "policy_version": "assessment_policy_v1",
-     "published_at": "2026-07-22T01:05:07.006965Z",
-     "sealed_at": "2026-07-22T01:05:07.006965Z"
-    },
-    "forecast": {
-     "fair_home": 0.4379,
-     "raw_home": 0.3083,
-     "ref_home": 0.4834
-    },
-    "seal": "seal_537f5fd40e01",
-    "tier": {
-     "label": "Lean",
-     "kind": "lean"
-    }
-   },
-   "changed": "value +5.7\u2192+4.6 \u00b7 price -105\u2192-113 \u00b7 status QUALIFIED\u2192LEAN"
-  },
-  {
-   "away": "New York Mets",
-   "home": "Milwaukee Brewers",
-   "pick": "New York Mets",
-   "model": 0.469,
-   "market": 0.434,
-   "edge": 0.036,
-   "model_side": "Milwaukee Brewers",
-   "model_conf": 0.531,
-   "raw_conf": 0.677,
-   "raw_model": 0.323,
-   "calibrated": true,
-   "dec_odds": 2.25,
-   "best_dec_odds": 2.25,
-   "start": "2026-07-22T18:11:00Z",
-   "hp": "Brandon Sproat",
-   "ap": "Zac Thornton",
-   "hp_stat": {
-    "era": "4.98",
-    "w": 3,
-    "l": 4,
-    "ip": "86.2",
-    "so": 91
-   },
-   "ap_stat": {
-    "era": "2.11",
-    "w": 0,
-    "l": 1,
-    "ip": "21.1",
-    "so": 16
-   },
-   "asmt": {
-    "assessment_id": "asmt_2026-07-21_new-york-mets_milwaukee-brewers_cd9b8f49cb50",
-    "policy_version": "assessment_policy_v1",
-    "model_version": "mlb_baseline_v1",
-    "devig_method": "proportional_v1",
-    "created_at": "2026-07-22T01:05:08.561712Z",
-    "date": "2026-07-21",
-    "away": "New York Mets",
-    "home": "Milwaukee Brewers",
-    "commence_time": "2026-07-22T18:11:00Z",
-    "likely_side": {
-     "label": "Milwaukee Brewers",
-     "probability": 0.5305
-    },
-    "value_side": {
-     "label": "New York Mets",
-     "expected_value_per_unit": 0.0563,
-     "value_points": 3.6,
-     "american_odds": 125,
-     "decimal_odds": 2.25,
-     "book_key": "betonlineag",
-     "book": "BetOnline.ag"
-    },
-    "selection": "New York Mets",
-    "status": "lean",
-    "grade": "C",
-    "score": 70,
-    "fair_probability": 0.4695,
-    "market_break_even": 0.4444,
-    "market_reference_probability": 0.4339,
-    "price_limit_american": 118,
-    "quote_age_seconds": 15,
-    "components": {
-     "value": 19,
-     "calibration": 9,
-     "agreement": 7,
-     "stability": 15,
-     "data_certainty": 15,
-     "price_quality": 5
-    },
-    "penalties": [],
-    "reason_codes": [
-     "POSITIVE_EV",
-     "PRICE_ABOVE_LIMIT",
-     "QUOTE_FRESH",
-     "STARTER_CONFIRMED",
-     "MARKET_STABLE"
-    ],
-    "receipt": {
-     "model_version": "mlb_baseline_v1",
-     "calibration_id": "cal_mlb_ml_2026-07-21",
-     "forecast_generated_at": "2026-07-22T01:05:02.256957Z",
-     "quote_observed_at": "2026-07-22T01:04:53Z",
-     "book_count": 9,
-     "policy_version": "assessment_policy_v1",
-     "published_at": "2026-07-22T01:05:08.561712Z",
-     "sealed_at": "2026-07-22T01:05:08.561712Z"
-    },
-    "forecast": {
-     "fair_home": 0.5305,
-     "raw_home": 0.677,
-     "ref_home": 0.5661
-    },
-    "seal": "seal_cd9b8f49cb50",
-    "tier": {
-     "label": "Lean",
-     "kind": "lean"
-    }
-   },
-   "changed": "status QUALIFIED\u2192LEAN"
-  },
-  {
-   "away": "St. Louis Cardinals",
-   "home": "Los Angeles Angels",
-   "pick": "St. Louis Cardinals",
-   "model": 0.517,
-   "market": 0.478,
-   "edge": 0.039,
-   "model_side": "St. Louis Cardinals",
-   "model_conf": 0.517,
-   "raw_conf": 0.519,
-   "raw_model": 0.519,
-   "calibrated": true,
-   "dec_odds": 2.04,
-   "best_dec_odds": 2.04,
-   "start": "2026-07-22T20:08:00Z",
-   "hp": "Walbert Ure\u00f1a",
-   "ap": "Matthew Liberatore",
-   "hp_stat": {
-    "era": "2.88",
-    "w": 5,
-    "l": 7,
-    "ip": "81.1",
-    "so": 78
-   },
-   "ap_stat": {
-    "era": "5.00",
-    "w": 5,
-    "l": 6,
-    "ip": "93.2",
-    "so": 88
-   },
-   "asmt": {
-    "assessment_id": "asmt_2026-07-21_st.-louis-cardinals_los-angeles-angels_eb6061462740",
-    "policy_version": "assessment_policy_v1",
-    "model_version": "mlb_baseline_v1",
-    "devig_method": "proportional_v1",
-    "created_at": "2026-07-22T01:05:16.497357Z",
-    "date": "2026-07-21",
-    "away": "St. Louis Cardinals",
-    "home": "Los Angeles Angels",
-    "commence_time": "2026-07-22T20:08:00Z",
-    "likely_side": {
-     "label": "St. Louis Cardinals",
-     "probability": 0.5169
-    },
-    "value_side": {
-     "label": "St. Louis Cardinals",
-     "expected_value_per_unit": 0.0545,
-     "value_points": 3.9,
-     "american_odds": 104,
-     "decimal_odds": 2.04,
-     "book_key": "lowvig",
-     "book": "LowVig.ag"
-    },
-    "selection": "St. Louis Cardinals",
-    "status": "lean",
-    "grade": "C",
-    "score": 70,
-    "fair_probability": 0.5169,
-    "market_break_even": 0.4902,
-    "market_reference_probability": 0.4778,
-    "price_limit_american": -102,
-    "quote_age_seconds": 42,
-    "components": {
-     "value": 19,
-     "calibration": 9,
-     "agreement": 7,
-     "stability": 15,
-     "data_certainty": 15,
-     "price_quality": 5
-    },
-    "penalties": [],
-    "reason_codes": [
-     "POSITIVE_EV",
-     "PRICE_ABOVE_LIMIT",
-     "QUOTE_FRESH",
-     "STARTER_CONFIRMED",
-     "MARKET_STABLE"
-    ],
-    "receipt": {
-     "model_version": "mlb_baseline_v1",
-     "calibration_id": "cal_mlb_ml_2026-07-21",
-     "forecast_generated_at": "2026-07-22T01:05:02.256957Z",
-     "quote_observed_at": "2026-07-22T01:04:34Z",
-     "book_count": 8,
-     "policy_version": "assessment_policy_v1",
-     "published_at": "2026-07-22T01:05:16.497357Z",
-     "sealed_at": "2026-07-22T01:05:16.497357Z"
-    },
-    "forecast": {
-     "fair_home": 0.4831,
-     "raw_home": 0.4808,
-     "ref_home": 0.5222
-    },
-    "seal": "seal_eb6061462740",
-    "tier": {
-     "label": "Lean",
-     "kind": "lean"
-    }
-   }
-  },
-  {
-   "away": "Minnesota Twins",
-   "home": "Cleveland Guardians",
-   "pick": "Minnesota Twins",
-   "model": 0.477,
-   "market": 0.464,
-   "edge": 0.013,
-   "model_side": "Cleveland Guardians",
-   "model_conf": 0.523,
-   "raw_conf": 0.672,
-   "raw_model": 0.328,
-   "calibrated": true,
-   "dec_odds": 2.1,
-   "best_dec_odds": 2.1,
-   "start": "2026-07-22T22:41:00Z",
-   "hp": "Parker Messick",
-   "ap": "Kendry Rojas",
-   "hp_stat": {
-    "era": "2.68",
-    "w": 8,
-    "l": 5,
-    "ip": "117.2",
-    "so": 116
-   },
-   "ap_stat": {
-    "era": "3.32",
-    "w": 1,
-    "l": 1,
-    "ip": "21.2",
-    "so": 24
-   },
-   "asmt": {
-    "assessment_id": "asmt_2026-07-21_minnesota-twins_cleveland-guardians_8324a279998c",
-    "policy_version": "assessment_policy_v1",
-    "model_version": "mlb_baseline_v1",
-    "devig_method": "proportional_v1",
-    "created_at": "2026-07-22T01:05:02.324762Z",
-    "date": "2026-07-21",
-    "away": "Minnesota Twins",
-    "home": "Cleveland Guardians",
-    "commence_time": "2026-07-22T22:41:00Z",
-    "likely_side": {
-     "label": "Cleveland Guardians",
-     "probability": 0.5227
-    },
-    "value_side": {
-     "label": "Minnesota Twins",
-     "expected_value_per_unit": 0.0022,
-     "value_points": 1.3,
-     "american_odds": 110,
-     "decimal_odds": 2.1,
-     "book_key": "fanduel",
-     "book": "FanDuel"
+     "label": "Kansas City Royals",
+     "expected_value_per_unit": 0.0055,
+     "value_points": 0.6,
+     "american_odds": 109,
+     "decimal_odds": 2.09,
+     "book_key": "betus",
+     "book": "BetUS"
     },
     "selection": null,
     "status": "pass",
     "grade": "F",
-    "score": 46,
-    "fair_probability": 0.4773,
-    "market_break_even": 0.4762,
-    "market_reference_probability": 0.4638,
-    "price_limit_american": 114,
-    "quote_age_seconds": 10,
+    "score": 45,
+    "fair_probability": 0.4811,
+    "market_break_even": 0.4785,
+    "market_reference_probability": 0.4754,
+    "price_limit_american": 113,
+    "quote_age_seconds": 52,
     "components": {
      "value": 0,
      "calibration": 9,
      "agreement": 7,
-     "stability": 15,
+     "stability": 14,
      "data_certainty": 15,
      "price_quality": 0
     },
@@ -820,20 +1017,20 @@
     ],
     "receipt": {
      "model_version": "mlb_baseline_v1",
-     "calibration_id": "cal_mlb_ml_2026-07-21",
-     "forecast_generated_at": "2026-07-22T01:05:02.256957Z",
-     "quote_observed_at": "2026-07-22T01:04:52Z",
+     "calibration_id": "cal_mlb_ml_2026-07-22",
+     "forecast_generated_at": "2026-07-22T13:05:01.661051Z",
+     "quote_observed_at": "2026-07-22T13:04:14Z",
      "book_count": 9,
      "policy_version": "assessment_policy_v1",
-     "published_at": "2026-07-22T01:05:02.324762Z",
-     "sealed_at": "2026-07-22T01:05:02.324762Z"
+     "published_at": "2026-07-22T13:05:06.803036Z",
+     "sealed_at": "2026-07-22T13:05:06.803036Z"
     },
     "forecast": {
-     "fair_home": 0.5227,
-     "raw_home": 0.6721,
-     "ref_home": 0.5362
+     "fair_home": 0.4811,
+     "raw_home": 0.4363,
+     "ref_home": 0.4754
     },
-    "seal": "seal_8324a279998c",
+    "seal": "seal_b6e090d66267",
     "tier": {
      "label": "Pass",
      "kind": "pass"
@@ -841,73 +1038,73 @@
    }
   },
   {
-   "away": "Detroit Tigers",
-   "home": "Chicago Cubs",
-   "pick": "Detroit Tigers",
-   "model": 0.483,
-   "market": 0.481,
-   "edge": 0.002,
-   "model_side": "Chicago Cubs",
-   "model_conf": 0.517,
-   "raw_conf": 0.524,
-   "raw_model": 0.476,
+   "away": "Minnesota Twins",
+   "home": "Cleveland Guardians",
+   "pick": "Minnesota Twins",
+   "model": 0.48,
+   "market": 0.467,
+   "edge": 0.013,
+   "model_side": "Cleveland Guardians",
+   "model_conf": 0.52,
+   "raw_conf": 0.625,
+   "raw_model": 0.375,
    "calibrated": true,
-   "dec_odds": 2.06,
-   "best_dec_odds": 2.06,
-   "start": "2026-07-23T00:06:00Z",
-   "hp": "David Peterson",
-   "ap": "Framber Valdez",
+   "dec_odds": 2.09,
+   "best_dec_odds": 2.09,
+   "start": "2026-07-22T22:41:00Z",
+   "hp": "Slade Cecconi",
+   "ap": "Bailey Ober",
    "hp_stat": {
-    "era": "6.22",
+    "era": "4.55",
     "w": 4,
-    "l": 7,
-    "ip": "85.1",
-    "so": 72
+    "l": 6,
+    "ip": "99.0",
+    "so": 77
    },
    "ap_stat": {
-    "era": "4.49",
-    "w": 5,
-    "l": 6,
-    "ip": "108.1",
-    "so": 88
+    "era": "4.32",
+    "w": 7,
+    "l": 3,
+    "ip": "77.0",
+    "so": 58
    },
    "asmt": {
-    "assessment_id": "asmt_2026-07-21_detroit-tigers_chicago-cubs_2d364b80779d",
+    "assessment_id": "asmt_2026-07-22_minnesota-twins_cleveland-guardians_debb0cb424fb",
     "policy_version": "assessment_policy_v1",
     "model_version": "mlb_baseline_v1",
     "devig_method": "proportional_v1",
-    "created_at": "2026-07-22T01:05:10.037222Z",
-    "date": "2026-07-21",
-    "away": "Detroit Tigers",
-    "home": "Chicago Cubs",
-    "commence_time": "2026-07-23T00:06:00Z",
+    "created_at": "2026-07-22T13:05:15.560638Z",
+    "date": "2026-07-22",
+    "away": "Minnesota Twins",
+    "home": "Cleveland Guardians",
+    "commence_time": "2026-07-22T22:41:00Z",
     "likely_side": {
-     "label": "Chicago Cubs",
-     "probability": 0.5169
+     "label": "Cleveland Guardians",
+     "probability": 0.5195
     },
     "value_side": {
-     "label": "Detroit Tigers",
-     "expected_value_per_unit": -0.0048,
-     "value_points": 0.2,
-     "american_odds": 106,
-     "decimal_odds": 2.06,
-     "book_key": "fanduel",
-     "book": "FanDuel"
+     "label": "Minnesota Twins",
+     "expected_value_per_unit": 0.0042,
+     "value_points": 1.3,
+     "american_odds": 109,
+     "decimal_odds": 2.09,
+     "book_key": "betonlineag",
+     "book": "BetOnline.ag"
     },
     "selection": null,
     "status": "pass",
     "grade": "F",
-    "score": 46,
-    "fair_probability": 0.4831,
-    "market_break_even": 0.4854,
-    "market_reference_probability": 0.4812,
-    "price_limit_american": 112,
-    "quote_age_seconds": 18,
+    "score": 45,
+    "fair_probability": 0.4805,
+    "market_break_even": 0.4785,
+    "market_reference_probability": 0.4674,
+    "price_limit_american": 113,
+    "quote_age_seconds": 56,
     "components": {
      "value": 0,
      "calibration": 9,
      "agreement": 7,
-     "stability": 15,
+     "stability": 14,
      "data_certainty": 15,
      "price_quality": 0
     },
@@ -920,20 +1117,220 @@
     ],
     "receipt": {
      "model_version": "mlb_baseline_v1",
-     "calibration_id": "cal_mlb_ml_2026-07-21",
-     "forecast_generated_at": "2026-07-22T01:05:02.256957Z",
-     "quote_observed_at": "2026-07-22T01:04:52Z",
+     "calibration_id": "cal_mlb_ml_2026-07-22",
+     "forecast_generated_at": "2026-07-22T13:05:01.661051Z",
+     "quote_observed_at": "2026-07-22T13:04:19Z",
      "book_count": 9,
      "policy_version": "assessment_policy_v1",
-     "published_at": "2026-07-22T01:05:10.037222Z",
-     "sealed_at": "2026-07-22T01:05:10.037222Z"
+     "published_at": "2026-07-22T13:05:15.560638Z",
+     "sealed_at": "2026-07-22T13:05:15.560638Z"
     },
     "forecast": {
-     "fair_home": 0.5169,
-     "raw_home": 0.5237,
-     "ref_home": 0.5188
+     "fair_home": 0.5195,
+     "raw_home": 0.6251,
+     "ref_home": 0.5326
     },
-    "seal": "seal_2d364b80779d",
+    "seal": "seal_debb0cb424fb",
+    "tier": {
+     "label": "Pass",
+     "kind": "pass"
+    }
+   }
+  },
+  {
+   "away": "Tampa Bay Rays",
+   "home": "Toronto Blue Jays",
+   "pick": "Toronto Blue Jays",
+   "model": 0.52,
+   "market": 0.506,
+   "edge": 0.013,
+   "model_side": "Toronto Blue Jays",
+   "model_conf": 0.52,
+   "raw_conf": 0.625,
+   "raw_model": 0.625,
+   "calibrated": true,
+   "dec_odds": 1.926,
+   "best_dec_odds": 1.926,
+   "start": "2026-07-22T23:08:00Z",
+   "hp": "Braydon Fisher",
+   "ap": "Griffin Jax",
+   "hp_stat": {
+    "era": "3.65",
+    "w": 3,
+    "l": 3,
+    "ip": "49.1",
+    "so": 50
+   },
+   "ap_stat": {
+    "era": "4.08",
+    "w": 5,
+    "l": 7,
+    "ip": "75.0",
+    "so": 77
+   },
+   "asmt": {
+    "assessment_id": "asmt_2026-07-22_tampa-bay-rays_toronto-blue-jays_01fd6e1362c7",
+    "policy_version": "assessment_policy_v1",
+    "model_version": "mlb_baseline_v1",
+    "devig_method": "proportional_v1",
+    "created_at": "2026-07-22T13:05:18.456521Z",
+    "date": "2026-07-22",
+    "away": "Tampa Bay Rays",
+    "home": "Toronto Blue Jays",
+    "commence_time": "2026-07-22T23:08:00Z",
+    "likely_side": {
+     "label": "Toronto Blue Jays",
+     "probability": 0.5195
+    },
+    "value_side": {
+     "label": "Toronto Blue Jays",
+     "expected_value_per_unit": 0.0005,
+     "value_points": 1.3,
+     "american_odds": -108,
+     "decimal_odds": 1.926,
+     "book_key": "betonlineag",
+     "book": "BetOnline.ag"
+    },
+    "selection": null,
+    "status": "pass",
+    "grade": "F",
+    "score": 45,
+    "fair_probability": 0.5195,
+    "market_break_even": 0.5192,
+    "market_reference_probability": 0.5065,
+    "price_limit_american": -103,
+    "quote_age_seconds": 59,
+    "components": {
+     "value": 0,
+     "calibration": 9,
+     "agreement": 7,
+     "stability": 14,
+     "data_certainty": 15,
+     "price_quality": 0
+    },
+    "penalties": [],
+    "reason_codes": [
+     "NO_USABLE_VALUE",
+     "QUOTE_FRESH",
+     "STARTER_CONFIRMED",
+     "MARKET_STABLE"
+    ],
+    "receipt": {
+     "model_version": "mlb_baseline_v1",
+     "calibration_id": "cal_mlb_ml_2026-07-22",
+     "forecast_generated_at": "2026-07-22T13:05:01.661051Z",
+     "quote_observed_at": "2026-07-22T13:04:19Z",
+     "book_count": 9,
+     "policy_version": "assessment_policy_v1",
+     "published_at": "2026-07-22T13:05:18.456521Z",
+     "sealed_at": "2026-07-22T13:05:18.456521Z"
+    },
+    "forecast": {
+     "fair_home": 0.5195,
+     "raw_home": 0.625,
+     "ref_home": 0.5065
+    },
+    "seal": "seal_01fd6e1362c7",
+    "tier": {
+     "label": "Pass",
+     "kind": "pass"
+    }
+   }
+  },
+  {
+   "away": "Los Angeles Dodgers",
+   "home": "Philadelphia Phillies",
+   "pick": "Philadelphia Phillies",
+   "model": 0.48,
+   "market": 0.476,
+   "edge": 0.004,
+   "model_side": "Los Angeles Dodgers",
+   "model_conf": 0.52,
+   "raw_conf": 0.652,
+   "raw_model": 0.348,
+   "calibrated": true,
+   "dec_odds": 2.07,
+   "best_dec_odds": 2.07,
+   "start": "2026-07-22T22:40:00Z",
+   "hp": "Aaron Nola",
+   "ap": "Eric Lauer",
+   "hp_stat": {
+    "era": "5.68",
+    "w": 3,
+    "l": 7,
+    "ip": "103.0",
+    "so": 108
+   },
+   "ap_stat": {
+    "era": "4.81",
+    "w": 4,
+    "l": 5,
+    "ip": "76.2",
+    "so": 47
+   },
+   "asmt": {
+    "assessment_id": "asmt_2026-07-22_los-angeles-dodgers_philadelphia-phillies_5e4e6796ab04",
+    "policy_version": "assessment_policy_v1",
+    "model_version": "mlb_baseline_v1",
+    "devig_method": "proportional_v1",
+    "created_at": "2026-07-22T13:05:17.095333Z",
+    "date": "2026-07-22",
+    "away": "Los Angeles Dodgers",
+    "home": "Philadelphia Phillies",
+    "commence_time": "2026-07-22T22:40:00Z",
+    "likely_side": {
+     "label": "Los Angeles Dodgers",
+     "probability": 0.5198
+    },
+    "value_side": {
+     "label": "Philadelphia Phillies",
+     "expected_value_per_unit": -0.006,
+     "value_points": 0.4,
+     "american_odds": 107,
+     "decimal_odds": 2.07,
+     "book_key": "betus",
+     "book": "BetUS"
+    },
+    "selection": null,
+    "status": "pass",
+    "grade": "F",
+    "score": 45,
+    "fair_probability": 0.4802,
+    "market_break_even": 0.4831,
+    "market_reference_probability": 0.4763,
+    "price_limit_american": 113,
+    "quote_age_seconds": 63,
+    "components": {
+     "value": 0,
+     "calibration": 9,
+     "agreement": 7,
+     "stability": 14,
+     "data_certainty": 15,
+     "price_quality": 0
+    },
+    "penalties": [],
+    "reason_codes": [
+     "NO_USABLE_VALUE",
+     "QUOTE_FRESH",
+     "STARTER_CONFIRMED",
+     "MARKET_STABLE"
+    ],
+    "receipt": {
+     "model_version": "mlb_baseline_v1",
+     "calibration_id": "cal_mlb_ml_2026-07-22",
+     "forecast_generated_at": "2026-07-22T13:05:01.661051Z",
+     "quote_observed_at": "2026-07-22T13:04:14Z",
+     "book_count": 9,
+     "policy_version": "assessment_policy_v1",
+     "published_at": "2026-07-22T13:05:17.095333Z",
+     "sealed_at": "2026-07-22T13:05:17.095333Z"
+    },
+    "forecast": {
+     "fair_home": 0.4802,
+     "raw_home": 0.348,
+     "ref_home": 0.4763
+    },
+    "seal": "seal_5e4e6796ab04",
     "tier": {
      "label": "Pass",
      "kind": "pass"
@@ -944,70 +1341,70 @@
    "away": "Miami Marlins",
    "home": "Houston Astros",
    "pick": "Miami Marlins",
-   "model": 0.483,
-   "market": 0.476,
-   "edge": 0.007,
+   "model": 0.481,
+   "market": 0.478,
+   "edge": 0.003,
    "model_side": "Houston Astros",
-   "model_conf": 0.517,
-   "raw_conf": 0.535,
-   "raw_model": 0.465,
+   "model_conf": 0.519,
+   "raw_conf": 0.552,
+   "raw_model": 0.448,
    "calibrated": true,
-   "dec_odds": 2.05,
-   "best_dec_odds": 2.05,
+   "dec_odds": 2.06,
+   "best_dec_odds": 2.06,
    "start": "2026-07-23T00:11:00Z",
-   "hp": "Tatsuya Imai",
-   "ap": "Tyler Phillips",
+   "hp": "Peter Lambert",
+   "ap": "Sandy Alcantara",
    "hp_stat": {
-    "era": "5.66",
-    "w": 5,
-    "l": 4,
-    "ip": "55.2",
-    "so": 67
+    "era": "3.03",
+    "w": 8,
+    "l": 5,
+    "ip": "92.0",
+    "so": 91
    },
    "ap_stat": {
-    "era": "3.58",
-    "w": 2,
-    "l": 4,
-    "ip": "78.0",
-    "so": 58
+    "era": "3.89",
+    "w": 10,
+    "l": 5,
+    "ip": "136.2",
+    "so": 107
    },
    "asmt": {
-    "assessment_id": "asmt_2026-07-21_miami-marlins_houston-astros_04917c635e9e",
+    "assessment_id": "asmt_2026-07-22_miami-marlins_houston-astros_d87fbe6c3108",
     "policy_version": "assessment_policy_v1",
     "model_version": "mlb_baseline_v1",
     "devig_method": "proportional_v1",
-    "created_at": "2026-07-22T01:05:13.389763Z",
-    "date": "2026-07-21",
+    "created_at": "2026-07-22T13:05:24.426971Z",
+    "date": "2026-07-22",
     "away": "Miami Marlins",
     "home": "Houston Astros",
     "commence_time": "2026-07-23T00:11:00Z",
     "likely_side": {
      "label": "Houston Astros",
-     "probability": 0.5173
+     "probability": 0.5188
     },
     "value_side": {
      "label": "Miami Marlins",
-     "expected_value_per_unit": -0.0105,
-     "value_points": 0.7,
-     "american_odds": 105,
-     "decimal_odds": 2.05,
+     "expected_value_per_unit": -0.0087,
+     "value_points": 0.3,
+     "american_odds": 106,
+     "decimal_odds": 2.06,
      "book_key": "betus",
      "book": "BetUS"
     },
     "selection": null,
     "status": "pass",
     "grade": "F",
-    "score": 46,
-    "fair_probability": 0.4827,
-    "market_break_even": 0.4878,
-    "market_reference_probability": 0.4761,
+    "score": 45,
+    "fair_probability": 0.4812,
+    "market_break_even": 0.4854,
+    "market_reference_probability": 0.478,
     "price_limit_american": 112,
-    "quote_age_seconds": 60,
+    "quote_age_seconds": 70,
     "components": {
      "value": 0,
      "calibration": 9,
      "agreement": 7,
-     "stability": 15,
+     "stability": 14,
      "data_certainty": 15,
      "price_quality": 0
     },
@@ -1020,20 +1417,20 @@
     ],
     "receipt": {
      "model_version": "mlb_baseline_v1",
-     "calibration_id": "cal_mlb_ml_2026-07-21",
-     "forecast_generated_at": "2026-07-22T01:05:02.256957Z",
-     "quote_observed_at": "2026-07-22T01:04:13Z",
+     "calibration_id": "cal_mlb_ml_2026-07-22",
+     "forecast_generated_at": "2026-07-22T13:05:01.661051Z",
+     "quote_observed_at": "2026-07-22T13:04:14Z",
      "book_count": 9,
      "policy_version": "assessment_policy_v1",
-     "published_at": "2026-07-22T01:05:13.389763Z",
-     "sealed_at": "2026-07-22T01:05:13.389763Z"
+     "published_at": "2026-07-22T13:05:24.426971Z",
+     "sealed_at": "2026-07-22T13:05:24.426971Z"
     },
     "forecast": {
-     "fair_home": 0.5173,
-     "raw_home": 0.5352,
-     "ref_home": 0.5239
+     "fair_home": 0.5188,
+     "raw_home": 0.5516,
+     "ref_home": 0.522
     },
-    "seal": "seal_04917c635e9e",
+    "seal": "seal_d87fbe6c3108",
     "tier": {
      "label": "Pass",
      "kind": "pass"
@@ -1041,167 +1438,73 @@
    }
   },
   {
-   "away": "Chicago White Sox",
-   "home": "Texas Rangers",
-   "pick": "Texas Rangers",
-   "model": 0.517,
-   "market": 0.511,
-   "edge": 0.006,
-   "model_side": "Texas Rangers",
-   "model_conf": 0.517,
-   "raw_conf": 0.527,
-   "raw_model": 0.527,
-   "calibrated": true,
-   "dec_odds": 1.909,
-   "best_dec_odds": 1.909,
-   "start": "2026-07-23T00:06:00Z",
-   "hp": "Kumar Rocker",
-   "ap": "Noah Schultz",
-   "hp_stat": {
-    "era": "4.21",
-    "w": 2,
-    "l": 8,
-    "ip": "94.0",
-    "so": 82
-   },
-   "ap_stat": {
-    "era": "5.79",
-    "w": 3,
-    "l": 6,
-    "ip": "56.0",
-    "so": 49
-   },
-   "asmt": {
-    "assessment_id": "asmt_2026-07-21_chicago-white-sox_texas-rangers_01c046cc8f3c",
-    "policy_version": "assessment_policy_v1",
-    "model_version": "mlb_baseline_v1",
-    "devig_method": "proportional_v1",
-    "created_at": "2026-07-22T01:05:11.754726Z",
-    "date": "2026-07-21",
-    "away": "Chicago White Sox",
-    "home": "Texas Rangers",
-    "commence_time": "2026-07-23T00:06:00Z",
-    "likely_side": {
-     "label": "Texas Rangers",
-     "probability": 0.517
-    },
-    "value_side": {
-     "label": "Texas Rangers",
-     "expected_value_per_unit": -0.013,
-     "value_points": 0.6,
-     "american_odds": -110,
-     "decimal_odds": 1.909,
-     "book_key": "lowvig",
-     "book": "LowVig.ag"
-    },
-    "selection": null,
-    "status": "pass",
-    "grade": "F",
-    "score": 46,
-    "fair_probability": 0.517,
-    "market_break_even": 0.5238,
-    "market_reference_probability": 0.5109,
-    "price_limit_american": -102,
-    "quote_age_seconds": 37,
-    "components": {
-     "value": 0,
-     "calibration": 9,
-     "agreement": 7,
-     "stability": 15,
-     "data_certainty": 15,
-     "price_quality": 0
-    },
-    "penalties": [],
-    "reason_codes": [
-     "NO_USABLE_VALUE",
-     "QUOTE_FRESH",
-     "STARTER_CONFIRMED",
-     "MARKET_STABLE"
-    ],
-    "receipt": {
-     "model_version": "mlb_baseline_v1",
-     "calibration_id": "cal_mlb_ml_2026-07-21",
-     "forecast_generated_at": "2026-07-22T01:05:02.256957Z",
-     "quote_observed_at": "2026-07-22T01:04:34Z",
-     "book_count": 9,
-     "policy_version": "assessment_policy_v1",
-     "published_at": "2026-07-22T01:05:11.754726Z",
-     "sealed_at": "2026-07-22T01:05:11.754726Z"
-    },
-    "forecast": {
-     "fair_home": 0.517,
-     "raw_home": 0.5268,
-     "ref_home": 0.5109
-    },
-    "seal": "seal_01c046cc8f3c",
-    "tier": {
-     "label": "Pass",
-     "kind": "pass"
-    }
-   }
-  },
-  {
-   "away": "Athletics",
-   "home": "Arizona Diamondbacks",
-   "pick": "Arizona Diamondbacks",
+   "away": "Detroit Tigers",
+   "home": "Chicago Cubs",
+   "pick": "Chicago Cubs",
    "model": 0.52,
    "market": 0.518,
    "edge": 0.002,
-   "model_side": "Arizona Diamondbacks",
+   "model_side": "Chicago Cubs",
    "model_conf": 0.52,
-   "raw_conf": 0.602,
-   "raw_model": 0.602,
+   "raw_conf": 0.637,
+   "raw_model": 0.637,
    "calibrated": true,
-   "dec_odds": 1.893,
-   "best_dec_odds": 1.893,
-   "start": "2026-07-22T19:41:00Z",
-   "hp": "Kohl Drake",
-   "ap": "Jack Perkins",
-   "hp_stat": null,
+   "dec_odds": 1.885,
+   "best_dec_odds": 1.885,
+   "start": "2026-07-23T00:06:00Z",
+   "hp": "Colin Rea",
+   "ap": "Keider Montero",
+   "hp_stat": {
+    "era": "4.74",
+    "w": 7,
+    "l": 6,
+    "ip": "100.2",
+    "so": 76
+   },
    "ap_stat": {
-    "era": "6.87",
-    "w": 2,
+    "era": "3.22",
+    "w": 6,
     "l": 5,
-    "ip": "57.2",
-    "so": 72
+    "ip": "100.2",
+    "so": 70
    },
    "asmt": {
-    "assessment_id": "asmt_2026-07-21_athletics_arizona-diamondbacks_d4bbc7626757",
+    "assessment_id": "asmt_2026-07-22_detroit-tigers_chicago-cubs_02796fe19090",
     "policy_version": "assessment_policy_v1",
     "model_version": "mlb_baseline_v1",
     "devig_method": "proportional_v1",
-    "created_at": "2026-07-22T01:05:18.013976Z",
-    "date": "2026-07-21",
-    "away": "Athletics",
-    "home": "Arizona Diamondbacks",
-    "commence_time": "2026-07-22T19:41:00Z",
+    "created_at": "2026-07-22T13:05:22.989964Z",
+    "date": "2026-07-22",
+    "away": "Detroit Tigers",
+    "home": "Chicago Cubs",
+    "commence_time": "2026-07-23T00:06:00Z",
     "likely_side": {
-     "label": "Arizona Diamondbacks",
-     "probability": 0.5199
+     "label": "Chicago Cubs",
+     "probability": 0.5196
     },
     "value_side": {
-     "label": "Arizona Diamondbacks",
-     "expected_value_per_unit": -0.0158,
+     "label": "Chicago Cubs",
+     "expected_value_per_unit": -0.0205,
      "value_points": 0.2,
-     "american_odds": -112,
-     "decimal_odds": 1.893,
+     "american_odds": -113,
+     "decimal_odds": 1.885,
      "book_key": "betonlineag",
      "book": "BetOnline.ag"
     },
     "selection": null,
     "status": "pass",
     "grade": "F",
-    "score": 46,
-    "fair_probability": 0.5199,
-    "market_break_even": 0.5283,
-    "market_reference_probability": 0.5177,
+    "score": 45,
+    "fair_probability": 0.5196,
+    "market_break_even": 0.5305,
+    "market_reference_probability": 0.518,
     "price_limit_american": -103,
-    "quote_age_seconds": 25,
+    "quote_age_seconds": 63,
     "components": {
      "value": 0,
      "calibration": 9,
      "agreement": 7,
-     "stability": 15,
+     "stability": 14,
      "data_certainty": 15,
      "price_quality": 0
     },
@@ -1214,340 +1517,25 @@
     ],
     "receipt": {
      "model_version": "mlb_baseline_v1",
-     "calibration_id": "cal_mlb_ml_2026-07-21",
-     "forecast_generated_at": "2026-07-22T01:05:02.256957Z",
-     "quote_observed_at": "2026-07-22T01:04:53Z",
-     "book_count": 8,
+     "calibration_id": "cal_mlb_ml_2026-07-22",
+     "forecast_generated_at": "2026-07-22T13:05:01.661051Z",
+     "quote_observed_at": "2026-07-22T13:04:19Z",
+     "book_count": 9,
      "policy_version": "assessment_policy_v1",
-     "published_at": "2026-07-22T01:05:18.013976Z",
-     "sealed_at": "2026-07-22T01:05:18.013976Z"
+     "published_at": "2026-07-22T13:05:22.989964Z",
+     "sealed_at": "2026-07-22T13:05:22.989964Z"
     },
     "forecast": {
-     "fair_home": 0.5199,
-     "raw_home": 0.6015,
-     "ref_home": 0.5177
+     "fair_home": 0.5196,
+     "raw_home": 0.637,
+     "ref_home": 0.518
     },
-    "seal": "seal_d4bbc7626757",
+    "seal": "seal_02796fe19090",
     "tier": {
      "label": "Pass",
      "kind": "pass"
     }
    }
-  },
-  {
-   "away": "Pittsburgh Pirates",
-   "home": "New York Yankees",
-   "pick": "Pittsburgh Pirates",
-   "model": 0.518,
-   "market": 0.451,
-   "edge": 0.067,
-   "model_side": "Pittsburgh Pirates",
-   "model_conf": 0.518,
-   "raw_conf": 0.551,
-   "raw_model": 0.551,
-   "calibrated": true,
-   "dec_odds": 2.2,
-   "best_dec_odds": 2.2,
-   "start": "2026-07-21T23:06:00Z",
-   "hp": "Will Warren",
-   "ap": "Bubba Chandler",
-   "hp_stat": {
-    "era": "4.03",
-    "w": 7,
-    "l": 4,
-    "ip": "98.1",
-    "so": 96
-   },
-   "ap_stat": {
-    "era": "4.77",
-    "w": 3,
-    "l": 8,
-    "ip": "94.1",
-    "so": 85
-   },
-   "asmt": {
-    "assessment_id": "asmt_2026-07-21_pittsburgh-pirates_new-york-yankees_4ac53e637c95_closed_92430c0fcbb9",
-    "policy_version": "assessment_policy_v1",
-    "model_version": "mlb_baseline_v1",
-    "devig_method": "proportional_v1",
-    "created_at": "2026-07-22T01:05:22.686888Z",
-    "date": "2026-07-21",
-    "away": "Pittsburgh Pirates",
-    "home": "New York Yankees",
-    "commence_time": "2026-07-21T23:06:00Z",
-    "likely_side": {
-     "label": "Pittsburgh Pirates",
-     "probability": 0.5179
-    },
-    "value_side": {
-     "label": "Pittsburgh Pirates",
-     "expected_value_per_unit": 0.1394,
-     "value_points": 6.7,
-     "american_odds": 120,
-     "decimal_odds": 2.2,
-     "book_key": "betrivers",
-     "book": "BetRivers"
-    },
-    "selection": null,
-    "status": "closed",
-    "grade": "C",
-    "score": 74,
-    "fair_probability": 0.5179,
-    "market_break_even": 0.4545,
-    "market_reference_probability": 0.4505,
-    "price_limit_american": -103,
-    "quote_age_seconds": 8,
-    "components": {
-     "value": 23,
-     "calibration": 9,
-     "agreement": 7,
-     "stability": 15,
-     "data_certainty": 15,
-     "price_quality": 5
-    },
-    "penalties": [],
-    "reason_codes": [
-     "POSITIVE_EV",
-     "PRICE_ABOVE_LIMIT",
-     "QUOTE_FRESH",
-     "STARTER_CONFIRMED",
-     "MARKET_STABLE",
-     "EVENT_STARTED"
-    ],
-    "receipt": {
-     "model_version": "mlb_baseline_v1",
-     "calibration_id": "cal_mlb_ml_2026-07-21",
-     "forecast_generated_at": "2026-07-21T17:05:02.016514Z",
-     "quote_observed_at": "2026-07-21T17:04:57Z",
-     "book_count": 9,
-     "policy_version": "assessment_policy_v1",
-     "published_at": "2026-07-21T17:05:05.105227Z",
-     "sealed_at": "2026-07-22T01:05:22.686888Z"
-    },
-    "forecast": {
-     "fair_home": 0.4821,
-     "raw_home": 0.4493,
-     "ref_home": 0.5495
-    },
-    "seal": "seal_92430c0fcbb9",
-    "tier": {
-     "label": "Lean",
-     "kind": "lean"
-    },
-    "parent_assessment_id": "asmt_2026-07-21_pittsburgh-pirates_new-york-yankees_4ac53e637c95",
-    "parent_seal": "seal_4ac53e637c95"
-   },
-   "changed": "value +7.8\u2192+6.7 \u00b7 price +129\u2192+120",
-   "frozen": true
-  },
-  {
-   "away": "San Diego Padres",
-   "home": "Atlanta Braves",
-   "pick": "San Diego Padres",
-   "model": 0.519,
-   "market": 0.427,
-   "edge": 0.092,
-   "model_side": "San Diego Padres",
-   "model_conf": 0.519,
-   "raw_conf": 0.572,
-   "raw_model": 0.572,
-   "calibrated": true,
-   "dec_odds": 2.35,
-   "best_dec_odds": 2.35,
-   "start": "2026-07-21T23:16:00Z",
-   "hp": "Reynaldo L\u00f3pez",
-   "ap": "Walker Buehler",
-   "hp_stat": {
-    "era": "3.50",
-    "w": 4,
-    "l": 2,
-    "ip": "61.2",
-    "so": 54
-   },
-   "ap_stat": {
-    "era": "5.36",
-    "w": 5,
-    "l": 5,
-    "ip": "89.0",
-    "so": 81
-   },
-   "asmt": {
-    "assessment_id": "asmt_2026-07-21_san-diego-padres_atlanta-braves_edc2af67c171_closed_0137e26cfcd2",
-    "policy_version": "assessment_policy_v1",
-    "model_version": "mlb_baseline_v1",
-    "devig_method": "proportional_v1",
-    "created_at": "2026-07-22T01:05:22.687076Z",
-    "date": "2026-07-21",
-    "away": "San Diego Padres",
-    "home": "Atlanta Braves",
-    "commence_time": "2026-07-21T23:16:00Z",
-    "likely_side": {
-     "label": "San Diego Padres",
-     "probability": 0.5188
-    },
-    "value_side": {
-     "label": "San Diego Padres",
-     "expected_value_per_unit": 0.2192,
-     "value_points": 9.2,
-     "american_odds": 135,
-     "decimal_odds": 2.35,
-     "book_key": "betrivers",
-     "book": "BetRivers"
-    },
-    "selection": null,
-    "status": "closed",
-    "grade": "C",
-    "score": 67,
-    "fair_probability": 0.5188,
-    "market_break_even": 0.4255,
-    "market_reference_probability": 0.4269,
-    "price_limit_american": -103,
-    "quote_age_seconds": 9,
-    "components": {
-     "value": 15,
-     "calibration": 9,
-     "agreement": 7,
-     "stability": 15,
-     "data_certainty": 15,
-     "price_quality": 6
-    },
-    "penalties": [],
-    "reason_codes": [
-     "POSITIVE_EV",
-     "PRICE_ABOVE_LIMIT",
-     "QUOTE_FRESH",
-     "STARTER_CONFIRMED",
-     "MARKET_STABLE",
-     "EVENT_STARTED"
-    ],
-    "receipt": {
-     "model_version": "mlb_baseline_v1",
-     "calibration_id": "cal_mlb_ml_2026-07-21",
-     "forecast_generated_at": "2026-07-21T23:05:02.380413Z",
-     "quote_observed_at": "2026-07-21T23:04:58Z",
-     "book_count": 9,
-     "policy_version": "assessment_policy_v1",
-     "published_at": "2026-07-21T23:05:07.301405Z",
-     "sealed_at": "2026-07-22T01:05:22.687076Z"
-    },
-    "forecast": {
-     "fair_home": 0.4812,
-     "raw_home": 0.4276,
-     "ref_home": 0.5731
-    },
-    "seal": "seal_0137e26cfcd2",
-    "tier": {
-     "label": "Lean",
-     "kind": "lean"
-    },
-    "parent_assessment_id": "asmt_2026-07-21_san-diego-padres_atlanta-braves_edc2af67c171",
-    "parent_seal": "seal_edc2af67c171"
-   },
-   "frozen": true
-  },
-  {
-   "away": "Tampa Bay Rays",
-   "home": "Toronto Blue Jays",
-   "pick": "Tampa Bay Rays",
-   "model": 0.518,
-   "market": 0.5,
-   "edge": 0.018,
-   "model_side": "Tampa Bay Rays",
-   "model_conf": 0.518,
-   "raw_conf": 0.55,
-   "raw_model": 0.55,
-   "calibrated": true,
-   "dec_odds": 1.962,
-   "best_dec_odds": 1.962,
-   "start": "2026-07-21T23:08:00Z",
-   "hp": "Kevin Gausman",
-   "ap": "Drew Rasmussen",
-   "hp_stat": {
-    "era": "4.33",
-    "w": 4,
-    "l": 8,
-    "ip": "112.1",
-    "so": 116
-   },
-   "ap_stat": {
-    "era": "3.26",
-    "w": 7,
-    "l": 5,
-    "ip": "99.1",
-    "so": 98
-   },
-   "asmt": {
-    "assessment_id": "asmt_2026-07-21_tampa-bay-rays_toronto-blue-jays_cd5cc97cd35c_closed_a0909022ae2a",
-    "policy_version": "assessment_policy_v1",
-    "model_version": "mlb_baseline_v1",
-    "devig_method": "proportional_v1",
-    "created_at": "2026-07-22T01:05:22.687143Z",
-    "date": "2026-07-21",
-    "away": "Tampa Bay Rays",
-    "home": "Toronto Blue Jays",
-    "commence_time": "2026-07-21T23:08:00Z",
-    "likely_side": {
-     "label": "Tampa Bay Rays",
-     "probability": 0.5179
-    },
-    "value_side": {
-     "label": "Tampa Bay Rays",
-     "expected_value_per_unit": 0.0159,
-     "value_points": 1.8,
-     "american_odds": -104,
-     "decimal_odds": 1.962,
-     "book_key": "lowvig",
-     "book": "LowVig.ag"
-    },
-    "selection": null,
-    "status": "closed",
-    "grade": "F",
-    "score": 46,
-    "fair_probability": 0.5179,
-    "market_break_even": 0.5098,
-    "market_reference_probability": 0.5001,
-    "price_limit_american": -103,
-    "quote_age_seconds": 34,
-    "components": {
-     "value": 0,
-     "calibration": 9,
-     "agreement": 7,
-     "stability": 15,
-     "data_certainty": 15,
-     "price_quality": 0
-    },
-    "penalties": [],
-    "reason_codes": [
-     "NO_USABLE_VALUE",
-     "QUOTE_FRESH",
-     "STARTER_CONFIRMED",
-     "MARKET_STABLE",
-     "EVENT_STARTED"
-    ],
-    "receipt": {
-     "model_version": "mlb_baseline_v1",
-     "calibration_id": "cal_mlb_ml_2026-07-21",
-     "forecast_generated_at": "2026-07-21T23:05:02.380413Z",
-     "quote_observed_at": "2026-07-21T23:04:31Z",
-     "book_count": 9,
-     "policy_version": "assessment_policy_v1",
-     "published_at": "2026-07-21T23:05:05.657182Z",
-     "sealed_at": "2026-07-22T01:05:22.687143Z"
-    },
-    "forecast": {
-     "fair_home": 0.4821,
-     "raw_home": 0.4496,
-     "ref_home": 0.4999
-    },
-    "seal": "seal_a0909022ae2a",
-    "tier": {
-     "label": "Pass",
-     "kind": "pass"
-    },
-    "parent_assessment_id": "asmt_2026-07-21_tampa-bay-rays_toronto-blue-jays_cd5cc97cd35c",
-    "parent_seal": "seal_cd5cc97cd35c"
-   },
-   "frozen": true
   }
  ],
  "feed_version": 2,
