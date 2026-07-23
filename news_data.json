@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-23T21:45:02.236966+00:00",
+  "generated_at": "2026-07-23T22:00:02.715397+00:00",
   "slate_date": "2026-07-23",
   "games": 5,
-  "kept": 11,
-  "dropped": 40,
+  "kept": 13,
+  "dropped": 38,
   "extracted": 0,
   "items": [
     {
@@ -64,11 +64,37 @@
       "half_life_h": 12.0
     },
     {
+      "title": "Royals manager misses game for personal matter",
+      "desc": "- Kansas City manager Matt Quatraro was not with the Royals due to a personal matter...",
+      "url": "https://www.espn.com/mlb/story/_/id/49435465/royals-manager-matt-quatraro-vs-tigers-personal-matter",
+      "feed": "espn-mlb",
+      "sha": "848b707fb3ec8032",
+      "relevance": "HOT",
+      "score": 0.625,
+      "mo": {
+        "trigger": 0.25,
+        "topDoc": "Kansas City Royals@Detroit Tigers",
+        "bridges": [
+          "royals",
+          "kansas"
+        ]
+      },
+      "factors": [
+        "general"
+      ],
+      "sentiment": {
+        "tag": "neutral",
+        "cue": "",
+        "team": "Kansas City Royals"
+      },
+      "half_life_h": 12.0
+    },
+    {
       "title": "Skubal wants to finish season with Tigers, win WS",
-      "desc": "Tarik Skubal said he prefers to finish season with Detroit and win the World Series",
+      "desc": "Tarik Skubal said he prefers to finish the season with Detroit and win the World Series",
       "url": "https://www.espn.com/mlb/story/_/id/49435177/skubal-says-wants-finish-season-tigers-win-ws",
       "feed": "espn-mlb",
-      "sha": "f7ef1e32ea26bb26",
+      "sha": "274ba7477f5a852d",
       "relevance": "HOT",
       "score": 0.571,
       "mo": {
@@ -113,6 +139,32 @@
         "team": "Arizona Diamondbacks"
       },
       "half_life_h": 12.0
+    },
+    {
+      "title": "Braves star Acu\u00f1a Jr. could return from IL Friday",
+      "desc": "Braves star Ronald Acu\u00f1a Jr. could return from the injured list for Atlanta's three-game series in Baltimore starting Friday, manager Walt Weiss said Thursday.",
+      "url": "https://www.espn.com/mlb/story/_/id/49435297/braves-ronald-acuna-jr-return-il-friday-vs-orioles",
+      "feed": "espn-mlb",
+      "sha": "5d6d8bacac1b64ed",
+      "relevance": "WARM",
+      "score": 0.548,
+      "mo": {
+        "trigger": 0.095,
+        "topDoc": "San Diego Padres@Atlanta Braves",
+        "bridges": [
+          "braves"
+        ]
+      },
+      "factors": [
+        "injury",
+        "lineup"
+      ],
+      "sentiment": {
+        "tag": "negative",
+        "cue": "injured",
+        "team": "Atlanta Braves"
+      },
+      "half_life_h": 72.0
     },
     {
       "title": "MLB rumors: Braves target 'playoff-caliber starter,' Athletics getting calls on outfielders",
