@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T21:30:02.620585+00:00",
+  "generated_at": "2026-07-28T21:45:01.965638+00:00",
   "slate_date": "2026-07-28",
   "games": 15,
   "kept": 28,
@@ -7,30 +7,32 @@
   "extracted": 0,
   "items": [
     {
-      "title": "Pirates rookie Valdez hit in hand by pitch, exits",
-      "desc": "Pirates rookie outfielder Esmerlyn Valdez was removed from Monday night's game against Arizona after being hit in the left hand by a pitch.",
-      "url": "https://www.espn.com/mlb/story/_/id/49465782/pirates-rookie-esmeryln-valdez-leaves-game-vs-diamondbacks-hand-injury",
+      "title": "Schwarber expected to miss game in Miami",
+      "desc": "Philadelphia Phillies slugger Kyle Schwarber is out of the starting lineup and expected to miss Tuesday night's game against Miami due to illness.",
+      "url": "https://www.espn.com/mlb/story/_/id/49473963/phillies-kyle-schwarber-expected-miss-game-miami-illness",
       "feed": "espn-mlb",
-      "sha": "0ecb073ae35fbdf7",
+      "sha": "5077240ae10eced9",
       "relevance": "HOT",
-      "score": 0.575,
+      "score": 0.611,
       "mo": {
-        "trigger": 0.15,
-        "topDoc": "Arizona Diamondbacks@Pittsburgh Pirates",
+        "trigger": 0.222,
+        "topDoc": "Philadelphia Phillies@Miami Marlins",
         "bridges": [
-          "pirates",
-          "arizona"
+          "miami",
+          "philadelphia",
+          "phillies"
         ]
       },
       "factors": [
-        "general"
+        "injury",
+        "lineup"
       ],
       "sentiment": {
-        "tag": "neutral",
-        "cue": "",
-        "team": "Pittsburgh Pirates"
+        "tag": "negative",
+        "cue": "out",
+        "team": "Miami Marlins"
       },
-      "half_life_h": 12.0
+      "half_life_h": 72.0
     },
     {
       "title": "Red Sox vs. Athletics MLB prop picks: Curtis Mead set for Boston debut Monday, could be in good power spot",
@@ -57,6 +59,32 @@
         "team": "Athletics"
       },
       "half_life_h": 12.0
+    },
+    {
+      "title": "Pirates' Valdez OK to play after being hit by pitc...",
+      "desc": "Pirates rookie slugger Esmerlyn Valdez, who was hit in the left hand by a pitch on Monday, was back in the lineup against the Diamondbacks on Tuesday night.",
+      "url": "https://www.espn.com/mlb/story/_/id/49474070/pirates-esmerlyn-valdez-back-lineup-being-hit-pitch",
+      "feed": "espn-mlb",
+      "sha": "a0a6db88376b695f",
+      "relevance": "HOT",
+      "score": 0.556,
+      "mo": {
+        "trigger": 0.111,
+        "topDoc": "Arizona Diamondbacks@Pittsburgh Pirates",
+        "bridges": [
+          "pirates",
+          "diamondbacks"
+        ]
+      },
+      "factors": [
+        "lineup"
+      ],
+      "sentiment": {
+        "tag": "positive",
+        "cue": "back in the lineup",
+        "team": "Pittsburgh Pirates"
+      },
+      "half_life_h": 24.0
     },
     {
       "title": "The Tigers are playing themselves out of contention and into a Tarik Skubal trade",
@@ -156,31 +184,6 @@
         "tag": "negative",
         "cue": "out",
         "team": "New York Yankees"
-      },
-      "half_life_h": 72.0
-    },
-    {
-      "title": "A's Langeliers, Leiter set for surgery Tuesday",
-      "desc": "Athletics All-Star catcher Shea Langeliers and right-hander Mark Leiter Jr. will have season-ending surgeries.",
-      "url": "https://www.espn.com/mlb/story/_/id/49465651/athletics-langeliers-leiter-set-season-ending-surgery",
-      "feed": "espn-mlb",
-      "sha": "cdb6c47130cbba0b",
-      "relevance": "WARM",
-      "score": 0.531,
-      "mo": {
-        "trigger": 0.062,
-        "topDoc": "Boston Red Sox@Athletics",
-        "bridges": [
-          "athletics"
-        ]
-      },
-      "factors": [
-        "injury"
-      ],
-      "sentiment": {
-        "tag": "negative",
-        "cue": "surgery",
-        "team": "Athletics"
       },
       "half_life_h": 72.0
     },
