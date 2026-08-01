@@ -1,60 +1,60 @@
 {
- "graded_at": "2026-07-28T12:33:51.313227Z",
- "n_picks": 1620,
- "overall_pred_conf": 0.6009,
- "overall_realized": 0.5278,
- "overconfidence": 0.0731,
- "ece": 0.0731,
+ "graded_at": "2026-07-31T12:33:53.388654Z",
+ "n_picks": 1661,
+ "overall_pred_conf": 0.6006,
+ "overall_realized": 0.5292,
+ "overconfidence": 0.0714,
+ "ece": 0.0714,
  "mce": 0.3024,
- "brier": 0.2566,
+ "brier": 0.2559,
  "reliability": [
   {
    "lo": 0.5,
    "hi": 0.55,
-   "n": 517,
+   "n": 531,
    "pred_mean": 0.5248,
-   "realized": 0.5222,
-   "gap": -0.0026
+   "realized": 0.5198,
+   "gap": -0.005
   },
   {
    "lo": 0.55,
    "hi": 0.6,
-   "n": 401,
+   "n": 413,
    "pred_mean": 0.5741,
-   "realized": 0.5037,
-   "gap": -0.0704
+   "realized": 0.5036,
+   "gap": -0.0705
   },
   {
    "lo": 0.6,
    "hi": 0.65,
-   "n": 309,
+   "n": 318,
    "pred_mean": 0.6244,
-   "realized": 0.5049,
-   "gap": -0.1196
+   "realized": 0.5094,
+   "gap": -0.115
   },
   {
    "lo": 0.65,
    "hi": 0.7,
-   "n": 208,
-   "pred_mean": 0.6732,
-   "realized": 0.5337,
-   "gap": -0.1396
+   "n": 210,
+   "pred_mean": 0.6733,
+   "realized": 0.5381,
+   "gap": -0.1353
   },
   {
    "lo": 0.7,
    "hi": 0.75,
-   "n": 112,
-   "pred_mean": 0.7213,
-   "realized": 0.6429,
-   "gap": -0.0785
+   "n": 115,
+   "pred_mean": 0.7214,
+   "realized": 0.6522,
+   "gap": -0.0692
   },
   {
    "lo": 0.75,
    "hi": 0.8,
-   "n": 43,
-   "pred_mean": 0.772,
-   "realized": 0.6512,
-   "gap": -0.1209
+   "n": 44,
+   "pred_mean": 0.7718,
+   "realized": 0.6591,
+   "gap": -0.1127
   },
   {
    "lo": 0.8,
@@ -92,15 +92,15 @@
  "isotonic_map": [
   {
    "raw": 0.5248,
-   "calibrated": 0.5118
+   "calibrated": 0.5119
   },
   {
-   "raw": 0.6732,
-   "calibrated": 0.5337
+   "raw": 0.6733,
+   "calibrated": 0.5381
   },
   {
-   "raw": 0.7213,
-   "calibrated": 0.6271
+   "raw": 0.7214,
+   "calibrated": 0.6349
   }
  ],
  "note": "ECE = avg gap between stated confidence and realized win-rate, weighted by volume. Lower is better. isotonic_map re-fits raw confidence to the monotone calibrated estimate."
