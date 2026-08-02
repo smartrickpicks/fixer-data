@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-02T03:45:03.129266+00:00",
+  "generated_at": "2026-08-02T04:00:03.053738+00:00",
   "slate_date": "2026-08-01",
   "games": 15,
-  "kept": 33,
-  "dropped": 23,
+  "kept": 35,
+  "dropped": 22,
   "extracted": 0,
   "items": [
     {
@@ -413,15 +413,40 @@
       "half_life_h": 72.0
     },
     {
-      "title": "Red Sox hold out Contreras after concussion test",
+      "title": "MLB trade deadline tracker: Following every move of the 2026 deadline as Tarik Skubal lands with Dodgers",
+      "desc": "The 2026 trade deadline is set for Monday, Aug. 3, and the deals look like they could go right down to the last minute",
+      "url": "https://www.cbssports.com/mlb/news/mlb-trade-deadline-tracker-2026/",
+      "feed": "cbs-mlb",
+      "sha": "c50c162b52b84dba",
+      "relevance": "WARM",
+      "score": 0.52,
+      "mo": {
+        "trigger": 0.04,
+        "topDoc": "Boston Red Sox@Los Angeles Dodgers",
+        "bridges": [
+          "dodgers"
+        ]
+      },
+      "factors": [
+        "general"
+      ],
+      "sentiment": {
+        "tag": "neutral",
+        "cue": "",
+        "team": "Los Angeles Dodgers"
+      },
+      "half_life_h": 12.0
+    },
+    {
+      "title": "Amid concussion testing, Contreras skips Sox win",
       "desc": "The Boston Red Sox held All-Star Willson Contreras out of the lineup for Saturday's 3-2 win over the Los Angeles Dodgers after he was hit by a pitch on the side of the helmet in the third inning of Friday's win and was sent for concussion testing.",
       "url": "https://www.espn.com/mlb/story/_/id/49509062/contreras-held-red-sox-lineup-concussion-testing",
       "feed": "espn-mlb",
-      "sha": "b8fd88eee25546c1",
+      "sha": "0729e61c1e813230",
       "relevance": "WARM",
-      "score": 0.491,
+      "score": 0.488,
       "mo": {
-        "trigger": 0.143,
+        "trigger": 0.136,
         "topDoc": "Boston Red Sox@Los Angeles Dodgers",
         "bridges": [
           "boston",
@@ -865,6 +890,34 @@
         "team": "Los Angeles Dodgers"
       },
       "half_life_h": 6.0
+    },
+    {
+      "title": "Sources: Dodgers finalizing trade to land Skubal",
+      "desc": "The first-place Los Angeles Dodgers finalized a trade package to acquire two-time American League Cy Young Award winner Tarik Skubal, 29, from the Tigers, sources told ESPN's Jeff Passan Saturday, sending Zyhir Hope, River Ryan and Brady Smith to Detroit.",
+      "url": "https://www.espn.com/mlb/story/_/id/49509987/dodgers-finalizing-trade-acquire-tarik-skubal",
+      "feed": "espn-mlb",
+      "sha": "f68e2f14c2897609",
+      "relevance": "WARM",
+      "score": 0.241,
+      "mo": {
+        "trigger": 0.167,
+        "topDoc": "Boston Red Sox@Los Angeles Dodgers",
+        "bridges": [
+          "dodgers",
+          "tigers",
+          "ryan",
+          "detroit"
+        ]
+      },
+      "factors": [
+        "roster"
+      ],
+      "sentiment": {
+        "tag": "neutral",
+        "cue": "",
+        "team": "Los Angeles Dodgers"
+      },
+      "half_life_h": 48.0
     }
   ]
 }
