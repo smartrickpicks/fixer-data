@@ -1,66 +1,11 @@
 {
-  "generated_at": "2026-08-02T02:45:02.258640+00:00",
+  "generated_at": "2026-08-02T03:00:02.608382+00:00",
   "slate_date": "2026-08-01",
   "games": 15,
   "kept": 33,
   "dropped": 23,
   "extracted": 0,
   "items": [
-    {
-      "title": "With Lopez scratched, Braves give Perez spot start",
-      "desc": "With Reynaldo Lopez a late scratch due to left knee inflammation on Saturday night \u00a0against the Washington Nationals, the Atlanta Braves replaced him with by Martin Perez, who is 3-1 with a 3.79 ERA this season.",
-      "url": "https://www.espn.com/mlb/story/_/id/49508558/atlanta-braves-give-perez-start-scratching-lopez",
-      "feed": "espn-mlb",
-      "sha": "1e5aad7628f454c8",
-      "relevance": "HOT",
-      "score": 0.604,
-      "mo": {
-        "trigger": 0.208,
-        "topDoc": "Washington Nationals@Atlanta Braves",
-        "bridges": [
-          "braves",
-          "washington",
-          "nationals",
-          "atlanta"
-        ]
-      },
-      "factors": [
-        "injury"
-      ],
-      "sentiment": {
-        "tag": "negative",
-        "cue": "scratched",
-        "team": "Atlanta Braves"
-      },
-      "half_life_h": 72.0
-    },
-    {
-      "title": "Mariners place OF Raley on IL with forearm strain",
-      "desc": "The Seattle Mariners placed outfielder Luke Raley on the 10-day injured list on Saturday due to a left forearm strain.",
-      "url": "https://www.espn.com/mlb/story/_/id/49506726/mariners-place-luke-raley-il-forearm-strain",
-      "feed": "espn-mlb",
-      "sha": "f435d5d74a0fb612",
-      "relevance": "HOT",
-      "score": 0.588,
-      "mo": {
-        "trigger": 0.176,
-        "topDoc": "Minnesota Twins@Seattle Mariners",
-        "bridges": [
-          "mariners",
-          "seattle"
-        ]
-      },
-      "factors": [
-        "injury",
-        "weather"
-      ],
-      "sentiment": {
-        "tag": "negative",
-        "cue": "injured",
-        "team": "Seattle Mariners"
-      },
-      "half_life_h": 72.0
-    },
     {
       "title": "Giants scratch Arraez as precaution, cite cramps",
       "desc": "Giants second baseman Luis Arraez was scratched from the lineup minutes before Saturday night's game against the Padres due to cramps.",
@@ -139,6 +84,32 @@
         "team": "New York Mets"
       },
       "half_life_h": 12.0
+    },
+    {
+      "title": "With Lopez scratched, Braves give Perez spot start",
+      "desc": "Reynaldo Lopez was a late scratch due to left knee inflammation on Saturday night against the Nationals and later was placed on the injured list.",
+      "url": "https://www.espn.com/mlb/story/_/id/49508558/atlanta-braves-give-perez-start-scratching-lopez",
+      "feed": "espn-mlb",
+      "sha": "134fc358b975d79a",
+      "relevance": "WARM",
+      "score": 0.548,
+      "mo": {
+        "trigger": 0.095,
+        "topDoc": "Washington Nationals@Atlanta Braves",
+        "bridges": [
+          "braves",
+          "nationals"
+        ]
+      },
+      "factors": [
+        "injury"
+      ],
+      "sentiment": {
+        "tag": "negative",
+        "cue": "injured",
+        "team": "Atlanta Braves"
+      },
+      "half_life_h": 72.0
     },
     {
       "title": "MLB trade deadline notebook: What we're hearing on the Red Sox, Giants, George Springer and more",
@@ -763,6 +734,32 @@
         "team": "Atlanta Braves"
       },
       "half_life_h": 6.0
+    },
+    {
+      "title": "Sources: White Sox land Castillo in deal with M's",
+      "desc": "The White Sox are acquiring right-handed pitcher Luis Castillo from the Mariners for Seranthony Dominguez, Nolan Jones and prospect Boston Smith.",
+      "url": "https://www.espn.com/mlb/story/_/id/49509608/sources-white-sox-acquiring-castillo-mariners-trade",
+      "feed": "espn-mlb",
+      "sha": "b219c1256cbeaf83",
+      "relevance": "WARM",
+      "score": 0.278,
+      "mo": {
+        "trigger": 0.111,
+        "topDoc": "Minnesota Twins@Seattle Mariners",
+        "bridges": [
+          "mariners",
+          "boston"
+        ]
+      },
+      "factors": [
+        "general"
+      ],
+      "sentiment": {
+        "tag": "neutral",
+        "cue": "",
+        "team": "Seattle Mariners"
+      },
+      "half_life_h": 12.0
     },
     {
       "title": "Building the perfect MLB trade deadline for Yankees, Mets",
