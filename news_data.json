@@ -1,11 +1,37 @@
 {
-  "generated_at": "2026-08-03T20:00:02.514086+00:00",
+  "generated_at": "2026-08-03T20:15:02.304715+00:00",
   "slate_date": "2026-08-03",
   "games": 8,
-  "kept": 28,
-  "dropped": 24,
+  "kept": 29,
+  "dropped": 23,
   "extracted": 0,
   "items": [
+    {
+      "title": "Brewers trade grades: Milwaukee gets C for pivoting to Dustin May after missing out on Tarik Skubal",
+      "desc": "The Brewers pivot on the trade market after missing out on Tarik Skubal? It's gonna be May",
+      "url": "https://www.cbssports.com/mlb/news/cardinals-trade-dustin-may-brewers-deadline/",
+      "feed": "cbs-mlb",
+      "sha": "8ff807251e07095b",
+      "relevance": "HOT",
+      "score": 0.579,
+      "mo": {
+        "trigger": 0.158,
+        "topDoc": "Pittsburgh Pirates@Milwaukee Brewers",
+        "bridges": [
+          "brewers",
+          "milwaukee"
+        ]
+      },
+      "factors": [
+        "injury"
+      ],
+      "sentiment": {
+        "tag": "negative",
+        "cue": "out",
+        "team": "Milwaukee Brewers"
+      },
+      "half_life_h": 72.0
+    },
     {
       "title": "Jays trade for Angels' Soriano to bolster rotation",
       "desc": "The Blue Jays are acquiring right-hander Jose Soriano in a trade with the Angels.",
@@ -134,31 +160,6 @@
         "team": "Tampa Bay Rays"
       },
       "half_life_h": 72.0
-    },
-    {
-      "title": "MLB trade deadline notebook: What we're hearing on the Red Sox, Giants, George Springer and more",
-      "desc": "The Red Sox could move on from a controversial starter even as they buy, while the Giants are having trouble selling",
-      "url": "https://www.cbssports.com/mlb/news/mlb-trade-deadline-notebook-red-sox-jarren-duran-giants-blue-jays-george-springer-nationals-luis-garcia/",
-      "feed": "cbs-mlb",
-      "sha": "f29004d386a9e5a3",
-      "relevance": "WARM",
-      "score": 0.548,
-      "mo": {
-        "trigger": 0.095,
-        "topDoc": "San Francisco Giants@Texas Rangers",
-        "bridges": [
-          "giants"
-        ]
-      },
-      "factors": [
-        "lineup"
-      ],
-      "sentiment": {
-        "tag": "neutral",
-        "cue": "",
-        "team": "San Francisco Giants"
-      },
-      "half_life_h": 24.0
     },
     {
       "title": "Nationals vs. Braves MLB picks: Foster Griffin likely making final Washington start before trade deadline",
@@ -514,6 +515,32 @@
         "tag": "neutral",
         "cue": "",
         "team": "San Diego Padres"
+      },
+      "half_life_h": 48.0
+    },
+    {
+      "title": "Source: Brewers acquire May, Romero from Cards",
+      "desc": "The Brewers are acquiring right-hander Dustin May and left-hander JoJo Romero from the Cardinals in exchange for multiple prospects, a source told ESPN.",
+      "url": "https://www.espn.com/mlb/story/_/id/49523115/source-brewers-acquire-dustin-jojo-romero-cardinals",
+      "feed": "espn-mlb",
+      "sha": "dc207cc8862ef047",
+      "relevance": "WARM",
+      "score": 0.381,
+      "mo": {
+        "trigger": 0.143,
+        "topDoc": "Pittsburgh Pirates@Milwaukee Brewers",
+        "bridges": [
+          "brewers",
+          "cardinals"
+        ]
+      },
+      "factors": [
+        "roster"
+      ],
+      "sentiment": {
+        "tag": "neutral",
+        "cue": "",
+        "team": "Milwaukee Brewers"
       },
       "half_life_h": 48.0
     },
