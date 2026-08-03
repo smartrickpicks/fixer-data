@@ -1,7 +1,7 @@
 {
  "date": "2026-08-02",
  "sport": "MLB",
- "generated_at": "2026-08-02T23:05:02.178595Z",
+ "generated_at": "2026-08-03T01:05:02.747927Z",
  "record": {
   "w": 891,
   "l": 800,
@@ -30,107 +30,6 @@
  },
  "min_ev": 0.02,
  "games": [
-  {
-   "away": "Boston Red Sox",
-   "home": "Los Angeles Dodgers",
-   "pick": "Boston Red Sox",
-   "model": 0.475,
-   "market": 0.383,
-   "edge": 0.092,
-   "model_side": "Los Angeles Dodgers",
-   "model_conf": 0.525,
-   "raw_conf": 0.606,
-   "raw_model": 0.394,
-   "calibrated": true,
-   "dec_odds": 2.57,
-   "best_dec_odds": 2.57,
-   "start": "2026-08-02T23:21:00Z",
-   "hp": "Emmet Sheehan",
-   "ap": "Jake Bennett",
-   "hp_stat": {
-    "era": "4.95",
-    "w": 4,
-    "l": 7,
-    "ip": "92.2",
-    "so": 104
-   },
-   "ap_stat": {
-    "era": "2.74",
-    "w": 6,
-    "l": 4,
-    "ip": "65.2",
-    "so": 46
-   },
-   "asmt": {
-    "assessment_id": "asmt_2026-08-02_boston-red-sox_los-angeles-dodgers_4c658e578cb1",
-    "policy_version": "assessment_policy_v1",
-    "model_version": "mlb_baseline_v1",
-    "devig_method": "proportional_v1",
-    "created_at": "2026-08-02T23:05:05.502161Z",
-    "date": "2026-08-02",
-    "away": "Boston Red Sox",
-    "home": "Los Angeles Dodgers",
-    "commence_time": "2026-08-02T23:21:00Z",
-    "likely_side": {
-     "label": "Los Angeles Dodgers",
-     "probability": 0.5248
-    },
-    "value_side": {
-     "label": "Boston Red Sox",
-     "expected_value_per_unit": 0.2213,
-     "value_points": 9.2,
-     "american_odds": 157,
-     "decimal_odds": 2.57,
-     "book_key": "bovada",
-     "book": "Bovada"
-    },
-    "selection": "Boston Red Sox",
-    "status": "lean",
-    "grade": "C",
-    "score": 66,
-    "fair_probability": 0.4752,
-    "market_break_even": 0.3891,
-    "market_reference_probability": 0.3829,
-    "price_limit_american": 115,
-    "quote_age_seconds": 31,
-    "components": {
-     "value": 15,
-     "calibration": 9,
-     "agreement": 7,
-     "stability": 15,
-     "data_certainty": 15,
-     "price_quality": 5
-    },
-    "penalties": [],
-    "reason_codes": [
-     "POSITIVE_EV",
-     "PRICE_ABOVE_LIMIT",
-     "QUOTE_FRESH",
-     "STARTER_CONFIRMED",
-     "MARKET_STABLE"
-    ],
-    "receipt": {
-     "model_version": "mlb_baseline_v1",
-     "calibration_id": "cal_mlb_ml_2026-08-02",
-     "forecast_generated_at": "2026-08-02T23:05:02.178595Z",
-     "quote_observed_at": "2026-08-02T23:04:34Z",
-     "book_count": 9,
-     "policy_version": "assessment_policy_v1",
-     "published_at": "2026-08-02T23:05:05.502161Z",
-     "sealed_at": "2026-08-02T23:05:05.502161Z"
-    },
-    "forecast": {
-     "fair_home": 0.5248,
-     "raw_home": 0.6058,
-     "ref_home": 0.6171
-    },
-    "seal": "seal_4c658e578cb1",
-    "tier": {
-     "label": "Lean",
-     "kind": "lean"
-    }
-   }
-  },
   {
    "away": "Philadelphia Phillies",
    "home": "Baltimore Orioles",
@@ -1387,6 +1286,111 @@
     },
     "parent_assessment_id": "asmt_2026-08-02_arizona-diamondbacks_cleveland-guardians_ddf83be49548",
     "parent_seal": "seal_ddf83be49548"
+   },
+   "frozen": true
+  },
+  {
+   "away": "Boston Red Sox",
+   "home": "Los Angeles Dodgers",
+   "pick": "Boston Red Sox",
+   "model": 0.475,
+   "market": 0.383,
+   "edge": 0.092,
+   "model_side": "Los Angeles Dodgers",
+   "model_conf": 0.525,
+   "raw_conf": 0.606,
+   "raw_model": 0.394,
+   "calibrated": true,
+   "dec_odds": 2.57,
+   "best_dec_odds": 2.57,
+   "start": "2026-08-02T23:21:00Z",
+   "hp": "Emmet Sheehan",
+   "ap": "Jake Bennett",
+   "hp_stat": {
+    "era": "4.95",
+    "w": 4,
+    "l": 7,
+    "ip": "92.2",
+    "so": 104
+   },
+   "ap_stat": {
+    "era": "2.74",
+    "w": 6,
+    "l": 4,
+    "ip": "65.2",
+    "so": 46
+   },
+   "asmt": {
+    "assessment_id": "asmt_2026-08-02_boston-red-sox_los-angeles-dodgers_4c658e578cb1_closed_af32f08c7edd",
+    "policy_version": "assessment_policy_v1",
+    "model_version": "mlb_baseline_v1",
+    "devig_method": "proportional_v1",
+    "created_at": "2026-08-03T01:05:04.583771Z",
+    "date": "2026-08-02",
+    "away": "Boston Red Sox",
+    "home": "Los Angeles Dodgers",
+    "commence_time": "2026-08-02T23:21:00Z",
+    "likely_side": {
+     "label": "Los Angeles Dodgers",
+     "probability": 0.5248
+    },
+    "value_side": {
+     "label": "Boston Red Sox",
+     "expected_value_per_unit": 0.2213,
+     "value_points": 9.2,
+     "american_odds": 157,
+     "decimal_odds": 2.57,
+     "book_key": "bovada",
+     "book": "Bovada"
+    },
+    "selection": null,
+    "status": "closed",
+    "grade": "C",
+    "score": 66,
+    "fair_probability": 0.4752,
+    "market_break_even": 0.3891,
+    "market_reference_probability": 0.3829,
+    "price_limit_american": 115,
+    "quote_age_seconds": 31,
+    "components": {
+     "value": 15,
+     "calibration": 9,
+     "agreement": 7,
+     "stability": 15,
+     "data_certainty": 15,
+     "price_quality": 5
+    },
+    "penalties": [],
+    "reason_codes": [
+     "POSITIVE_EV",
+     "PRICE_ABOVE_LIMIT",
+     "QUOTE_FRESH",
+     "STARTER_CONFIRMED",
+     "MARKET_STABLE",
+     "EVENT_STARTED"
+    ],
+    "receipt": {
+     "model_version": "mlb_baseline_v1",
+     "calibration_id": "cal_mlb_ml_2026-08-02",
+     "forecast_generated_at": "2026-08-02T23:05:02.178595Z",
+     "quote_observed_at": "2026-08-02T23:04:34Z",
+     "book_count": 9,
+     "policy_version": "assessment_policy_v1",
+     "published_at": "2026-08-02T23:05:05.502161Z",
+     "sealed_at": "2026-08-03T01:05:04.583771Z"
+    },
+    "forecast": {
+     "fair_home": 0.5248,
+     "raw_home": 0.6058,
+     "ref_home": 0.6171
+    },
+    "seal": "seal_af32f08c7edd",
+    "tier": {
+     "label": "Lean",
+     "kind": "lean"
+    },
+    "parent_assessment_id": "asmt_2026-08-02_boston-red-sox_los-angeles-dodgers_4c658e578cb1",
+    "parent_seal": "seal_4c658e578cb1"
    },
    "frozen": true
   },
