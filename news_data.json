@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T22:45:02.391606+00:00",
+  "generated_at": "2026-08-04T23:00:02.509763+00:00",
   "slate_date": "2026-08-04",
   "games": 15,
   "kept": 40,
@@ -197,32 +197,6 @@
       "half_life_h": 12.0
     },
     {
-      "title": "Yankees top prospect Lombard to start vs. Cards",
-      "desc": "Yankees top prospect George Lombard Jr. will make his major league debut against the Cardinals on Tuesday after shortstop Anthony Volpe was optioned to Triple-A.",
-      "url": "https://www.espn.com/mlb/story/_/id/49526555/source-yankees-call-top-prospect-george-lombard-jr",
-      "feed": "espn-mlb",
-      "sha": "5481c8e89ea7e7e2",
-      "relevance": "HOT",
-      "score": 0.575,
-      "mo": {
-        "trigger": 0.15,
-        "topDoc": "St. Louis Cardinals@New York Yankees",
-        "bridges": [
-          "yankees",
-          "cardinals"
-        ]
-      },
-      "factors": [
-        "roster"
-      ],
-      "sentiment": {
-        "tag": "negative",
-        "cue": "optioned",
-        "team": "New York Yankees"
-      },
-      "half_life_h": 48.0
-    },
-    {
       "title": "With Adley Rutschman trade, Orioles wave the white flag on a failed rebuild",
       "desc": "The Orioles tore their roster down to rebuild around Rutschman, but Baltimore never won a playoff game with the All-Star catcher",
       "url": "https://www.cbssports.com/mlb/news/adley-rutschman-trade-orioles-failed-rebuild/",
@@ -274,6 +248,32 @@
         "team": "Los Angeles Dodgers"
       },
       "half_life_h": 12.0
+    },
+    {
+      "title": "Witt back for Royals after 2-week injury absence",
+      "desc": "The Royals activated All-Star shortstop Bobby Witt Jr. from the injured list Tuesday after he missed two weeks with back tightness.",
+      "url": "https://www.espn.com/mlb/story/_/id/49532206/royals-activate-bobby-witt-jr-missed-2-weeks-back-tightness",
+      "feed": "espn-mlb",
+      "sha": "bcdd3ae49f834bcf",
+      "relevance": "HOT",
+      "score": 0.562,
+      "mo": {
+        "trigger": 0.125,
+        "topDoc": "Minnesota Twins@Kansas City Royals",
+        "bridges": [
+          "royals"
+        ]
+      },
+      "factors": [
+        "injury",
+        "roster"
+      ],
+      "sentiment": {
+        "tag": "neutral",
+        "cue": "injured",
+        "team": "Kansas City Royals"
+      },
+      "half_life_h": 72.0
     },
     {
       "title": "Yankees promote top prospect George Lombard Jr. for MLB debut after quiet trade deadline",
@@ -354,33 +354,6 @@
       "half_life_h": 6.0
     },
     {
-      "title": "Nats to place Wood on IL with strained oblique",
-      "desc": "Nationals All-Star outfielder James Wood was placed on the 10-day injured list after suffering a left oblique strain while batting Monday night against the Phillies.",
-      "url": "https://www.espn.com/mlb/story/_/id/49531649/nationals-place-james-wood-il-strained-oblique",
-      "feed": "espn-mlb",
-      "sha": "925e8ae25a25ccc9",
-      "relevance": "WARM",
-      "score": 0.548,
-      "mo": {
-        "trigger": 0.095,
-        "topDoc": "Washington Nationals@Philadelphia Phillies",
-        "bridges": [
-          "nationals",
-          "phillies"
-        ]
-      },
-      "factors": [
-        "injury",
-        "weather"
-      ],
-      "sentiment": {
-        "tag": "negative",
-        "cue": "injured",
-        "team": "Washington Nationals"
-      },
-      "half_life_h": 72.0
-    },
-    {
       "title": "Athletics place Kurtz, Springs on injured list",
       "desc": "Athletics first baseman Nick Kurtz was placed on the 10-day IL with a strained thumb while left-hander Jeffrey Springs went on the 15-day IL with hip discomfort.",
       "url": "https://www.espn.com/mlb/story/_/id/49531306/athletics-place-nick-kurtz-jeffrey-springs-injured-list",
@@ -403,6 +376,59 @@
         "tag": "negative",
         "cue": "injured",
         "team": "Athletics"
+      },
+      "half_life_h": 72.0
+    },
+    {
+      "title": "Yanks boost lineup with new adds Lombard, Ramos",
+      "desc": "Yankees highly touted prospect George Lombard Jr. and trade deadline addition Heliot Ramos were in the lineup for Tuesday's game against the Cardinals.",
+      "url": "https://www.espn.com/mlb/story/_/id/49532203/yankees-boost-lineup-new-additions-lombard-ramos",
+      "feed": "espn-mlb",
+      "sha": "6fd8fd6c0dacd956",
+      "relevance": "WARM",
+      "score": 0.545,
+      "mo": {
+        "trigger": 0.091,
+        "topDoc": "St. Louis Cardinals@New York Yankees",
+        "bridges": [
+          "yankees",
+          "cardinals"
+        ]
+      },
+      "factors": [
+        "lineup"
+      ],
+      "sentiment": {
+        "tag": "neutral",
+        "cue": "",
+        "team": "New York Yankees"
+      },
+      "half_life_h": 24.0
+    },
+    {
+      "title": "Nats place Wood on IL with mild strained oblique",
+      "desc": "Nationals All-Star outfielder James Wood was placed on the 10-day injured list after suffering a left oblique strain while batting Monday night against the Phillies.",
+      "url": "https://www.espn.com/mlb/story/_/id/49531649/nationals-place-james-wood-il-strained-oblique",
+      "feed": "espn-mlb",
+      "sha": "2b13345da41cf0ba",
+      "relevance": "WARM",
+      "score": 0.545,
+      "mo": {
+        "trigger": 0.091,
+        "topDoc": "Washington Nationals@Philadelphia Phillies",
+        "bridges": [
+          "nationals",
+          "phillies"
+        ]
+      },
+      "factors": [
+        "injury",
+        "weather"
+      ],
+      "sentiment": {
+        "tag": "negative",
+        "cue": "injured",
+        "team": "Washington Nationals"
       },
       "half_life_h": 72.0
     },
@@ -533,6 +559,31 @@
       "half_life_h": 12.0
     },
     {
+      "title": "Padres' Pivetta abruptly exits field in rehab outing",
+      "desc": "Padres pitcher Nick Pivetta, making his first rehab outing since going on the injured list April 14, walked off the mound mid-inning with what appeared to be an injury.",
+      "url": "https://www.espn.com/mlb/story/_/id/49532322/padres-nick-pivetta-abruptly-walks-field-rehab-outing",
+      "feed": "espn-mlb",
+      "sha": "e3bcff7bef30be13",
+      "relevance": "WARM",
+      "score": 0.519,
+      "mo": {
+        "trigger": 0.038,
+        "topDoc": "San Diego Padres@Arizona Diamondbacks",
+        "bridges": [
+          "padres"
+        ]
+      },
+      "factors": [
+        "injury"
+      ],
+      "sentiment": {
+        "tag": "negative",
+        "cue": "injured",
+        "team": "San Diego Padres"
+      },
+      "half_life_h": 72.0
+    },
+    {
       "title": "MLB trade deadline: Grading every team's moves, from Dodgers' and Nationals' A to Yankees' and Orioles' D",
       "desc": "The Dodgers added Tarik Skubal, the Red Sox added Adley Rutschman and the Yankees did ... not much",
       "url": "https://www.cbssports.com/mlb/news/mlb-trade-deadline-grading-every-team/",
@@ -644,34 +695,6 @@
       "half_life_h": 72.0
     },
     {
-      "title": "Breslow: Surging Red Sox deserved big trades",
-      "desc": "The Red Sox acquired three-time All-Star catcher Adley Rutschman in a trade with the Baltimore Orioles, the biggest in a slew of deadline moves for Boston.",
-      "url": "https://www.espn.com/mlb/story/_/id/49522617/sources-orioles-trade-all-star-catcher-rutschman-red-sox",
-      "feed": "espn-mlb",
-      "sha": "11165eaeae27bd99",
-      "relevance": "WARM",
-      "score": 0.389,
-      "mo": {
-        "trigger": 0.167,
-        "topDoc": "Los Angeles Angels@Baltimore Orioles",
-        "bridges": [
-          "baltimore",
-          "orioles",
-          "boston"
-        ]
-      },
-      "factors": [
-        "line",
-        "roster"
-      ],
-      "sentiment": {
-        "tag": "neutral",
-        "cue": "",
-        "team": "Baltimore Orioles"
-      },
-      "half_life_h": 48.0
-    },
-    {
       "title": "Jos\u00e9 Soriano trade grades: Blue Jays pay big price to land Angels starter",
       "desc": "The Angels got Arjun Nimmala, who could be the best prospect moved at the 2026 MLB trade deadline",
       "url": "https://www.cbssports.com/mlb/news/blue-jays-jose-soriano-trade-grades-angels/",
@@ -753,34 +776,6 @@
         "team": "Tampa Bay Rays"
       },
       "half_life_h": 72.0
-    },
-    {
-      "title": "Tigers president defends return in Skubal trade",
-      "desc": "Tigers president Scott Harris dismissed the idea that Detroit should've waited right up until the deadline to trade Tarik Skubal, saying, \"That's not how markets for the top players work.\"",
-      "url": "https://www.espn.com/mlb/story/_/id/49525849/tigers-president-scott-harris-defends-return-skubal-trade",
-      "feed": "espn-mlb",
-      "sha": "5df9b2d626a86447",
-      "relevance": "WARM",
-      "score": 0.308,
-      "mo": {
-        "trigger": 0.231,
-        "topDoc": "Detroit Tigers@Seattle Mariners",
-        "bridges": [
-          "tigers",
-          "skubal",
-          "detroit",
-          "tarik"
-        ]
-      },
-      "factors": [
-        "general"
-      ],
-      "sentiment": {
-        "tag": "neutral",
-        "cue": "",
-        "team": "Detroit Tigers"
-      },
-      "half_life_h": 12.0
     },
     {
       "title": "Clay Holmes trade grades: Cubs bulk up oft-injured rotation; Mets get B for shedding rentals",
