@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T00:45:02.142579+00:00",
+  "generated_at": "2026-08-04T01:00:02.554790+00:00",
   "slate_date": "2026-08-03",
   "games": 8,
   "kept": 33,
@@ -7,11 +7,11 @@
   "extracted": 0,
   "items": [
     {
-      "title": "Astros acquire lefty-hitting OF Varsho from Jays",
+      "title": "Varsho dons Astros jersey, to face ex-team Jays",
       "desc": "The Astros, who have surged into first place in the AL West, acquired center fielder Daulton Varsho from the Blue Jays.",
       "url": "https://www.espn.com/mlb/story/_/id/49523400/sources-astros-finalizing-trade-blue-jays-daulton-varsho",
       "feed": "espn-mlb",
-      "sha": "9a958745da114108",
+      "sha": "efb453a1d56eeb28",
       "relevance": "HOT",
       "score": 0.611,
       "mo": {
@@ -189,6 +189,32 @@
         "team": "Chicago Cubs"
       },
       "half_life_h": 72.0
+    },
+    {
+      "title": "'I want to be here': DeGrom stays loyal to Rangers",
+      "desc": "Two-time Cy Young Award winner Jacob deGrom, 38, told the Texas Rangers before Monday's trade deadline that he wanted to stay with the 55-57 team, telling reporters at Globe Life Field that \"I want to be here,\" and that \"I believe in this group.\"",
+      "url": "https://www.espn.com/mlb/story/_/id/49525253/before-deadline-jacob-degrom-told-rangers-wants-stay",
+      "feed": "espn-mlb",
+      "sha": "78b7f8a0851fe41d",
+      "relevance": "HOT",
+      "score": 0.55,
+      "mo": {
+        "trigger": 0.1,
+        "topDoc": "San Francisco Giants@Texas Rangers",
+        "bridges": [
+          "rangers",
+          "texas"
+        ]
+      },
+      "factors": [
+        "general"
+      ],
+      "sentiment": {
+        "tag": "neutral",
+        "cue": "",
+        "team": "Texas Rangers"
+      },
+      "half_life_h": 12.0
     },
     {
       "title": "The Dodgers aren't the biggest villains in the Tarik Skubal trade -- the cowardly teams who let it happen are",
@@ -574,62 +600,6 @@
       "half_life_h": 24.0
     },
     {
-      "title": "Yankees add OF depth late, get Ramos from Giants",
-      "desc": "The New York Yankees, tops in the American League wild-card race and set to open a series vs. the St. Louis Cardinals Monday night, acquired veteran outfielder Heliot Ramos from the San Francisco Giants in exchange for two prospects, the teams announced.",
-      "url": "https://www.espn.com/mlb/story/_/id/49524114/yankees-set-acquire-heliot-ramos-giants",
-      "feed": "espn-mlb",
-      "sha": "10f11c19737e18fd",
-      "relevance": "WARM",
-      "score": 0.36,
-      "mo": {
-        "trigger": 0.259,
-        "topDoc": "St. Louis Cardinals@New York Yankees",
-        "bridges": [
-          "yankees",
-          "giants",
-          "louis",
-          "cardinals",
-          "francisco"
-        ]
-      },
-      "factors": [
-        "roster"
-      ],
-      "sentiment": {
-        "tag": "neutral",
-        "cue": "",
-        "team": "New York Yankees"
-      },
-      "half_life_h": 48.0
-    },
-    {
-      "title": "Brewers acquire pitchers May, Romero from Cards",
-      "desc": "The Brewers acquired right-hander Dustin May and left-hander JoJo Romero from the Cardinals and right-hander Antonio Sentazela from the Rockies.",
-      "url": "https://www.espn.com/mlb/story/_/id/49523115/source-brewers-acquire-dustin-jojo-romero-cardinals",
-      "feed": "espn-mlb",
-      "sha": "2f393fd40eff1c0e",
-      "relevance": "WARM",
-      "score": 0.3,
-      "mo": {
-        "trigger": 0.2,
-        "topDoc": "Pittsburgh Pirates@Milwaukee Brewers",
-        "bridges": [
-          "brewers",
-          "cardinals",
-          "rockies"
-        ]
-      },
-      "factors": [
-        "roster"
-      ],
-      "sentiment": {
-        "tag": "neutral",
-        "cue": "",
-        "team": "Milwaukee Brewers"
-      },
-      "half_life_h": 48.0
-    },
-    {
       "title": "Today's top games to watch, best bets, odds: Dodgers vs. Cubs, Astros vs. Blue Jays and more",
       "desc": "Find best bets and props for the biggest games in sports on Monday from the SportsLine Projection Model and top CBS Sports experts",
       "url": "https://www.cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-dodgers-vs-cubs-astros-vs-blue-jays-and-more/",
@@ -838,6 +808,32 @@
         "team": "San Francisco Giants"
       },
       "half_life_h": 12.0
+    },
+    {
+      "title": "GM Cashman not ruling out anything with Judge",
+      "desc": "Yankees GM Brian Cashman said Aaron Judge's status ultimately hinges on what the next imaging of the rib shows. He declined to share when he expects Judge to undergo that scan.",
+      "url": "https://www.espn.com/mlb/story/_/id/49525286/yankees-cashman-judge-status-rule-it",
+      "feed": "espn-mlb",
+      "sha": "697d2e9586ebfd87",
+      "relevance": "WARM",
+      "score": 0.271,
+      "mo": {
+        "trigger": 0.083,
+        "topDoc": "St. Louis Cardinals@New York Yankees",
+        "bridges": [
+          "yankees",
+          "aaron"
+        ]
+      },
+      "factors": [
+        "injury"
+      ],
+      "sentiment": {
+        "tag": "negative",
+        "cue": "out",
+        "team": "New York Yankees"
+      },
+      "half_life_h": 72.0
     },
     {
       "title": "Tarik Skubal trade winners and losers: Dodgers just keep getting better; MLB scores easy (if faulty) narrative",
