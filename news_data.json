@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T20:15:02.570553+00:00",
+  "generated_at": "2026-08-04T20:30:02.136824+00:00",
   "slate_date": "2026-08-04",
   "games": 15,
   "kept": 40,
@@ -225,6 +225,32 @@
       "half_life_h": 12.0
     },
     {
+      "title": "Yankees top prospect Lombard to start vs. Cards",
+      "desc": "Yankees top prospect George Lombard Jr. will make his major league debut against the Cardinals on Tuesday after shortstop Anthony Volpe was optioned to Triple-A.",
+      "url": "https://www.espn.com/mlb/story/_/id/49526555/source-yankees-call-top-prospect-george-lombard-jr",
+      "feed": "espn-mlb",
+      "sha": "5481c8e89ea7e7e2",
+      "relevance": "HOT",
+      "score": 0.575,
+      "mo": {
+        "trigger": 0.15,
+        "topDoc": "St. Louis Cardinals@New York Yankees",
+        "bridges": [
+          "yankees",
+          "cardinals"
+        ]
+      },
+      "factors": [
+        "roster"
+      ],
+      "sentiment": {
+        "tag": "negative",
+        "cue": "optioned",
+        "team": "New York Yankees"
+      },
+      "half_life_h": 48.0
+    },
+    {
       "title": "With Adley Rutschman trade, Orioles wave the white flag on a failed rebuild",
       "desc": "The Orioles tore their roster down to rebuild around Rutschman, but Baltimore never won a playoff game with the All-Star catcher",
       "url": "https://www.cbssports.com/mlb/news/adley-rutschman-trade-orioles-failed-rebuild/",
@@ -303,30 +329,29 @@
       "half_life_h": 12.0
     },
     {
-      "title": "Source: Yanks to call up top prospect Lombard",
-      "desc": "Yankees top prospect George Lombard Jr. will make his major league debut against the Cardinals on Tuesday after shortstop Anthony Volpe was optioned to Triple-A.",
-      "url": "https://www.espn.com/mlb/story/_/id/49526555/source-yankees-call-top-prospect-george-lombard-jr",
+      "title": "Rockies, Moniak reach extension through 2028",
+      "desc": "Left fielder Mickey Moniak, who is hitting .277 with 18 home runs and 49 RBIs this season, has reached a two-year extension with the Rockies.",
+      "url": "https://www.espn.com/mlb/story/_/id/49531203/rockies-mickey-moniak-reach-extension-2028-season",
       "feed": "espn-mlb",
-      "sha": "21e3d01e0190d1ef",
+      "sha": "e6f94e4e7b9ab09c",
       "relevance": "HOT",
-      "score": 0.55,
+      "score": 0.553,
       "mo": {
-        "trigger": 0.1,
-        "topDoc": "St. Louis Cardinals@New York Yankees",
+        "trigger": 0.105,
+        "topDoc": "Tampa Bay Rays@Colorado Rockies",
         "bridges": [
-          "yankees",
-          "cardinals"
+          "rockies"
         ]
       },
       "factors": [
-        "roster"
+        "general"
       ],
       "sentiment": {
-        "tag": "negative",
-        "cue": "optioned",
-        "team": "New York Yankees"
+        "tag": "neutral",
+        "cue": "",
+        "team": "Colorado Rockies"
       },
-      "half_life_h": 48.0
+      "half_life_h": 12.0
     },
     {
       "title": "'I want to be here': DeGrom stays loyal to Rangers",
@@ -1046,34 +1071,6 @@
         "team": "New York Yankees"
       },
       "half_life_h": 24.0
-    },
-    {
-      "title": "Injury-depleted Cubs acquire Holmes from Mets",
-      "desc": "The Cubs acquired right-hander Clay Holmes and outfielder Tyrone Taylor from the Mets for infielder Jefferson Rojas on Monday.",
-      "url": "https://www.espn.com/mlb/story/_/id/49523720/sources-cubs-acquiring-clay-holmes-tyrone-taylor-mets",
-      "feed": "espn-mlb",
-      "sha": "5df57b583327f0ec",
-      "relevance": "WARM",
-      "score": 0.217,
-      "mo": {
-        "trigger": 0.3,
-        "topDoc": "Los Angeles Dodgers@Chicago Cubs",
-        "bridges": [
-          "cubs",
-          "holmes",
-          "mets"
-        ]
-      },
-      "factors": [
-        "injury",
-        "roster"
-      ],
-      "sentiment": {
-        "tag": "negative",
-        "cue": "injury",
-        "team": "Chicago Cubs"
-      },
-      "half_life_h": 72.0
     }
   ]
 }
