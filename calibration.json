@@ -1,60 +1,60 @@
 {
- "graded_at": "2026-08-05T12:33:57.153551Z",
- "n_picks": 1728,
- "overall_pred_conf": 0.6009,
- "overall_realized": 0.5272,
- "overconfidence": 0.0737,
- "ece": 0.0737,
+ "graded_at": "2026-08-06T12:33:56.718770Z",
+ "n_picks": 1743,
+ "overall_pred_conf": 0.6011,
+ "overall_realized": 0.5284,
+ "overconfidence": 0.0727,
+ "ece": 0.0727,
  "mce": 0.2848,
- "brier": 0.2567,
+ "brier": 0.2565,
  "reliability": [
   {
    "lo": 0.5,
    "hi": 0.55,
-   "n": 545,
-   "pred_mean": 0.5248,
-   "realized": 0.5229,
-   "gap": -0.0018
+   "n": 550,
+   "pred_mean": 0.5247,
+   "realized": 0.5236,
+   "gap": -0.001
   },
   {
    "lo": 0.55,
    "hi": 0.6,
-   "n": 434,
+   "n": 436,
    "pred_mean": 0.5741,
-   "realized": 0.5,
-   "gap": -0.0741
+   "realized": 0.5023,
+   "gap": -0.0718
   },
   {
    "lo": 0.6,
    "hi": 0.65,
-   "n": 332,
+   "n": 333,
    "pred_mean": 0.6242,
-   "realized": 0.506,
-   "gap": -0.1182
+   "realized": 0.5045,
+   "gap": -0.1197
   },
   {
    "lo": 0.65,
    "hi": 0.7,
-   "n": 218,
-   "pred_mean": 0.6734,
-   "realized": 0.5367,
-   "gap": -0.1367
+   "n": 221,
+   "pred_mean": 0.6735,
+   "realized": 0.543,
+   "gap": -0.1305
   },
   {
    "lo": 0.7,
    "hi": 0.75,
-   "n": 124,
-   "pred_mean": 0.7219,
-   "realized": 0.629,
-   "gap": -0.0929
+   "n": 127,
+   "pred_mean": 0.7216,
+   "realized": 0.6299,
+   "gap": -0.0917
   },
   {
    "lo": 0.75,
    "hi": 0.8,
-   "n": 44,
-   "pred_mean": 0.7718,
-   "realized": 0.6591,
-   "gap": -0.1127
+   "n": 45,
+   "pred_mean": 0.7716,
+   "realized": 0.6444,
+   "gap": -0.1272
   },
   {
    "lo": 0.8,
@@ -91,16 +91,16 @@
  ],
  "isotonic_map": [
   {
-   "raw": 0.5248,
-   "calibrated": 0.511
+   "raw": 0.5247,
+   "calibrated": 0.5117
   },
   {
-   "raw": 0.6734,
-   "calibrated": 0.5367
+   "raw": 0.6735,
+   "calibrated": 0.543
   },
   {
-   "raw": 0.7219,
-   "calibrated": 0.6231
+   "raw": 0.7216,
+   "calibrated": 0.6207
   }
  ],
  "note": "ECE = avg gap between stated confidence and realized win-rate, weighted by volume. Lower is better. isotonic_map re-fits raw confidence to the monotone calibrated estimate."
