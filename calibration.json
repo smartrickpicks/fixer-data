@@ -1,36 +1,36 @@
 {
- "graded_at": "2026-08-07T12:33:59.280684Z",
- "n_picks": 1754,
- "overall_pred_conf": 0.601,
+ "graded_at": "2026-08-08T12:33:54.120660Z",
+ "n_picks": 1769,
+ "overall_pred_conf": 0.6012,
  "overall_realized": 0.5291,
- "overconfidence": 0.0719,
- "ece": 0.0719,
- "mce": 0.2848,
- "brier": 0.2564,
+ "overconfidence": 0.0721,
+ "ece": 0.0731,
+ "mce": 0.2676,
+ "brier": 0.2565,
  "reliability": [
   {
    "lo": 0.5,
    "hi": 0.55,
-   "n": 552,
-   "pred_mean": 0.5246,
-   "realized": 0.5236,
-   "gap": -0.0011
+   "n": 555,
+   "pred_mean": 0.5245,
+   "realized": 0.5261,
+   "gap": 0.0016
   },
   {
    "lo": 0.55,
    "hi": 0.6,
-   "n": 440,
+   "n": 443,
    "pred_mean": 0.574,
-   "realized": 0.5045,
-   "gap": -0.0695
+   "realized": 0.5034,
+   "gap": -0.0707
   },
   {
    "lo": 0.6,
    "hi": 0.65,
-   "n": 336,
+   "n": 341,
    "pred_mean": 0.6241,
-   "realized": 0.503,
-   "gap": -0.1212
+   "realized": 0.5015,
+   "gap": -0.1227
   },
   {
    "lo": 0.65,
@@ -43,26 +43,26 @@
   {
    "lo": 0.7,
    "hi": 0.75,
-   "n": 127,
+   "n": 129,
    "pred_mean": 0.7216,
-   "realized": 0.6299,
-   "gap": -0.0917
+   "realized": 0.6202,
+   "gap": -0.1014
   },
   {
    "lo": 0.75,
    "hi": 0.8,
-   "n": 45,
+   "n": 46,
    "pred_mean": 0.7716,
-   "realized": 0.6444,
-   "gap": -0.1272
+   "realized": 0.6522,
+   "gap": -0.1195
   },
   {
    "lo": 0.8,
    "hi": 0.85,
-   "n": 26,
-   "pred_mean": 0.8233,
-   "realized": 0.5385,
-   "gap": -0.2848
+   "n": 27,
+   "pred_mean": 0.8232,
+   "realized": 0.5556,
+   "gap": -0.2677
   },
   {
    "lo": 0.85,
@@ -91,8 +91,8 @@
  ],
  "isotonic_map": [
   {
-   "raw": 0.5246,
-   "calibrated": 0.5121
+   "raw": 0.5245,
+   "calibrated": 0.5123
   },
   {
    "raw": 0.6736,
@@ -100,7 +100,7 @@
   },
   {
    "raw": 0.7216,
-   "calibrated": 0.6207
+   "calibrated": 0.6184
   }
  ],
  "note": "ECE = avg gap between stated confidence and realized win-rate, weighted by volume. Lower is better. isotonic_map re-fits raw confidence to the monotone calibrated estimate."
