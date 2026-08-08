@@ -1,37 +1,11 @@
 {
-  "generated_at": "2026-08-08T13:00:02.225759+00:00",
-  "slate_date": "2026-08-07",
+  "generated_at": "2026-08-08T13:15:02.584269+00:00",
+  "slate_date": "2026-08-08",
   "games": 15,
   "kept": 33,
   "dropped": 20,
   "extracted": 0,
   "items": [
-    {
-      "title": "Red Sox's Tolle fans career-high 14 in rout vs. A's",
-      "desc": "Payton Tolle struck out a career-high 14 in six innings and Wilyer Abreu drove in three runs as the Red Sox won their ninth game in a row.",
-      "url": "https://www.espn.com/mlb/story/_/id/49557397/payton-tolle-dialed-red-sox-win-9th-straight",
-      "feed": "espn-mlb",
-      "sha": "224c9b0dbfbce91c",
-      "relevance": "HOT",
-      "score": 0.579,
-      "mo": {
-        "trigger": 0.158,
-        "topDoc": "Athletics@Boston Red Sox",
-        "bridges": [
-          "tolle",
-          "payton"
-        ]
-      },
-      "factors": [
-        "injury"
-      ],
-      "sentiment": {
-        "tag": "negative",
-        "cue": "out",
-        "team": "Boston Red Sox"
-      },
-      "half_life_h": 72.0
-    },
     {
       "title": "MLB blooper of the year? Braves' Ronald Acu\u00f1a Jr. homers thanks to colliding Marlins outfielders",
       "desc": "Acu\u00f1a Jr. was the beneficiary of poor outfield communication from the Marlins",
@@ -54,6 +28,32 @@
         "tag": "neutral",
         "cue": "",
         "team": "Miami Marlins"
+      },
+      "half_life_h": 12.0
+    },
+    {
+      "title": "Dodgers lose 7th straight on walk-off HR vs. Diaz",
+      "desc": "The Dodgers lost their season-high seventh straight game in a stunning collapse after the Diamondbacks rallied for a 4-3 win when rookie Ryan Waldschmidt hit a two-run, walk-off homer against closer Edwin Diaz.",
+      "url": "https://www.espn.com/mlb/story/_/id/49558569/reeling-dodgers-lose-season-high-7th-straight-game-diamondbacks-walk-vs-edwin-diaz",
+      "feed": "espn-mlb",
+      "sha": "81ab2c5beb68016e",
+      "relevance": "HOT",
+      "score": 0.558,
+      "mo": {
+        "trigger": 0.115,
+        "topDoc": "Los Angeles Dodgers@Arizona Diamondbacks",
+        "bridges": [
+          "dodgers",
+          "diamondbacks"
+        ]
+      },
+      "factors": [
+        "general"
+      ],
+      "sentiment": {
+        "tag": "neutral",
+        "cue": "",
+        "team": "Los Angeles Dodgers"
       },
       "half_life_h": 12.0
     },
@@ -261,31 +261,6 @@
       "half_life_h": 6.0
     },
     {
-      "title": "Yankees star Aaron Judge cleared for 'light' physical activity, says he'll be back this season",
-      "desc": "Judge, the three-time AL MVP, hasn't played since May 31",
-      "url": "https://www.cbssports.com/mlb/news/aaron-judge-yankees-injury-update-timeline/",
-      "feed": "cbs-mlb",
-      "sha": "d3773b3fde85e12b",
-      "relevance": "WARM",
-      "score": 0.533,
-      "mo": {
-        "trigger": 0.067,
-        "topDoc": "Atlanta Braves@New York Yankees",
-        "bridges": [
-          "yankees"
-        ]
-      },
-      "factors": [
-        "general"
-      ],
-      "sentiment": {
-        "tag": "positive",
-        "cue": "cleared",
-        "team": "New York Yankees"
-      },
-      "half_life_h": 12.0
-    },
-    {
       "title": "MLB trade deadline: The best non-Tarik Skubal moves",
       "desc": "The Dodgers caught the white whale at the deadline, but plenty of other trades will have an impact",
       "url": "https://www.cbssports.com/mlb/news/mlb-trade-deadline-best-moves-clay-holmes-marcelo-mayer-casey-mize/",
@@ -407,6 +382,31 @@
         "tag": "neutral",
         "cue": "",
         "team": "Atlanta Braves"
+      },
+      "half_life_h": 12.0
+    },
+    {
+      "title": "Rookie QBs Carson Beck, Haynes King shine in Hall of Fame Game; MLB playoff predictions",
+      "desc": "Plus Kawhi Leonard and the Clippers are under more scrutiny for their alleged salary cap circumvention",
+      "url": "https://www.cbssports.com/nfl/news/rookie-qbs-carson-beck-haynes-king-shine-in-hall-of-fame-game-mlb-playoff-predictions/",
+      "feed": "cbs-mlb",
+      "sha": "3d33d4e7986dc66d",
+      "relevance": "WARM",
+      "score": 0.524,
+      "mo": {
+        "trigger": 0.048,
+        "topDoc": "Houston Astros@San Diego Padres",
+        "bridges": [
+          "king"
+        ]
+      },
+      "factors": [
+        "general"
+      ],
+      "sentiment": {
+        "tag": "neutral",
+        "cue": "",
+        "team": "San Diego Padres"
       },
       "half_life_h": 12.0
     },
@@ -536,59 +536,6 @@
       "half_life_h": 12.0
     },
     {
-      "title": "Dodgers lose 7th straight on walk-off HR vs. Diaz",
-      "desc": "The Dodgers lost their season-high seventh straight game in a stunning collapse after the Diamondbacks rallied for a 4-3 win when rookie Ryan Waldschmidt hit a two-run, walk-off homer against closer Edwin Diaz.",
-      "url": "https://www.espn.com/mlb/story/_/id/49558569/reeling-dodgers-lose-season-high-7th-straight-game-diamondbacks-walk-vs-edwin-diaz",
-      "feed": "espn-mlb",
-      "sha": "81ab2c5beb68016e",
-      "relevance": "WARM",
-      "score": 0.433,
-      "mo": {
-        "trigger": 0.154,
-        "topDoc": "Los Angeles Dodgers@Arizona Diamondbacks",
-        "bridges": [
-          "dodgers",
-          "diamondbacks",
-          "ryan"
-        ]
-      },
-      "factors": [
-        "general"
-      ],
-      "sentiment": {
-        "tag": "neutral",
-        "cue": "",
-        "team": "Los Angeles Dodgers"
-      },
-      "half_life_h": 12.0
-    },
-    {
-      "title": "Yankees promote top prospect George Lombard Jr. for MLB debut after quiet trade deadline",
-      "desc": "The Yankees demoted shortstop Anthony Volpe ahead of Lombard's promotion",
-      "url": "https://www.cbssports.com/mlb/news/yankees-george-lombard-jr-promotion-mlb-debut/",
-      "feed": "cbs-mlb",
-      "sha": "2bd02b5be3e45339",
-      "relevance": "WARM",
-      "score": 0.392,
-      "mo": {
-        "trigger": 0.176,
-        "topDoc": "Atlanta Braves@New York Yankees",
-        "bridges": [
-          "yankees",
-          "george"
-        ]
-      },
-      "factors": [
-        "general"
-      ],
-      "sentiment": {
-        "tag": "negative",
-        "cue": "demoted",
-        "team": "New York Yankees"
-      },
-      "half_life_h": 12.0
-    },
-    {
       "title": "Mets' Benge exits after sliding catch; X-rays clear",
       "desc": "Mets rookie outfielder Carson Benge was removed from Friday night's 6-4 victory over the Pirates with left wrist soreness.",
       "url": "https://www.espn.com/mlb/story/_/id/49557226/mets-rookie-carson-benge-wrist-exits-making-sliding-catch",
@@ -649,13 +596,14 @@
       "feed": "cbs-mlb",
       "sha": "3c888adac04bb10b",
       "relevance": "WARM",
-      "score": 0.375,
+      "score": 0.325,
       "mo": {
-        "trigger": 0.25,
+        "trigger": 0.3,
         "topDoc": "Houston Astros@San Diego Padres",
         "bridges": [
           "jays",
           "astros",
+          "alvarez",
           "houston"
         ]
       },
@@ -690,7 +638,34 @@
       "sentiment": {
         "tag": "neutral",
         "cue": "",
-        "team": "Chicago Cubs"
+        "team": "Chicago White Sox"
+      },
+      "half_life_h": 12.0
+    },
+    {
+      "title": "Yankees promote top prospect George Lombard Jr. for MLB debut after quiet trade deadline",
+      "desc": "The Yankees demoted shortstop Anthony Volpe ahead of Lombard's promotion",
+      "url": "https://www.cbssports.com/mlb/news/yankees-george-lombard-jr-promotion-mlb-debut/",
+      "feed": "cbs-mlb",
+      "sha": "2bd02b5be3e45339",
+      "relevance": "WARM",
+      "score": 0.309,
+      "mo": {
+        "trigger": 0.235,
+        "topDoc": "Atlanta Braves@New York Yankees",
+        "bridges": [
+          "yankees",
+          "george",
+          "anthony"
+        ]
+      },
+      "factors": [
+        "general"
+      ],
+      "sentiment": {
+        "tag": "negative",
+        "cue": "demoted",
+        "team": "New York Yankees"
       },
       "half_life_h": 12.0
     },
@@ -717,6 +692,32 @@
         "tag": "neutral",
         "cue": "",
         "team": "Los Angeles Dodgers"
+      },
+      "half_life_h": 12.0
+    },
+    {
+      "title": "Yankees star Aaron Judge cleared for 'light' physical activity, says he'll be back this season",
+      "desc": "Judge, the three-time AL MVP, hasn't played since May 31",
+      "url": "https://www.cbssports.com/mlb/news/aaron-judge-yankees-injury-update-timeline/",
+      "feed": "cbs-mlb",
+      "sha": "d3773b3fde85e12b",
+      "relevance": "WARM",
+      "score": 0.283,
+      "mo": {
+        "trigger": 0.133,
+        "topDoc": "Atlanta Braves@New York Yankees",
+        "bridges": [
+          "yankees",
+          "aaron"
+        ]
+      },
+      "factors": [
+        "general"
+      ],
+      "sentiment": {
+        "tag": "positive",
+        "cue": "cleared",
+        "team": "New York Yankees"
       },
       "half_life_h": 12.0
     },
