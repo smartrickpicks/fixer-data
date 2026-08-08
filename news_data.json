@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-08T22:15:02.869405+00:00",
+  "generated_at": "2026-08-08T22:30:02.031687+00:00",
   "slate_date": "2026-08-08",
   "games": 15,
-  "kept": 29,
-  "dropped": 23,
+  "kept": 30,
+  "dropped": 22,
   "extracted": 0,
   "items": [
     {
@@ -82,6 +82,31 @@
         "tag": "neutral",
         "cue": "",
         "team": "Los Angeles Dodgers"
+      },
+      "half_life_h": 12.0
+    },
+    {
+      "title": "Brewers DFA reliever Wilson, promote Richardson",
+      "desc": "The Brewers shuffled their bullpen Saturday by designating Bryse Wilson for assignment and calling up Lyon Richardson from Triple-A Nashville.",
+      "url": "https://www.espn.com/mlb/story/_/id/49563554/brewers-dfa-wilson-promote-richardson-bullpen-shuffle",
+      "feed": "espn-mlb",
+      "sha": "d0d836f05ebc377a",
+      "relevance": "HOT",
+      "score": 0.553,
+      "mo": {
+        "trigger": 0.105,
+        "topDoc": "Minnesota Twins@Milwaukee Brewers",
+        "bridges": [
+          "brewers"
+        ]
+      },
+      "factors": [
+        "general"
+      ],
+      "sentiment": {
+        "tag": "neutral",
+        "cue": "",
+        "team": "Milwaukee Brewers"
       },
       "half_life_h": 12.0
     },
@@ -463,31 +488,6 @@
       "half_life_h": 48.0
     },
     {
-      "title": "Utley, still 'The Man' in Philly, earns club's top honor",
-      "desc": "Chase Utley, a six-time All-Star and the second baseman on the Phillies' 2008 World Series championship team, was inducted into the team's Wall of Fame in a star-studded celebration.",
-      "url": "https://www.espn.com/mlb/story/_/id/49557339/chase-utley-inducted-phillies-wall-fame",
-      "feed": "espn-mlb",
-      "sha": "e3fb4516bc521b4d",
-      "relevance": "WARM",
-      "score": 0.521,
-      "mo": {
-        "trigger": 0.042,
-        "topDoc": "Cincinnati Reds@Washington Nationals",
-        "bridges": [
-          "chase"
-        ]
-      },
-      "factors": [
-        "general"
-      ],
-      "sentiment": {
-        "tag": "neutral",
-        "cue": "",
-        "team": "Cincinnati Reds"
-      },
-      "half_life_h": 12.0
-    },
-    {
       "title": "Passan: Why the Tigers chose Dodgers over other suitors in Tarik Skubal blockbuster",
       "desc": "On Saturday afternoon, Detroit asked for final offers for the sport's top pitcher. Here is how one team emerged as the perfect match.",
       "url": "https://www.espn.com/mlb/story/_/id/49546569/mlb-trade-deadline-2026-tarik-skubal-trade-dodgers-tigers-brewers-negotiations",
@@ -513,6 +513,33 @@
         "team": "Detroit Tigers"
       },
       "half_life_h": 12.0
+    },
+    {
+      "title": "Jays' Springer (shoulder) late scratch vs. Phillies",
+      "desc": "The Blue Jays' George Springer was scratched from the lineup Saturday against the Phillies with tightness in his left shoulder, but manager John Schneider was not concerned it would be a lingering injury.",
+      "url": "https://www.espn.com/mlb/story/_/id/49563559/blue-jays-scratch-springer-lineup-shoulder-tightness",
+      "feed": "espn-mlb",
+      "sha": "2bccf0d12df2196c",
+      "relevance": "WARM",
+      "score": 0.375,
+      "mo": {
+        "trigger": 0.125,
+        "topDoc": "Toronto Blue Jays@Philadelphia Phillies",
+        "bridges": [
+          "phillies",
+          "george"
+        ]
+      },
+      "factors": [
+        "injury",
+        "lineup"
+      ],
+      "sentiment": {
+        "tag": "negative",
+        "cue": "injury",
+        "team": "Philadelphia Phillies"
+      },
+      "half_life_h": 72.0
     },
     {
       "title": "Blue Jays vs. Astros MLB picks: Yordan Alvarez, Houston should take advantage of pitching break in matinee",
