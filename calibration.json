@@ -1,52 +1,52 @@
 {
- "graded_at": "2026-08-08T12:33:54.120660Z",
- "n_picks": 1769,
+ "graded_at": "2026-08-09T12:33:58.615702Z",
+ "n_picks": 1784,
  "overall_pred_conf": 0.6012,
  "overall_realized": 0.5291,
- "overconfidence": 0.0721,
- "ece": 0.0731,
+ "overconfidence": 0.072,
+ "ece": 0.0734,
  "mce": 0.2676,
- "brier": 0.2565,
+ "brier": 0.2566,
  "reliability": [
   {
    "lo": 0.5,
    "hi": 0.55,
-   "n": 555,
+   "n": 560,
    "pred_mean": 0.5245,
-   "realized": 0.5261,
-   "gap": 0.0016
+   "realized": 0.5268,
+   "gap": 0.0023
   },
   {
    "lo": 0.55,
    "hi": 0.6,
-   "n": 443,
-   "pred_mean": 0.574,
-   "realized": 0.5034,
-   "gap": -0.0707
+   "n": 446,
+   "pred_mean": 0.5741,
+   "realized": 0.5045,
+   "gap": -0.0696
   },
   {
    "lo": 0.6,
    "hi": 0.65,
-   "n": 341,
+   "n": 345,
    "pred_mean": 0.6241,
-   "realized": 0.5015,
-   "gap": -0.1227
+   "realized": 0.4986,
+   "gap": -0.1256
   },
   {
    "lo": 0.65,
    "hi": 0.7,
-   "n": 223,
+   "n": 225,
    "pred_mean": 0.6736,
-   "realized": 0.5471,
-   "gap": -0.1266
+   "realized": 0.5511,
+   "gap": -0.1225
   },
   {
    "lo": 0.7,
    "hi": 0.75,
-   "n": 129,
-   "pred_mean": 0.7216,
-   "realized": 0.6202,
-   "gap": -0.1014
+   "n": 130,
+   "pred_mean": 0.7215,
+   "realized": 0.6154,
+   "gap": -0.1061
   },
   {
    "lo": 0.75,
@@ -92,15 +92,19 @@
  "isotonic_map": [
   {
    "raw": 0.5245,
-   "calibrated": 0.5123
+   "calibrated": 0.5122
   },
   {
    "raw": 0.6736,
-   "calibrated": 0.5471
+   "calibrated": 0.5511
   },
   {
-   "raw": 0.7216,
-   "calibrated": 0.6184
+   "raw": 0.7215,
+   "calibrated": 0.6154
+  },
+  {
+   "raw": 0.7716,
+   "calibrated": 0.6154
   }
  ],
  "note": "ECE = avg gap between stated confidence and realized win-rate, weighted by volume. Lower is better. isotonic_map re-fits raw confidence to the monotone calibrated estimate."
