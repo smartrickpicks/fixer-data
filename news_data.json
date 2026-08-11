@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T22:45:02.150894+00:00",
+  "generated_at": "2026-08-11T23:00:02.681957+00:00",
   "slate_date": "2026-08-11",
   "games": 15,
   "kept": 29,
@@ -85,32 +85,6 @@
         "tag": "neutral",
         "cue": "",
         "team": "Philadelphia Phillies"
-      },
-      "half_life_h": 12.0
-    },
-    {
-      "title": "16-minute delay in Sox-Jays leads to belated run",
-      "desc": "A chaotic, inning-ending double play resulted in a 16-minute delay and a belated Red Sox run during Boston's 2-1 loss to the Blue Jays in Toronto on Monday night.",
-      "url": "https://www.espn.com/mlb/story/_/id/49579250/bizarre-play-rules-check-leads-lengthy-red-sox-jays-delay",
-      "feed": "espn-mlb",
-      "sha": "9cfa3e05e01bcb08",
-      "relevance": "HOT",
-      "score": 0.575,
-      "mo": {
-        "trigger": 0.15,
-        "topDoc": "Boston Red Sox@Toronto Blue Jays",
-        "bridges": [
-          "jays",
-          "toronto"
-        ]
-      },
-      "factors": [
-        "weather"
-      ],
-      "sentiment": {
-        "tag": "neutral",
-        "cue": "",
-        "team": "Toronto Blue Jays"
       },
       "half_life_h": 12.0
     },
@@ -391,6 +365,32 @@
         "team": "New York Mets"
       },
       "half_life_h": 12.0
+    },
+    {
+      "title": "Rutschman activated, making debut for Red Sox",
+      "desc": "Catcher Adley Rutschman, who was acquired at the trade deadline, has been activated off the injured list and will bat third in his Red Sox debut vs. the Blue Jays.",
+      "url": "https://www.espn.com/mlb/story/_/id/49585627/red-sox-activate-adley-rutschman-injured-list",
+      "feed": "espn-mlb",
+      "sha": "8db8e25f57575021",
+      "relevance": "WARM",
+      "score": 0.529,
+      "mo": {
+        "trigger": 0.059,
+        "topDoc": "Boston Red Sox@Toronto Blue Jays",
+        "bridges": [
+          "jays"
+        ]
+      },
+      "factors": [
+        "injury",
+        "roster"
+      ],
+      "sentiment": {
+        "tag": "neutral",
+        "cue": "injured",
+        "team": "Toronto Blue Jays"
+      },
+      "half_life_h": 72.0
     },
     {
       "title": "Jacob Misiorowski becomes first pitcher to reach 200 strikeouts in 2026, second-fastest in MLB history",
