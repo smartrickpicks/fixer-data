@@ -1,7 +1,7 @@
 {
  "date": "2026-08-13",
  "sport": "MLB",
- "generated_at": "2026-08-13T21:05:02.095422Z",
+ "generated_at": "2026-08-13T23:05:01.758719Z",
  "record": {
   "w": 976,
   "l": 863,
@@ -62,11 +62,11 @@
     "so": 144
    },
    "asmt": {
-    "assessment_id": "asmt_2026-08-13_texas-rangers_los-angeles-angels_d1687fdfe5e5",
+    "assessment_id": "asmt_2026-08-13_texas-rangers_los-angeles-angels_c769f7d58cca",
     "policy_version": "assessment_policy_v1",
     "model_version": "mlb_baseline_v1",
     "devig_method": "proportional_v1",
-    "created_at": "2026-08-13T21:05:07.215367Z",
+    "created_at": "2026-08-13T23:05:03.660197Z",
     "date": "2026-08-13",
     "away": "Texas Rangers",
     "home": "Los Angeles Angels",
@@ -90,9 +90,9 @@
     "score": 73,
     "fair_probability": 0.4839,
     "market_break_even": 0.4202,
-    "market_reference_probability": 0.4173,
+    "market_reference_probability": 0.4169,
     "price_limit_american": 111,
-    "quote_age_seconds": 13,
+    "quote_age_seconds": 17,
     "components": {
      "value": 22,
      "calibration": 9,
@@ -112,19 +112,19 @@
     "receipt": {
      "model_version": "mlb_baseline_v1",
      "calibration_id": "cal_mlb_ml_2026-08-13",
-     "forecast_generated_at": "2026-08-13T21:05:02.095422Z",
-     "quote_observed_at": "2026-08-13T21:04:54Z",
+     "forecast_generated_at": "2026-08-13T23:05:01.758719Z",
+     "quote_observed_at": "2026-08-13T23:04:46Z",
      "book_count": 9,
      "policy_version": "assessment_policy_v1",
-     "published_at": "2026-08-13T21:05:07.215367Z",
-     "sealed_at": "2026-08-13T21:05:07.215367Z"
+     "published_at": "2026-08-13T23:05:03.660197Z",
+     "sealed_at": "2026-08-13T23:05:03.660197Z"
     },
     "forecast": {
      "fair_home": 0.4839,
      "raw_home": 0.4904,
-     "ref_home": 0.4173
+     "ref_home": 0.4169
     },
-    "seal": "seal_d1687fdfe5e5",
+    "seal": "seal_c769f7d58cca",
     "tier": {
      "label": "Lean",
      "kind": "lean"
@@ -132,121 +132,19 @@
    }
   },
   {
-   "away": "Milwaukee Brewers",
-   "home": "Los Angeles Dodgers",
-   "pick": "Milwaukee Brewers",
-   "model": 0.455,
-   "market": 0.383,
-   "edge": 0.072,
-   "model_side": "Los Angeles Dodgers",
-   "model_conf": 0.545,
-   "raw_conf": 0.657,
-   "raw_model": 0.343,
-   "calibrated": true,
-   "dec_odds": 2.58,
-   "best_dec_odds": 2.58,
-   "start": "2026-08-15T02:11:00Z",
-   "hp": "Roki Sasaki",
-   "ap": "Shane Drohan",
-   "hp_stat": {
-    "era": "4.54",
-    "w": 5,
-    "l": 5,
-    "ip": "105.0",
-    "so": 106
-   },
-   "ap_stat": {
-    "era": "3.87",
-    "w": 6,
-    "l": 4,
-    "ip": "93.0",
-    "so": 93
-   },
-   "asmt": {
-    "assessment_id": "asmt_2026-08-13_milwaukee-brewers_los-angeles-dodgers_2345266920b5",
-    "policy_version": "assessment_policy_v1",
-    "model_version": "mlb_baseline_v1",
-    "devig_method": "proportional_v1",
-    "created_at": "2026-08-13T21:05:08.721366Z",
-    "date": "2026-08-13",
-    "away": "Milwaukee Brewers",
-    "home": "Los Angeles Dodgers",
-    "commence_time": "2026-08-15T02:11:00Z",
-    "likely_side": {
-     "label": "Los Angeles Dodgers",
-     "probability": 0.5447
-    },
-    "value_side": {
-     "label": "Milwaukee Brewers",
-     "expected_value_per_unit": 0.1747,
-     "value_points": 7.2,
-     "american_odds": 158,
-     "decimal_odds": 2.58,
-     "book_key": "fanduel",
-     "book": "FanDuel"
-    },
-    "selection": "Milwaukee Brewers",
-    "status": "lean",
-    "grade": "C",
-    "score": 69,
-    "fair_probability": 0.4553,
-    "market_break_even": 0.3876,
-    "market_reference_probability": 0.3835,
-    "price_limit_american": 125,
-    "quote_age_seconds": 14,
-    "components": {
-     "value": 20,
-     "calibration": 9,
-     "agreement": 7,
-     "stability": 13,
-     "data_certainty": 15,
-     "price_quality": 5
-    },
-    "penalties": [],
-    "reason_codes": [
-     "POSITIVE_EV",
-     "PRICE_ABOVE_LIMIT",
-     "QUOTE_FRESH",
-     "STARTER_CONFIRMED",
-     "MARKET_STABLE"
-    ],
-    "receipt": {
-     "model_version": "mlb_baseline_v1",
-     "calibration_id": "cal_mlb_ml_2026-08-13",
-     "forecast_generated_at": "2026-08-13T21:05:02.095422Z",
-     "quote_observed_at": "2026-08-13T21:04:54Z",
-     "book_count": 5,
-     "policy_version": "assessment_policy_v1",
-     "published_at": "2026-08-13T21:05:08.721366Z",
-     "sealed_at": "2026-08-13T21:05:08.721366Z"
-    },
-    "forecast": {
-     "fair_home": 0.5447,
-     "raw_home": 0.6573,
-     "ref_home": 0.6165
-    },
-    "seal": "seal_2345266920b5",
-    "tier": {
-     "label": "Lean",
-     "kind": "lean"
-    }
-   },
-   "changed": "value +2.8\u2192+7.2 \u00b7 price +131\u2192+158"
-  },
-  {
    "away": "Philadelphia Phillies",
    "home": "Minnesota Twins",
    "pick": "Philadelphia Phillies",
    "model": 0.532,
-   "market": 0.498,
-   "edge": 0.034,
+   "market": 0.496,
+   "edge": 0.036,
    "model_side": "Philadelphia Phillies",
    "model_conf": 0.532,
    "raw_conf": 0.598,
    "raw_model": 0.598,
    "calibrated": true,
-   "dec_odds": 1.971,
-   "best_dec_odds": 1.971,
+   "dec_odds": 2.01,
+   "best_dec_odds": 2.01,
    "start": "2026-08-13T23:30:00Z",
    "hp": "Taj Bradley",
    "ap": "Aaron Nola",
@@ -265,11 +163,11 @@
     "so": 129
    },
    "asmt": {
-    "assessment_id": "asmt_2026-08-13_philadelphia-phillies_minnesota-twins_8031e0568067",
+    "assessment_id": "asmt_2026-08-13_philadelphia-phillies_minnesota-twins_58a074ca7b5d",
     "policy_version": "assessment_policy_v1",
     "model_version": "mlb_baseline_v1",
     "devig_method": "proportional_v1",
-    "created_at": "2026-08-13T21:05:05.636385Z",
+    "created_at": "2026-08-13T23:05:01.797232Z",
     "date": "2026-08-13",
     "away": "Philadelphia Phillies",
     "home": "Minnesota Twins",
@@ -280,24 +178,24 @@
     },
     "value_side": {
      "label": "Philadelphia Phillies",
-     "expected_value_per_unit": 0.0485,
-     "value_points": 3.4,
-     "american_odds": -103,
-     "decimal_odds": 1.971,
-     "book_key": "draftkings",
-     "book": "DraftKings"
+     "expected_value_per_unit": 0.0694,
+     "value_points": 3.6,
+     "american_odds": 101,
+     "decimal_odds": 2.01,
+     "book_key": "betonlineag",
+     "book": "BetOnline.ag"
     },
     "selection": "Philadelphia Phillies",
     "status": "lean",
     "grade": "C",
-    "score": 68,
+    "score": 73,
     "fair_probability": 0.532,
-    "market_break_even": 0.5074,
-    "market_reference_probability": 0.498,
+    "market_break_even": 0.4975,
+    "market_reference_probability": 0.4957,
     "price_limit_american": -109,
-    "quote_age_seconds": 11,
+    "quote_age_seconds": 15,
     "components": {
-     "value": 17,
+     "value": 22,
      "calibration": 9,
      "agreement": 7,
      "stability": 15,
@@ -315,19 +213,120 @@
     "receipt": {
      "model_version": "mlb_baseline_v1",
      "calibration_id": "cal_mlb_ml_2026-08-13",
-     "forecast_generated_at": "2026-08-13T21:05:02.095422Z",
-     "quote_observed_at": "2026-08-13T21:04:54Z",
+     "forecast_generated_at": "2026-08-13T23:05:01.758719Z",
+     "quote_observed_at": "2026-08-13T23:04:46Z",
      "book_count": 9,
      "policy_version": "assessment_policy_v1",
-     "published_at": "2026-08-13T21:05:05.636385Z",
-     "sealed_at": "2026-08-13T21:05:05.636385Z"
+     "published_at": "2026-08-13T23:05:01.797232Z",
+     "sealed_at": "2026-08-13T23:05:01.797232Z"
     },
     "forecast": {
      "fair_home": 0.468,
      "raw_home": 0.4016,
-     "ref_home": 0.502
+     "ref_home": 0.5043
     },
-    "seal": "seal_8031e0568067",
+    "seal": "seal_58a074ca7b5d",
+    "tier": {
+     "label": "Lean",
+     "kind": "lean"
+    }
+   }
+  },
+  {
+   "away": "Milwaukee Brewers",
+   "home": "Los Angeles Dodgers",
+   "pick": "Milwaukee Brewers",
+   "model": 0.455,
+   "market": 0.383,
+   "edge": 0.073,
+   "model_side": "Los Angeles Dodgers",
+   "model_conf": 0.545,
+   "raw_conf": 0.657,
+   "raw_model": 0.343,
+   "calibrated": true,
+   "dec_odds": 2.55,
+   "best_dec_odds": 2.55,
+   "start": "2026-08-15T02:11:00Z",
+   "hp": "Roki Sasaki",
+   "ap": "Shane Drohan",
+   "hp_stat": {
+    "era": "4.54",
+    "w": 5,
+    "l": 5,
+    "ip": "105.0",
+    "so": 106
+   },
+   "ap_stat": {
+    "era": "3.87",
+    "w": 6,
+    "l": 4,
+    "ip": "93.0",
+    "so": 93
+   },
+   "asmt": {
+    "assessment_id": "asmt_2026-08-13_milwaukee-brewers_los-angeles-dodgers_37cee0bb9841",
+    "policy_version": "assessment_policy_v1",
+    "model_version": "mlb_baseline_v1",
+    "devig_method": "proportional_v1",
+    "created_at": "2026-08-13T23:05:05.180729Z",
+    "date": "2026-08-13",
+    "away": "Milwaukee Brewers",
+    "home": "Los Angeles Dodgers",
+    "commence_time": "2026-08-15T02:11:00Z",
+    "likely_side": {
+     "label": "Los Angeles Dodgers",
+     "probability": 0.5447
+    },
+    "value_side": {
+     "label": "Milwaukee Brewers",
+     "expected_value_per_unit": 0.1611,
+     "value_points": 7.3,
+     "american_odds": 155,
+     "decimal_odds": 2.55,
+     "book_key": "betrivers",
+     "book": "BetRivers"
+    },
+    "selection": "Milwaukee Brewers",
+    "status": "lean",
+    "grade": "C",
+    "score": 72,
+    "fair_probability": 0.4553,
+    "market_break_even": 0.3922,
+    "market_reference_probability": 0.3826,
+    "price_limit_american": 125,
+    "quote_age_seconds": 19,
+    "components": {
+     "value": 21,
+     "calibration": 9,
+     "agreement": 7,
+     "stability": 15,
+     "data_certainty": 15,
+     "price_quality": 5
+    },
+    "penalties": [],
+    "reason_codes": [
+     "POSITIVE_EV",
+     "PRICE_ABOVE_LIMIT",
+     "QUOTE_FRESH",
+     "STARTER_CONFIRMED",
+     "MARKET_STABLE"
+    ],
+    "receipt": {
+     "model_version": "mlb_baseline_v1",
+     "calibration_id": "cal_mlb_ml_2026-08-13",
+     "forecast_generated_at": "2026-08-13T23:05:01.758719Z",
+     "quote_observed_at": "2026-08-13T23:04:46Z",
+     "book_count": 7,
+     "policy_version": "assessment_policy_v1",
+     "published_at": "2026-08-13T23:05:05.180729Z",
+     "sealed_at": "2026-08-13T23:05:05.180729Z"
+    },
+    "forecast": {
+     "fair_home": 0.5447,
+     "raw_home": 0.6573,
+     "ref_home": 0.6174
+    },
+    "seal": "seal_37cee0bb9841",
     "tier": {
      "label": "Lean",
      "kind": "lean"
