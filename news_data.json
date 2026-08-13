@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-13T02:30:04.146119+00:00",
+  "generated_at": "2026-08-13T02:45:02.306479+00:00",
   "slate_date": "2026-08-12",
   "games": 15,
-  "kept": 35,
+  "kept": 33,
   "dropped": 15,
   "extracted": 0,
   "items": [
@@ -37,20 +37,21 @@
     },
     {
       "title": "Nationals' Kent called up, gets start vs. Cubs",
-      "desc": "Pitching prospect Jackson Kent was called up from Triple-A and will make his major league debut Wednesday for Washington against the Chicago Cubs.",
+      "desc": "Washington Nationals pitching prospect Jackson Kent had a mixed major league debut in a start against the Chicago Cubs on Wednesday night after his contract was selected from Triple-A Rochester.",
       "url": "https://www.espn.com/mlb/story/_/id/49593280/jackson-kent-called-triple-start-nationals-vs-cubs",
       "feed": "espn-mlb",
-      "sha": "efaaf93b06fcfb44",
+      "sha": "e8e629d8f721d640",
       "relevance": "HOT",
-      "score": 0.636,
+      "score": 0.633,
       "mo": {
-        "trigger": 0.35,
+        "trigger": 0.333,
         "topDoc": "Chicago Cubs@Washington Nationals",
         "bridges": [
           "kent",
           "cubs",
-          "jackson",
-          "washington"
+          "washington",
+          "nationals",
+          "jackson"
         ]
       },
       "factors": [
@@ -115,33 +116,6 @@
       "half_life_h": 12.0
     },
     {
-      "title": "A's Wilson sees errorless run live on after overturn",
-      "desc": "After his surprising error was overturned to a Tampa Bay hit on Tuesday night in his club's 12-4 loss to the Rays at Sutter Health Park, Athletics shortstop Jacob Wilson's major-league-record errorless streak at the position was extended to 113 games.",
-      "url": "https://www.espn.com/mlb/story/_/id/49587533/overturn-helps-ss-wilson-push-errorless-run-113-games",
-      "feed": "espn-mlb",
-      "sha": "e3354d13c60e2137",
-      "relevance": "HOT",
-      "score": 0.556,
-      "mo": {
-        "trigger": 0.111,
-        "topDoc": "Tampa Bay Rays@Athletics",
-        "bridges": [
-          "tampa",
-          "rays",
-          "athletics"
-        ]
-      },
-      "factors": [
-        "general"
-      ],
-      "sentiment": {
-        "tag": "neutral",
-        "cue": "",
-        "team": "Tampa Bay Rays"
-      },
-      "half_life_h": 12.0
-    },
-    {
       "title": "Dodgers survive Tarik Skubal's rocky home debut after Dave Roberts calls out team's lack of 'urgency'",
       "desc": "The Dodgers had lost eight of their last nine games and three straight series headed into Monday's game against the Royals",
       "url": "https://www.cbssports.com/mlb/news/dodgers-tarik-skubal-home-debut-dave-roberts/",
@@ -193,6 +167,32 @@
       "half_life_h": 12.0
     },
     {
+      "title": "Bregman's first 3-homer game powers Cubs' rout",
+      "desc": "Alex Bregman hit three homers in a game for the first time and drove in a career-high seven runs as the Cubs routed the Nationals 12-6 on Wednesday night.",
+      "url": "https://www.espn.com/mlb/story/_/id/49595716/alex-bregman-first-career-3-homer-game-helps-cubs-rout-nationals",
+      "feed": "espn-mlb",
+      "sha": "d342b2c34fff947d",
+      "relevance": "WARM",
+      "score": 0.548,
+      "mo": {
+        "trigger": 0.095,
+        "topDoc": "Chicago Cubs@Washington Nationals",
+        "bridges": [
+          "cubs",
+          "nationals"
+        ]
+      },
+      "factors": [
+        "general"
+      ],
+      "sentiment": {
+        "tag": "neutral",
+        "cue": "",
+        "team": "Chicago Cubs"
+      },
+      "half_life_h": 12.0
+    },
+    {
       "title": "Paul Skenes exits after 65 pitches, velocity drop in latest worrying sign as Pirates fall again",
       "desc": "The Pirates are 3-13 in Skenes' last 16 starts and have fallen into last place in the NL Central",
       "url": "https://www.cbssports.com/mlb/news/paul-skenes-velocity-pirates-standings/",
@@ -216,31 +216,6 @@
         "team": "Pittsburgh Pirates"
       },
       "half_life_h": 12.0
-    },
-    {
-      "title": "Snell shows 'electric stuff' in return to Dodgers",
-      "desc": "Blake Snell struck out 10 batters in six innings in his return to the mound for the Dodgers after being sidelined for three months with loose bodies in his left elbow.",
-      "url": "https://www.espn.com/mlb/story/_/id/49587325/dodgers-blake-snell-strikes-10-6-innings-return-3-month-injury-layoff",
-      "feed": "espn-mlb",
-      "sha": "78c11cfecb9fe9d5",
-      "relevance": "WARM",
-      "score": 0.545,
-      "mo": {
-        "trigger": 0.091,
-        "topDoc": "Kansas City Royals@Los Angeles Dodgers",
-        "bridges": [
-          "dodgers"
-        ]
-      },
-      "factors": [
-        "injury"
-      ],
-      "sentiment": {
-        "tag": "negative",
-        "cue": "out",
-        "team": "Los Angeles Dodgers"
-      },
-      "half_life_h": 72.0
     },
     {
       "title": "Snyder's Soapbox: Yes, the Dodgers are a villain, and that's good for MLB",
@@ -289,32 +264,6 @@
       "sentiment": {
         "tag": "negative",
         "cue": "struggling",
-        "team": "Seattle Mariners"
-      },
-      "half_life_h": 12.0
-    },
-    {
-      "title": "'Awful' Raleigh takes blame as M's lose 5th in row",
-      "desc": "Cal Raleigh, saddled with a .159 average a year after finishing second in the AL MVP race, acknowledged his struggles after the Seattle Mariners' 4-1 loss to the New York Yankees on Tuesday night, telling reporters \"I've got to find a way to be better.\"",
-      "url": "https://www.espn.com/mlb/story/_/id/49587821/cal-raleigh-shoulders-blame-mariners-lose-fifth-straight",
-      "feed": "espn-mlb",
-      "sha": "6fb9fc433b9415ac",
-      "relevance": "WARM",
-      "score": 0.542,
-      "mo": {
-        "trigger": 0.083,
-        "topDoc": "Seattle Mariners@New York Yankees",
-        "bridges": [
-          "seattle",
-          "yankees"
-        ]
-      },
-      "factors": [
-        "general"
-      ],
-      "sentiment": {
-        "tag": "neutral",
-        "cue": "",
         "team": "Seattle Mariners"
       },
       "half_life_h": 12.0
