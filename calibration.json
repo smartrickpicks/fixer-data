@@ -1,60 +1,60 @@
 {
- "graded_at": "2026-08-14T12:34:03.135579Z",
- "n_picks": 1848,
- "overall_pred_conf": 0.601,
- "overall_realized": 0.5292,
- "overconfidence": 0.0718,
- "ece": 0.0739,
+ "graded_at": "2026-08-15T12:34:04.020877Z",
+ "n_picks": 1862,
+ "overall_pred_conf": 0.6011,
+ "overall_realized": 0.5295,
+ "overconfidence": 0.0716,
+ "ece": 0.0742,
  "mce": 0.2875,
- "brier": 0.257,
+ "brier": 0.2571,
  "reliability": [
   {
    "lo": 0.5,
    "hi": 0.55,
-   "n": 576,
-   "pred_mean": 0.5243,
-   "realized": 0.5278,
-   "gap": 0.0034
+   "n": 579,
+   "pred_mean": 0.5242,
+   "realized": 0.5285,
+   "gap": 0.0043
   },
   {
    "lo": 0.55,
    "hi": 0.6,
-   "n": 474,
-   "pred_mean": 0.5742,
-   "realized": 0.5042,
-   "gap": -0.07
+   "n": 476,
+   "pred_mean": 0.5743,
+   "realized": 0.5063,
+   "gap": -0.068
   },
   {
    "lo": 0.6,
    "hi": 0.65,
-   "n": 353,
-   "pred_mean": 0.624,
-   "realized": 0.5071,
-   "gap": -0.1169
+   "n": 358,
+   "pred_mean": 0.6241,
+   "realized": 0.5056,
+   "gap": -0.1185
   },
   {
    "lo": 0.65,
    "hi": 0.7,
-   "n": 229,
-   "pred_mean": 0.6736,
-   "realized": 0.5459,
-   "gap": -0.1278
+   "n": 231,
+   "pred_mean": 0.6735,
+   "realized": 0.5455,
+   "gap": -0.1281
   },
   {
    "lo": 0.7,
    "hi": 0.75,
-   "n": 134,
-   "pred_mean": 0.7215,
-   "realized": 0.6045,
-   "gap": -0.1171
+   "n": 135,
+   "pred_mean": 0.7214,
+   "realized": 0.6074,
+   "gap": -0.114
   },
   {
    "lo": 0.75,
    "hi": 0.8,
-   "n": 49,
-   "pred_mean": 0.7719,
-   "realized": 0.6531,
-   "gap": -0.1189
+   "n": 50,
+   "pred_mean": 0.7716,
+   "realized": 0.64,
+   "gap": -0.1316
   },
   {
    "lo": 0.8,
@@ -91,20 +91,16 @@
  ],
  "isotonic_map": [
   {
-   "raw": 0.5243,
-   "calibrated": 0.5146
+   "raw": 0.5242,
+   "calibrated": 0.5152
   },
   {
-   "raw": 0.6736,
-   "calibrated": 0.5459
+   "raw": 0.6735,
+   "calibrated": 0.5455
   },
   {
-   "raw": 0.7215,
-   "calibrated": 0.6045
-  },
-  {
-   "raw": 0.7719,
-   "calibrated": 0.6098
+   "raw": 0.7214,
+   "calibrated": 0.6055
   }
  ],
  "note": "ECE = avg gap between stated confidence and realized win-rate, weighted by volume. Lower is better. isotonic_map re-fits raw confidence to the monotone calibrated estimate."
