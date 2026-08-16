@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-16T17:15:02.031075+00:00",
+  "generated_at": "2026-08-16T17:30:03.145896+00:00",
   "slate_date": "2026-08-16",
   "games": 15,
-  "kept": 34,
-  "dropped": 20,
+  "kept": 35,
+  "dropped": 19,
   "extracted": 0,
   "items": [
     {
@@ -34,34 +34,6 @@
       "half_life_h": 12.0
     },
     {
-      "title": "Guardians become 3rd AL team to post 10,000 wins",
-      "desc": "The Cleveland Guardians, an organization founded in 1901, became the third American League franchise to reach 10,000 victories with a 6-1 win over the San Diego Padres at Progressive Field on Saturday night.",
-      "url": "https://www.espn.com/mlb/story/_/id/49624712/cleveland-guardians-secure-franchise-10000th-victory",
-      "feed": "espn-mlb",
-      "sha": "6a68bf7c7d99f787",
-      "relevance": "HOT",
-      "score": 0.625,
-      "mo": {
-        "trigger": 0.25,
-        "topDoc": "San Diego Padres@Cleveland Guardians",
-        "bridges": [
-          "guardians",
-          "cleveland",
-          "diego",
-          "padres"
-        ]
-      },
-      "factors": [
-        "general"
-      ],
-      "sentiment": {
-        "tag": "neutral",
-        "cue": "",
-        "team": "Cleveland Guardians"
-      },
-      "half_life_h": 12.0
-    },
-    {
       "title": "Phillies vs. Twins Field of Dreams MLB picks: Rain in forecast as game returns to Iowa first time in 4 years",
       "desc": "The Phillies \"visit\" the Twins tonight in the Field of Dreams Game",
       "url": "https://www.cbssports.com/betting/news/phillies-vs-twins-field-of-dreams-mlb-picks-rain-in-forecast-as-game-returns-to-iowa-first-time-in-4-years/",
@@ -84,6 +56,32 @@
         "tag": "positive",
         "cue": "returns",
         "team": "Philadelphia Phillies"
+      },
+      "half_life_h": 12.0
+    },
+    {
+      "title": "Guardians become 3rd AL team to post 10,000 wins",
+      "desc": "The Guardians, an organization founded in 1901, became the third AL franchise to reach 10,000 victories with a 6-1 win over the Padres.",
+      "url": "https://www.espn.com/mlb/story/_/id/49624712/cleveland-guardians-secure-franchise-10000th-victory",
+      "feed": "espn-mlb",
+      "sha": "105943ade889f96d",
+      "relevance": "HOT",
+      "score": 0.607,
+      "mo": {
+        "trigger": 0.214,
+        "topDoc": "San Diego Padres@Cleveland Guardians",
+        "bridges": [
+          "guardians",
+          "padres"
+        ]
+      },
+      "factors": [
+        "general"
+      ],
+      "sentiment": {
+        "tag": "neutral",
+        "cue": "",
+        "team": "Cleveland Guardians"
       },
       "half_life_h": 12.0
     },
@@ -544,31 +542,6 @@
       "half_life_h": 12.0
     },
     {
-      "title": "Yanks' Judge plays catch for first time in rehab",
-      "desc": "Yankees outfielder Aaron Judge played catch and ran in New York on Friday as he continues working toward a return from a broken right rib.",
-      "url": "https://www.espn.com/mlb/story/_/id/49620326/yankees-aaron-judge-plays-catch-first-rehab",
-      "feed": "espn-mlb",
-      "sha": "edfef97a630ad14f",
-      "relevance": "WARM",
-      "score": 0.525,
-      "mo": {
-        "trigger": 0.05,
-        "topDoc": "New York Yankees@Toronto Blue Jays",
-        "bridges": [
-          "yankees"
-        ]
-      },
-      "factors": [
-        "general"
-      ],
-      "sentiment": {
-        "tag": "neutral",
-        "cue": "",
-        "team": "New York Yankees"
-      },
-      "half_life_h": 12.0
-    },
-    {
       "title": "Baez hits 3 straight HRs in 'crazy,' historic debut",
       "desc": "Cardinals rookie outfielder Joshua Baez set an MLB record with three home runs in the first three plate appearances of his major league career.",
       "url": "https://www.espn.com/mlb/story/_/id/49621644/cardinals-rookie-joshua-baez-makes-history-3-hrs-debut",
@@ -876,6 +849,58 @@
         "tag": "negative",
         "cue": "surgery",
         "team": "St. Louis Cardinals"
+      },
+      "half_life_h": 72.0
+    },
+    {
+      "title": "Cody Bellinger could return from injury as soon as next weekend amid Yankees' desperate need for offense",
+      "desc": "Since Bellinger went down in late July, the Yankees have batted .204/.281/.354 as a team",
+      "url": "https://www.cbssports.com/mlb/news/cody-bellinger-injury-timeline-yankees-offense/",
+      "feed": "cbs-mlb",
+      "sha": "994296ef5c747ef1",
+      "relevance": "WARM",
+      "score": 0.273,
+      "mo": {
+        "trigger": 0.091,
+        "topDoc": "Texas Rangers@Athletics",
+        "bridges": [
+          "cody",
+          "yankees"
+        ]
+      },
+      "factors": [
+        "injury"
+      ],
+      "sentiment": {
+        "tag": "negative",
+        "cue": "injury",
+        "team": "Texas Rangers"
+      },
+      "half_life_h": 72.0
+    },
+    {
+      "title": "Bellinger to begin rehab stint, targets weekend",
+      "desc": "Outfielder Cody Bellinger, who hasn't played since July 26 due to a hamstring injury, will begin a rehab assignment Tuesday and could rejoin the Yankees next weekend.",
+      "url": "https://www.espn.com/mlb/story/_/id/49629825/yankees-cody-bellinger-begin-rehab-assignment-tuesday",
+      "feed": "espn-mlb",
+      "sha": "c2a48fa198b51d20",
+      "relevance": "WARM",
+      "score": 0.271,
+      "mo": {
+        "trigger": 0.083,
+        "topDoc": "Texas Rangers@Athletics",
+        "bridges": [
+          "cody",
+          "yankees"
+        ]
+      },
+      "factors": [
+        "injury"
+      ],
+      "sentiment": {
+        "tag": "negative",
+        "cue": "injury",
+        "team": "Texas Rangers"
       },
       "half_life_h": 72.0
     }
