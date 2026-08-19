@@ -1,40 +1,11 @@
 {
-  "generated_at": "2026-08-19T13:00:03.129059+00:00",
-  "slate_date": "2026-08-18",
+  "generated_at": "2026-08-19T13:15:02.579690+00:00",
+  "slate_date": "2026-08-19",
   "games": 15,
-  "kept": 32,
-  "dropped": 20,
+  "kept": 37,
+  "dropped": 15,
   "extracted": 0,
   "items": [
-    {
-      "title": "Giants vs. Guardians MLB picks: Hopefully, the good version of Foster Griffin shows on mound for Cleveland",
-      "desc": "Foster Griffin has been incredibly profitable this season as he takes the mound Tuesday for the Guardians vs. the Giants",
-      "url": "https://www.cbssports.com/betting/news/giants-vs-guardians-mlb-picks-hopefully-the-good-version-of-foster-griffin-shows-on-mound-for-cleveland/",
-      "feed": "cbs-mlb",
-      "sha": "c06de55d7cdf1af0",
-      "relevance": "HOT",
-      "score": 0.705,
-      "mo": {
-        "trigger": 0.409,
-        "topDoc": "San Francisco Giants@Cleveland Guardians",
-        "bridges": [
-          "giants",
-          "guardians",
-          "foster",
-          "griffin",
-          "cleveland"
-        ]
-      },
-      "factors": [
-        "general"
-      ],
-      "sentiment": {
-        "tag": "neutral",
-        "cue": "",
-        "team": "San Francisco Giants"
-      },
-      "half_life_h": 12.0
-    },
     {
       "title": "Tigers vs. Pirates MLB picks: Could Wednesday matinee be final start of season for scuffling Paul Skenes?",
       "desc": "It's not out of the question that Paul Skenes makes his final start of 2026 Wednesday vs. Detroit",
@@ -42,13 +13,15 @@
       "feed": "cbs-mlb",
       "sha": "417ef0d96f468016",
       "relevance": "HOT",
-      "score": 0.568,
+      "score": 0.659,
       "mo": {
-        "trigger": 0.136,
+        "trigger": 0.318,
         "topDoc": "Detroit Tigers@Pittsburgh Pirates",
         "bridges": [
           "tigers",
           "pirates",
+          "paul",
+          "skenes",
           "detroit"
         ]
       },
@@ -61,6 +34,33 @@
         "team": "Detroit Tigers"
       },
       "half_life_h": 72.0
+    },
+    {
+      "title": "Giants vs. Guardians MLB picks: Hopefully, the good version of Foster Griffin shows on mound for Cleveland",
+      "desc": "Foster Griffin has been incredibly profitable this season as he takes the mound Tuesday for the Guardians vs. the Giants",
+      "url": "https://www.cbssports.com/betting/news/giants-vs-guardians-mlb-picks-hopefully-the-good-version-of-foster-griffin-shows-on-mound-for-cleveland/",
+      "feed": "cbs-mlb",
+      "sha": "c06de55d7cdf1af0",
+      "relevance": "HOT",
+      "score": 0.614,
+      "mo": {
+        "trigger": 0.227,
+        "topDoc": "San Francisco Giants@Cleveland Guardians",
+        "bridges": [
+          "giants",
+          "guardians",
+          "cleveland"
+        ]
+      },
+      "factors": [
+        "general"
+      ],
+      "sentiment": {
+        "tag": "neutral",
+        "cue": "",
+        "team": "San Francisco Giants"
+      },
+      "half_life_h": 12.0
     },
     {
       "title": "Guardians OF Adell has 6 RBIs before knee injury",
@@ -114,32 +114,6 @@
         "team": "San Francisco Giants"
       },
       "half_life_h": 12.0
-    },
-    {
-      "title": "Max Fried lands back on IL with elbow injury: How the Yankees can withstand yet another hit",
-      "desc": "Even with Carlos Rod\u00f3n returning, the pitching staff is working overtime to make up for the lack of offense",
-      "url": "https://www.cbssports.com/mlb/news/max-fried-yankees-injured-list-playoff-race-rotation/",
-      "feed": "cbs-mlb",
-      "sha": "56f503aad2038cd4",
-      "relevance": "HOT",
-      "score": 0.559,
-      "mo": {
-        "trigger": 0.118,
-        "topDoc": "New York Yankees@Baltimore Orioles",
-        "bridges": [
-          "yankees",
-          "carlos"
-        ]
-      },
-      "factors": [
-        "injury"
-      ],
-      "sentiment": {
-        "tag": "negative",
-        "cue": "injury",
-        "team": "New York Yankees"
-      },
-      "half_life_h": 72.0
     },
     {
       "title": "Brewers tie largest shutout with 22-0 rout of M's",
@@ -218,31 +192,6 @@
       "half_life_h": 12.0
     },
     {
-      "title": "Yankees OF Bellinger nearing rehab assignment",
-      "desc": "Yankees outfielder Cody Bellinger could begin a rehab assignment with Triple-A Scranton on Thursday, manager Aaron Boone said.",
-      "url": "https://www.espn.com/mlb/story/_/id/49652329/yankees-bellinger-begin-rehab-assignment-thursday",
-      "feed": "espn-mlb",
-      "sha": "76ffb2aac50065b7",
-      "relevance": "HOT",
-      "score": 0.55,
-      "mo": {
-        "trigger": 0.1,
-        "topDoc": "New York Yankees@Baltimore Orioles",
-        "bridges": [
-          "yankees"
-        ]
-      },
-      "factors": [
-        "general"
-      ],
-      "sentiment": {
-        "tag": "neutral",
-        "cue": "",
-        "team": "New York Yankees"
-      },
-      "half_life_h": 12.0
-    },
-    {
       "title": "A Cubs-White Sox World Series? Why this could be the best chance since 1906",
       "desc": "An all-Chicago Fall Classic this October is highly unlikely. But, historically speaking, it's practically a slam dunk!",
       "url": "https://www.espn.com/mlb/story/_/id/49603076/mlb-2026-chicago-cubs-white-sox-world-series-odds-playoff-contention-history",
@@ -265,6 +214,32 @@
         "tag": "neutral",
         "cue": "",
         "team": "Chicago Cubs"
+      },
+      "half_life_h": 12.0
+    },
+    {
+      "title": "Paul Skenes' next start delayed to 'give him a few more days to recover' as Pirates' playoff hopes fade",
+      "desc": "Skenes, scheduled to start Sunday, will take the mound on Wednesday after extra rest",
+      "url": "https://www.cbssports.com/mlb/news/paul-skenes-next-start-pirates-playoff-odds/",
+      "feed": "cbs-mlb",
+      "sha": "e42b4415f471e563",
+      "relevance": "WARM",
+      "score": 0.545,
+      "mo": {
+        "trigger": 0.091,
+        "topDoc": "Detroit Tigers@Pittsburgh Pirates",
+        "bridges": [
+          "paul",
+          "skenes"
+        ]
+      },
+      "factors": [
+        "weather"
+      ],
+      "sentiment": {
+        "tag": "neutral",
+        "cue": "",
+        "team": "Pittsburgh Pirates"
       },
       "half_life_h": 12.0
     },
@@ -342,6 +317,56 @@
         "team": "Texas Rangers"
       },
       "half_life_h": 12.0
+    },
+    {
+      "title": "A's Soderstrom set for season-ending hip surgery",
+      "desc": "Athletics outfielder Tyler Soderstrom is headed for season-ending hip surgery after going on the injured list for an impingement in the left hip.",
+      "url": "https://www.espn.com/mlb/story/_/id/49654958/athletics-tyler-soderstrom-set-season-ending-hip-surgery",
+      "feed": "espn-mlb",
+      "sha": "8971e0dd503c6b96",
+      "relevance": "WARM",
+      "score": 0.529,
+      "mo": {
+        "trigger": 0.059,
+        "topDoc": "Athletics@Kansas City Royals",
+        "bridges": [
+          "athletics"
+        ]
+      },
+      "factors": [
+        "injury"
+      ],
+      "sentiment": {
+        "tag": "negative",
+        "cue": "injured",
+        "team": "Athletics"
+      },
+      "half_life_h": 72.0
+    },
+    {
+      "title": "Max Fried lands back on IL with elbow injury: How the Yankees can withstand yet another hit",
+      "desc": "Even with Carlos Rod\u00f3n returning, the pitching staff is working overtime to make up for the lack of offense",
+      "url": "https://www.cbssports.com/mlb/news/max-fried-yankees-injured-list-playoff-race-rotation/",
+      "feed": "cbs-mlb",
+      "sha": "56f503aad2038cd4",
+      "relevance": "WARM",
+      "score": 0.529,
+      "mo": {
+        "trigger": 0.059,
+        "topDoc": "New York Yankees@Baltimore Orioles",
+        "bridges": [
+          "yankees"
+        ]
+      },
+      "factors": [
+        "injury"
+      ],
+      "sentiment": {
+        "tag": "negative",
+        "cue": "injury",
+        "team": "New York Yankees"
+      },
+      "half_life_h": 72.0
     },
     {
       "title": "MLB Power Rankings: Are there any good teams in the American League?",
@@ -444,6 +469,31 @@
       "half_life_h": 72.0
     },
     {
+      "title": "Kyle Tucker booed at Dodger Stadium: Why everything's going wrong for the $240M man",
+      "desc": "Tucker is hitting .232 with 0.3 WAR this season after signing a massive four-year contract in the offseason",
+      "url": "https://www.cbssports.com/mlb/news/kyle-tucker-booed-dodgers/",
+      "feed": "cbs-mlb",
+      "sha": "6f758ba4d5f4ab89",
+      "relevance": "WARM",
+      "score": 0.528,
+      "mo": {
+        "trigger": 0.056,
+        "topDoc": "Los Angeles Dodgers@Colorado Rockies",
+        "bridges": [
+          "kyle"
+        ]
+      },
+      "factors": [
+        "general"
+      ],
+      "sentiment": {
+        "tag": "neutral",
+        "cue": "",
+        "team": "Colorado Rockies"
+      },
+      "half_life_h": 12.0
+    },
+    {
       "title": "Cardinals rookie Joshua B\u00e1ez makes MLB history by homering in first three big-league at-bats",
       "desc": "B\u00e1ez led the minors in home runs before his promotion, and he showed off that power at Wrigley Field",
       "url": "https://www.cbssports.com/mlb/news/joshua-baez-cardinals-mlb-history-home-run/",
@@ -465,6 +515,31 @@
         "tag": "neutral",
         "cue": "",
         "team": "St. Louis Cardinals"
+      },
+      "half_life_h": 12.0
+    },
+    {
+      "title": "\ud83d\udcc8 MLB Rank in-season update: Who's No. 1?",
+      "desc": "We asked ESPN MLB experts for their updated top 50 to take stock of the best performances as the 2026 regular season begins to wind down.",
+      "url": "https://www.espn.com/mlb/story/_/id/49591477/mlb-rank-2026-season-update-top-50-baseball-players-ohtani-pca-alvarez-misiorowski",
+      "feed": "espn-mlb",
+      "sha": "3f4bb6c73ab5727d",
+      "relevance": "WARM",
+      "score": 0.526,
+      "mo": {
+        "trigger": 0.053,
+        "topDoc": "San Diego Padres@New York Mets",
+        "bridges": [
+          "stock"
+        ]
+      },
+      "factors": [
+        "weather"
+      ],
+      "sentiment": {
+        "tag": "neutral",
+        "cue": "",
+        "team": "New York Mets"
       },
       "half_life_h": 12.0
     },
@@ -569,6 +644,31 @@
       "half_life_h": 72.0
     },
     {
+      "title": "Free MLB home run picks August 14: Blue Jays' Vladimir Guerrero Jr. among expert's best bets for Friday",
+      "desc": "SportsLine's Matt Severance shares his best MLB home run props picks for Friday, August 14",
+      "url": "https://www.cbssports.com/betting/news/free-mlb-home-run-picks-august-14-blue-jays-vladimir-guerrero-jr-among-experts-best-bets-for-friday/",
+      "feed": "cbs-mlb",
+      "sha": "da0703c6f336d3a9",
+      "relevance": "WARM",
+      "score": 0.523,
+      "mo": {
+        "trigger": 0.045,
+        "topDoc": "San Francisco Giants@Cleveland Guardians",
+        "bridges": [
+          "matt"
+        ]
+      },
+      "factors": [
+        "general"
+      ],
+      "sentiment": {
+        "tag": "neutral",
+        "cue": "",
+        "team": "San Francisco Giants"
+      },
+      "half_life_h": 12.0
+    },
+    {
       "title": "Could Mark Walter sell the Dodgers next? Why Shohei Ohtani makes a potential deal more complicated than Lakers",
       "desc": "Walter is selling the Lakers to Bob Iger and Josh Kushner for a reported $12.5 billion",
       "url": "https://www.cbssports.com/mlb/news/mark-walter-dodgers-sale-shohei-ohtani/",
@@ -642,6 +742,32 @@
         "tag": "neutral",
         "cue": "",
         "team": "St. Louis Cardinals"
+      },
+      "half_life_h": 12.0
+    },
+    {
+      "title": "Yankees OF Bellinger nearing rehab assignment",
+      "desc": "Yankees outfielder Cody Bellinger could begin a rehab assignment with Triple-A Scranton on Thursday, manager Aaron Boone said.",
+      "url": "https://www.espn.com/mlb/story/_/id/49652329/yankees-bellinger-begin-rehab-assignment-thursday",
+      "feed": "espn-mlb",
+      "sha": "76ffb2aac50065b7",
+      "relevance": "WARM",
+      "score": 0.383,
+      "mo": {
+        "trigger": 0.15,
+        "topDoc": "New York Yankees@Baltimore Orioles",
+        "bridges": [
+          "yankees",
+          "aaron"
+        ]
+      },
+      "factors": [
+        "general"
+      ],
+      "sentiment": {
+        "tag": "neutral",
+        "cue": "",
+        "team": "New York Yankees"
       },
       "half_life_h": 12.0
     },
@@ -728,32 +854,6 @@
       "half_life_h": 6.0
     },
     {
-      "title": "A's Soderstrom set for season-ending hip surgery",
-      "desc": "Athletics outfielder Tyler Soderstrom is headed for season-ending hip surgery after going on the injured list for an impingement in the left hip.",
-      "url": "https://www.espn.com/mlb/story/_/id/49654958/athletics-tyler-soderstrom-set-season-ending-hip-surgery",
-      "feed": "espn-mlb",
-      "sha": "8971e0dd503c6b96",
-      "relevance": "WARM",
-      "score": 0.279,
-      "mo": {
-        "trigger": 0.118,
-        "topDoc": "Athletics@Kansas City Royals",
-        "bridges": [
-          "athletics",
-          "tyler"
-        ]
-      },
-      "factors": [
-        "injury"
-      ],
-      "sentiment": {
-        "tag": "negative",
-        "cue": "injured",
-        "team": "Athletics"
-      },
-      "half_life_h": 72.0
-    },
-    {
       "title": "Best MLB debuts of all time: Where does Joshua B\u00e1ez's three-homer performance fit in baseball history?",
       "desc": "B\u00e1ez homered in his first three MLB at-bats Saturday as the Cardinals topped the Cubs",
       "url": "https://www.cbssports.com/mlb/news/best-mlb-debuts-of-all-time-joshua-baez/",
@@ -811,6 +911,32 @@
       "url": "https://www.cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-brewers-at-dodgers-jets-vs-buccaneers-and-more/",
       "feed": "cbs-mlb",
       "sha": "e2b4e507c9830e49",
+      "relevance": "WARM",
+      "score": 0.271,
+      "mo": {
+        "trigger": 0.083,
+        "topDoc": "Seattle Mariners@Milwaukee Brewers",
+        "bridges": [
+          "brewers",
+          "dodgers"
+        ]
+      },
+      "factors": [
+        "line"
+      ],
+      "sentiment": {
+        "tag": "neutral",
+        "cue": "",
+        "team": "Milwaukee Brewers"
+      },
+      "half_life_h": 6.0
+    },
+    {
+      "title": "Today's top games to watch, best bets, odds: 49ers vs. Titans, Brewers vs. Dodgers and more",
+      "desc": "Find best bets and props for the biggest games in sports on Thursday from the SportsLine Projection Model and top CBS Sports experts",
+      "url": "https://www.cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-49ers-vs-titans-brewers-vs-dodgers-and-more/",
+      "feed": "cbs-mlb",
+      "sha": "aa4ee8339e508205",
       "relevance": "WARM",
       "score": 0.271,
       "mo": {
