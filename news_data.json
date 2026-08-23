@@ -1,64 +1,11 @@
 {
-  "generated_at": "2026-08-23T21:15:02.678530+00:00",
+  "generated_at": "2026-08-23T21:30:02.782103+00:00",
   "slate_date": "2026-08-23",
   "games": 15,
   "kept": 30,
   "dropped": 17,
   "extracted": 0,
   "items": [
-    {
-      "title": "Bleday completes cycle in first 4 at-bats for Reds",
-      "desc": "JJ Bleday of the Reds hit for the cycle in his first four at-bats against the Diamondbacks.",
-      "url": "https://www.espn.com/mlb/story/_/id/49697070/reds-jj-bleday-hits-cycle-1st-4-bats-d-backs",
-      "feed": "espn-mlb",
-      "sha": "0e54318aa9c27a01",
-      "relevance": "HOT",
-      "score": 0.607,
-      "mo": {
-        "trigger": 0.214,
-        "topDoc": "Cincinnati Reds@Arizona Diamondbacks",
-        "bridges": [
-          "reds",
-          "diamondbacks"
-        ]
-      },
-      "factors": [
-        "general"
-      ],
-      "sentiment": {
-        "tag": "neutral",
-        "cue": "",
-        "team": "Cincinnati Reds"
-      },
-      "half_life_h": 12.0
-    },
-    {
-      "title": "Bellinger back for Yankees after hamstring strain",
-      "desc": "The Yankees activated Cody Bellinger from the injured list after the outfielder missed 25 games with a strained left hamstring.",
-      "url": "https://www.espn.com/mlb/story/_/id/49702925/yankees-cody-bellinger-hamstring-back-missing-25",
-      "feed": "espn-mlb",
-      "sha": "b5a8dbb936a203d2",
-      "relevance": "HOT",
-      "score": 0.562,
-      "mo": {
-        "trigger": 0.125,
-        "topDoc": "Toronto Blue Jays@New York Yankees",
-        "bridges": [
-          "yankees"
-        ]
-      },
-      "factors": [
-        "injury",
-        "weather",
-        "roster"
-      ],
-      "sentiment": {
-        "tag": "neutral",
-        "cue": "injured",
-        "team": "New York Yankees"
-      },
-      "half_life_h": 72.0
-    },
     {
       "title": "Mariners place Donovan on 7-day concussion IL",
       "desc": "The Seattle Mariners will place utilityman Brendan Donovan on the seven-day concussion injured list, manager Dan Wilson said Sunday, a day after the 29-year-old was a late scratch because he was hit in the head by a baseball in the batting cages.",
@@ -135,6 +82,32 @@
         "team": "Philadelphia Phillies"
       },
       "half_life_h": 12.0
+    },
+    {
+      "title": "Diamondbacks place Soroka on 10-day injured list",
+      "desc": "The Arizona Diamondbacks placed veteran right-hander Michael Soroka, 29, on the 10-day injured list Sunday because of right shoulder inflammation, further depleting the pitching staff as they try to stay in contention in the National League playoff race.",
+      "url": "https://www.espn.com/mlb/story/_/id/49705200/arizona-diamondbacks-place-michael-soroka-injured-list",
+      "feed": "espn-mlb",
+      "sha": "b386c908031db49e",
+      "relevance": "HOT",
+      "score": 0.55,
+      "mo": {
+        "trigger": 0.1,
+        "topDoc": "Cincinnati Reds@Arizona Diamondbacks",
+        "bridges": [
+          "diamondbacks",
+          "arizona"
+        ]
+      },
+      "factors": [
+        "injury"
+      ],
+      "sentiment": {
+        "tag": "negative",
+        "cue": "injured",
+        "team": "Arizona Diamondbacks"
+      },
+      "half_life_h": 72.0
     },
     {
       "title": "2026 Little League Classic: How to watch Braves and Brewers face off in Williamsport",
@@ -267,6 +240,33 @@
         "team": "Texas Rangers"
       },
       "half_life_h": 12.0
+    },
+    {
+      "title": "Bellinger back in Yanks' win after hamstring strain",
+      "desc": "The Yankees activated Cody Bellinger from the injured list after the outfielder missed 25 games with a strained left hamstring.",
+      "url": "https://www.espn.com/mlb/story/_/id/49702925/yankees-cody-bellinger-hamstring-back-missing-25",
+      "feed": "espn-mlb",
+      "sha": "56bc1dfdd9d421f2",
+      "relevance": "WARM",
+      "score": 0.531,
+      "mo": {
+        "trigger": 0.062,
+        "topDoc": "Toronto Blue Jays@New York Yankees",
+        "bridges": [
+          "yankees"
+        ]
+      },
+      "factors": [
+        "injury",
+        "weather",
+        "roster"
+      ],
+      "sentiment": {
+        "tag": "neutral",
+        "cue": "injured",
+        "team": "New York Yankees"
+      },
+      "half_life_h": 72.0
     },
     {
       "title": "Ryan Weathers lands on IL as Yankees rotation suffers another injury loss",
