@@ -1,11 +1,38 @@
 {
-  "generated_at": "2026-08-25T13:00:02.793603+00:00",
-  "slate_date": "2026-08-24",
-  "games": 10,
-  "kept": 21,
-  "dropped": 29,
+  "generated_at": "2026-08-25T13:15:02.896136+00:00",
+  "slate_date": "2026-08-25",
+  "games": 15,
+  "kept": 30,
+  "dropped": 20,
   "extracted": 0,
   "items": [
+    {
+      "title": "Royals vs. Blue Jays MLB picks: Kansas City's too-little, too-late eight-game winning streak could end Tuesday",
+      "desc": "The Royals have won an AL-best eight in a row as they visit the Blue Jays, who have a unique win streak of their own",
+      "url": "https://www.cbssports.com/betting/news/royals-vs-blue-jays-mlb-picks-kansas-citys-too-little-too-late-eight-game-winning-streak-could-end-tuesday/",
+      "feed": "cbs-mlb",
+      "sha": "35a1cae2a9baac3c",
+      "relevance": "HOT",
+      "score": 0.609,
+      "mo": {
+        "trigger": 0.217,
+        "topDoc": "Kansas City Royals@Toronto Blue Jays",
+        "bridges": [
+          "royals",
+          "jays",
+          "kansas"
+        ]
+      },
+      "factors": [
+        "general"
+      ],
+      "sentiment": {
+        "tag": "neutral",
+        "cue": "",
+        "team": "Kansas City Royals"
+      },
+      "half_life_h": 12.0
+    },
     {
       "title": "Guardians vs. Angels MLB picks: Runs likely at a premium Monday between good-looking rookies Messick, Klassen",
       "desc": "It's a matchup of promising rookie pitchers as the Guardians visit the Angels",
@@ -13,15 +40,13 @@
       "feed": "cbs-mlb",
       "sha": "f61f82da069a7237",
       "relevance": "HOT",
-      "score": 0.643,
+      "score": 0.595,
       "mo": {
-        "trigger": 0.286,
+        "trigger": 0.19,
         "topDoc": "Cleveland Guardians@Los Angeles Angels",
         "bridges": [
           "guardians",
-          "angels",
-          "messick",
-          "klassen"
+          "angels"
         ]
       },
       "factors": [
@@ -33,6 +58,83 @@
         "team": "Cleveland Guardians"
       },
       "half_life_h": 12.0
+    },
+    {
+      "title": "Brown out as GM of 1st-place Astros after skid",
+      "desc": "Dana Brown is out as the Houston Astros' general manager, the team announced Monday.",
+      "url": "https://www.espn.com/mlb/story/_/id/49711497/dana-brown-gm-first-place-astros-recent-skid",
+      "feed": "espn-mlb",
+      "sha": "b9dde290f5a78ecd",
+      "relevance": "HOT",
+      "score": 0.583,
+      "mo": {
+        "trigger": 0.167,
+        "topDoc": "Houston Astros@New York Yankees",
+        "bridges": [
+          "astros",
+          "houston"
+        ]
+      },
+      "factors": [
+        "injury"
+      ],
+      "sentiment": {
+        "tag": "negative",
+        "cue": "out",
+        "team": "Houston Astros"
+      },
+      "half_life_h": 72.0
+    },
+    {
+      "title": "How Aaron Nola's renaissance has kept the Phillies in the NL East playoff picture",
+      "desc": "Nola's last five starts have been a revelation -- and exactly what the Phillies needed",
+      "url": "https://www.cbssports.com/mlb/news/aaron-nola-renaissance-phillies-playoff-picture/",
+      "feed": "cbs-mlb",
+      "sha": "e066571428b960de",
+      "relevance": "HOT",
+      "score": 0.579,
+      "mo": {
+        "trigger": 0.158,
+        "topDoc": "Philadelphia Phillies@Seattle Mariners",
+        "bridges": [
+          "aaron",
+          "phillies"
+        ]
+      },
+      "factors": [
+        "general"
+      ],
+      "sentiment": {
+        "tag": "neutral",
+        "cue": "",
+        "team": "Philadelphia Phillies"
+      },
+      "half_life_h": 12.0
+    },
+    {
+      "title": "Dana Brown out as Astros GM: Owner Jim Crane names himself temporary head of baseball operations",
+      "desc": "The Astros currently sit tied for first place in the AL West at one game under .500",
+      "url": "https://www.cbssports.com/mlb/news/astros-dana-brown-jim-crane/",
+      "feed": "cbs-mlb",
+      "sha": "8f690bc450b32ec0",
+      "relevance": "HOT",
+      "score": 0.559,
+      "mo": {
+        "trigger": 0.118,
+        "topDoc": "Houston Astros@New York Yankees",
+        "bridges": [
+          "astros"
+        ]
+      },
+      "factors": [
+        "injury"
+      ],
+      "sentiment": {
+        "tag": "negative",
+        "cue": "out",
+        "team": "Houston Astros"
+      },
+      "half_life_h": 72.0
     },
     {
       "title": "New owners vow to spend 'ambitiously' on Padres",
@@ -57,31 +159,6 @@
         "tag": "neutral",
         "cue": "",
         "team": "San Diego Padres"
-      },
-      "half_life_h": 12.0
-    },
-    {
-      "title": "How Aaron Nola's renaissance has kept the Phillies in the NL East playoff picture",
-      "desc": "Nola's last five starts have been a revelation -- and exactly what the Phillies needed",
-      "url": "https://www.cbssports.com/mlb/news/aaron-nola-renaissance-phillies-playoff-picture/",
-      "feed": "cbs-mlb",
-      "sha": "e066571428b960de",
-      "relevance": "HOT",
-      "score": 0.553,
-      "mo": {
-        "trigger": 0.105,
-        "topDoc": "Philadelphia Phillies@Seattle Mariners",
-        "bridges": [
-          "phillies"
-        ]
-      },
-      "factors": [
-        "general"
-      ],
-      "sentiment": {
-        "tag": "neutral",
-        "cue": "",
-        "team": "Philadelphia Phillies"
       },
       "half_life_h": 12.0
     },
@@ -112,29 +189,30 @@
       "half_life_h": 72.0
     },
     {
-      "title": "Angels vs. Astros MLB picks: Yordan Alvarez may not win Triple Crown, but Houston should win Thursday",
-      "desc": "The Astros and Triple Crown contender Yordan Alvarez might be in a good spot Thursday vs. the Angels",
-      "url": "https://www.cbssports.com/betting/news/angels-vs-astros-mlb-picks-yordan-alvarez-may-not-win-triple-crown-but-houston-should-win-thursday/",
+      "title": "The most disappointing MLB players of 2026: Cal Raleigh, Paul Skenes, Vladimir Guerrero Jr. and more",
+      "desc": "Some have been affected by injury, but these players have been huge letdowns for their teams this season",
+      "url": "https://www.cbssports.com/mlb/news/mlb-disappointing-players-2026-raleigh-skenes-guerrero-diaz-tucker-peralta-chisholm/",
       "feed": "cbs-mlb",
-      "sha": "d0a7f4be11c4a2b1",
+      "sha": "6b763c2f0654f30e",
       "relevance": "WARM",
-      "score": 0.548,
+      "score": 0.542,
       "mo": {
-        "trigger": 0.095,
-        "topDoc": "Cleveland Guardians@Los Angeles Angels",
+        "trigger": 0.083,
+        "topDoc": "Pittsburgh Pirates@San Diego Padres",
         "bridges": [
-          "angels"
+          "paul",
+          "skenes"
         ]
       },
       "factors": [
-        "general"
+        "injury"
       ],
       "sentiment": {
-        "tag": "neutral",
-        "cue": "",
-        "team": "Los Angeles Angels"
+        "tag": "negative",
+        "cue": "injury",
+        "team": "Pittsburgh Pirates"
       },
-      "half_life_h": 12.0
+      "half_life_h": 72.0
     },
     {
       "title": "Closer Fairbanks exits Marlins' loss with injury",
@@ -173,9 +251,9 @@
       "score": 0.531,
       "mo": {
         "trigger": 0.062,
-        "topDoc": "Colorado Rockies@Washington Nationals",
+        "topDoc": "Houston Astros@New York Yankees",
         "bridges": [
-          "ryan"
+          "yankees"
         ]
       },
       "factors": [
@@ -186,7 +264,7 @@
       "sentiment": {
         "tag": "negative",
         "cue": "injury",
-        "team": "Colorado Rockies"
+        "team": "New York Yankees"
       },
       "half_life_h": 72.0
     },
@@ -216,29 +294,55 @@
       "half_life_h": 12.0
     },
     {
-      "title": "Brewers' 22-0 blowout of the Mariners headlined by brutal Julio Rodr\u00edguez mental gaffe",
-      "desc": "The game tied for the most lopsided shutout loss in baseball's Modern Era",
-      "url": "https://www.cbssports.com/mlb/news/brewers-mariners-blowout-julio-rodriguez/",
+      "title": "Yankees slugger Giancarlo Stanton suffers another calf injury, could be out for season",
+      "desc": "Stanton has not played since April 24 due to multiple calf strains",
+      "url": "https://www.cbssports.com/mlb/news/giancarlo-stanton-injury-update-timeline-yankees/",
       "feed": "cbs-mlb",
-      "sha": "61bf99c774917823",
+      "sha": "15bac416a1c459ef",
       "relevance": "WARM",
       "score": 0.529,
       "mo": {
         "trigger": 0.059,
-        "topDoc": "Philadelphia Phillies@Seattle Mariners",
+        "topDoc": "Houston Astros@New York Yankees",
         "bridges": [
-          "mariners"
+          "yankees"
         ]
       },
       "factors": [
-        "general"
+        "injury",
+        "weather"
       ],
       "sentiment": {
-        "tag": "neutral",
-        "cue": "",
-        "team": "Seattle Mariners"
+        "tag": "negative",
+        "cue": "out",
+        "team": "New York Yankees"
       },
-      "half_life_h": 12.0
+      "half_life_h": 72.0
+    },
+    {
+      "title": "Dodgers place struggling closer Edwin D\u00edaz on injured list as bullpen woes continue",
+      "desc": "D\u00edaz has an 11.85 ERA, 2.56 WHIP and -1.4 WAR in 16 outings this season after signing a three-year, $69 million contract",
+      "url": "https://www.cbssports.com/mlb/news/edwin-diaz-injured-list-dodgers-bullpen/",
+      "feed": "cbs-mlb",
+      "sha": "ed2e4dfdb6663a66",
+      "relevance": "WARM",
+      "score": 0.528,
+      "mo": {
+        "trigger": 0.056,
+        "topDoc": "Los Angeles Dodgers@Atlanta Braves",
+        "bridges": [
+          "dodgers"
+        ]
+      },
+      "factors": [
+        "injury"
+      ],
+      "sentiment": {
+        "tag": "negative",
+        "cue": "injured",
+        "team": "Los Angeles Dodgers"
+      },
+      "half_life_h": 72.0
     },
     {
       "title": "Randy Arozarena becomes third in MLB history with first-pitch home run, walk-off homer -- just days after PCA",
@@ -291,29 +395,29 @@
       "half_life_h": 12.0
     },
     {
-      "title": "MLB Power Rankings: All hail the Brewers (again); next stop, a World Series title?",
-      "desc": "Elsewhere, the Phillies and Red Sox are on a heater and the Tigers' post-trade deadline magic appears to have run out",
-      "url": "https://www.cbssports.com/mlb/news/mlb-power-rankings-brewers-world-series/",
+      "title": "Dodgers All-Star Andy Pages suffers broken hand: What it means as L.A. chases third straight World Series",
+      "desc": "Pages has emerged as the Dodgers' top right-handed hitter this season",
+      "url": "https://www.cbssports.com/mlb/news/andy-pages-injury-timeline-dodgers/",
       "feed": "cbs-mlb",
-      "sha": "f82406da4cc6714e",
+      "sha": "4b85f301a54e532c",
       "relevance": "WARM",
       "score": 0.525,
       "mo": {
         "trigger": 0.05,
-        "topDoc": "Philadelphia Phillies@Seattle Mariners",
+        "topDoc": "Los Angeles Dodgers@Atlanta Braves",
         "bridges": [
-          "phillies"
+          "dodgers"
         ]
       },
       "factors": [
-        "injury"
+        "general"
       ],
       "sentiment": {
-        "tag": "negative",
-        "cue": "out",
-        "team": "Philadelphia Phillies"
+        "tag": "neutral",
+        "cue": "",
+        "team": "Los Angeles Dodgers"
       },
-      "half_life_h": 72.0
+      "half_life_h": 12.0
     },
     {
       "title": "D-backs hoping Marte returns to lineup next week",
@@ -341,54 +445,29 @@
       "half_life_h": 24.0
     },
     {
-      "title": "Reds' Toglia to undergo season-ending surgery",
-      "desc": "Reds infielder/outfielder Michael Toglia will undergo season-ending surgery on his right shoulder after he was injured Friday making a diving catch.",
-      "url": "https://www.espn.com/mlb/story/_/id/49717684/reds-michael-toglia-season-ending-shoulder-surgery",
-      "feed": "espn-mlb",
-      "sha": "396826ac7c0264b1",
+      "title": "Dodgers president says team is 'not for sale' amid growing fan concerns after Mark Walter's Lakers deal",
+      "desc": "Walter sold the Lakers for $12.5 billion earlier this month -- a mere 14 months after purchasing the franchise",
+      "url": "https://www.cbssports.com/mlb/news/dodgers-not-for-sale-mark-walter-lakers-deal/",
+      "feed": "cbs-mlb",
+      "sha": "4f77ab58226e46f1",
       "relevance": "WARM",
-      "score": 0.523,
+      "score": 0.524,
       "mo": {
-        "trigger": 0.045,
-        "topDoc": "Cincinnati Reds@San Francisco Giants",
+        "trigger": 0.048,
+        "topDoc": "Los Angeles Dodgers@Atlanta Braves",
         "bridges": [
-          "reds"
+          "dodgers"
         ]
       },
       "factors": [
-        "injury"
-      ],
-      "sentiment": {
-        "tag": "negative",
-        "cue": "injured",
-        "team": "Cincinnati Reds"
-      },
-      "half_life_h": 72.0
-    },
-    {
-      "title": "Every team's odds to win the 2026 World Series: Dodgers remain clear favorites",
-      "desc": "Every MLB team's odds to win the 2026 World Series, led by the Dodgers. Milwaukee and Tampa Bay continue to see odds improvement.",
-      "url": "https://www.espn.com/espn/betting/story/_/id/46793185/espn-mlb-betting-odds-futures-bets-world-series-american-national-league",
-      "feed": "espn-mlb",
-      "sha": "c72ce1bcd19f6f3f",
-      "relevance": "WARM",
-      "score": 0.523,
-      "mo": {
-        "trigger": 0.045,
-        "topDoc": "Tampa Bay Rays@Detroit Tigers",
-        "bridges": [
-          "tampa"
-        ]
-      },
-      "factors": [
-        "line"
+        "general"
       ],
       "sentiment": {
         "tag": "neutral",
         "cue": "",
-        "team": "Tampa Bay Rays"
+        "team": "Los Angeles Dodgers"
       },
-      "half_life_h": 6.0
+      "half_life_h": 12.0
     },
     {
       "title": "Free MLB home run picks August 21: Rays All-Star Yandy Diaz among expert's best bets for Friday",
@@ -416,18 +495,18 @@
       "half_life_h": 12.0
     },
     {
-      "title": "Today's top games to watch, best bets, odds: Blue Jays vs. Rays, Yankees vs. Oriolesand more",
-      "desc": "Find best bets for the biggest games in sports on Wednesday from the SportsLine Projection Model and top CBS Sports experts",
-      "url": "https://www.cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-blue-jays-vs-rays-yankees-vs-oriolesand-more/",
+      "title": "Free MLB home run picks, odds for August 21: Justin Foscue in expert's best bets for Friday HR player props",
+      "desc": "SportsLine's Jacob Fetner reveals his best MLB home run props picks for Friday, August 21",
+      "url": "https://www.cbssports.com/betting/news/free-mlb-home-run-picks-odds-for-august-21-justin-foscue-experts-best-bets-friday-hr-player-props/",
       "feed": "cbs-mlb",
-      "sha": "f9783c2bba55b007",
+      "sha": "8748ef836feb3358",
       "relevance": "WARM",
       "score": 0.522,
       "mo": {
         "trigger": 0.043,
-        "topDoc": "Tampa Bay Rays@Detroit Tigers",
+        "topDoc": "Texas Rangers@Chicago White Sox",
         "bridges": [
-          "rays"
+          "jacob"
         ]
       },
       "factors": [
@@ -436,34 +515,9 @@
       "sentiment": {
         "tag": "neutral",
         "cue": "",
-        "team": "Tampa Bay Rays"
+        "team": "Texas Rangers"
       },
       "half_life_h": 6.0
-    },
-    {
-      "title": "Seven more MLB executives who could be on the hot seat after Astros' Dana Brown",
-      "desc": "Has Mike Elias' Orioles rebuild finally run out of time? Is David Stearns actually safe? Can Buster Posey turn things around for the Giants?",
-      "url": "https://www.cbssports.com/mlb/news/mlb-executives-hot-seat-mets-orioles-giants-mariners-reds-tigers-pirates/",
-      "feed": "cbs-mlb",
-      "sha": "6206f66f0684ff46",
-      "relevance": "WARM",
-      "score": 0.521,
-      "mo": {
-        "trigger": 0.042,
-        "topDoc": "Cincinnati Reds@San Francisco Giants",
-        "bridges": [
-          "giants"
-        ]
-      },
-      "factors": [
-        "injury"
-      ],
-      "sentiment": {
-        "tag": "negative",
-        "cue": "out",
-        "team": "San Francisco Giants"
-      },
-      "half_life_h": 72.0
     },
     {
       "title": "Raleigh hits career-high 3 HRs; M's end Phils' run",
@@ -489,6 +543,84 @@
         "team": "Seattle Mariners"
       },
       "half_life_h": 72.0
+    },
+    {
+      "title": "Five MLB players running out of time to prove themselves: Anthony Volpe, Dylan Crews and more",
+      "desc": "These five players had high expectations through the minors and into their MLB debut, but they've failed to live up to projections ... at least so far",
+      "url": "https://www.cbssports.com/mlb/news/mlb-players-running-out-of-time-volpe-crews-lawlar-gorman-rocker/",
+      "feed": "cbs-mlb",
+      "sha": "ad31015f3746f19a",
+      "relevance": "WARM",
+      "score": 0.52,
+      "mo": {
+        "trigger": 0.04,
+        "topDoc": "Texas Rangers@Chicago White Sox",
+        "bridges": [
+          "anthony"
+        ]
+      },
+      "factors": [
+        "injury"
+      ],
+      "sentiment": {
+        "tag": "negative",
+        "cue": "out",
+        "team": "Chicago White Sox"
+      },
+      "half_life_h": 72.0
+    },
+    {
+      "title": "'We have all the technology': Pete Alonso calls out MLB after disputed home run call in Orioles-Yankees game",
+      "desc": "Alonso's would-be go-ahead home run in the seventh was ruled a foul ball and the Orioles went on to lose on Wednesday",
+      "url": "https://www.cbssports.com/mlb/news/pete-alonso-home-run-foul-orioles-yankees/",
+      "feed": "cbs-mlb",
+      "sha": "06591e741e25b401",
+      "relevance": "WARM",
+      "score": 0.379,
+      "mo": {
+        "trigger": 0.136,
+        "topDoc": "Baltimore Orioles@St. Louis Cardinals",
+        "bridges": [
+          "orioles",
+          "yankees"
+        ]
+      },
+      "factors": [
+        "injury"
+      ],
+      "sentiment": {
+        "tag": "negative",
+        "cue": "out",
+        "team": "Baltimore Orioles"
+      },
+      "half_life_h": 72.0
+    },
+    {
+      "title": "Every team's odds to win the 2026 World Series: Dodgers remain clear favorites",
+      "desc": "Every MLB team's odds to win the 2026 World Series, led by the Dodgers. Milwaukee and Tampa Bay continue to see odds improvement.",
+      "url": "https://www.espn.com/espn/betting/story/_/id/46793185/espn-mlb-betting-odds-futures-bets-world-series-american-national-league",
+      "feed": "espn-mlb",
+      "sha": "c72ce1bcd19f6f3f",
+      "relevance": "WARM",
+      "score": 0.295,
+      "mo": {
+        "trigger": 0.182,
+        "topDoc": "Los Angeles Dodgers@Atlanta Braves",
+        "bridges": [
+          "dodgers",
+          "milwaukee",
+          "tampa"
+        ]
+      },
+      "factors": [
+        "line"
+      ],
+      "sentiment": {
+        "tag": "neutral",
+        "cue": "",
+        "team": "Los Angeles Dodgers"
+      },
+      "half_life_h": 6.0
     },
     {
       "title": "Today's top games to watch, best bets, odds: Phillies vs. Mariners, Cubs vs. Diamondbacks and more",
@@ -519,6 +651,34 @@
       "half_life_h": 6.0
     },
     {
+      "title": "Angels vs. Astros MLB picks: Yordan Alvarez may not win Triple Crown, but Houston should win Thursday",
+      "desc": "The Astros and Triple Crown contender Yordan Alvarez might be in a good spot Thursday vs. the Angels",
+      "url": "https://www.cbssports.com/betting/news/angels-vs-astros-mlb-picks-yordan-alvarez-may-not-win-triple-crown-but-houston-should-win-thursday/",
+      "feed": "cbs-mlb",
+      "sha": "d0a7f4be11c4a2b1",
+      "relevance": "WARM",
+      "score": 0.286,
+      "mo": {
+        "trigger": 0.333,
+        "topDoc": "Houston Astros@New York Yankees",
+        "bridges": [
+          "angels",
+          "astros",
+          "alvarez",
+          "houston"
+        ]
+      },
+      "factors": [
+        "general"
+      ],
+      "sentiment": {
+        "tag": "neutral",
+        "cue": "",
+        "team": "Los Angeles Angels"
+      },
+      "half_life_h": 12.0
+    },
+    {
       "title": "Ketel Marte spotted at casino during Diamondbacks game as off-field drama continues",
       "desc": "Marte failed to show up for Monday night's game in Boston and was later put on the injured list",
       "url": "https://www.cbssports.com/mlb/news/ketel-marte-injury-diamondbacks-drama-casino/",
@@ -541,6 +701,84 @@
         "tag": "negative",
         "cue": "injured",
         "team": "Arizona Diamondbacks"
+      },
+      "half_life_h": 72.0
+    },
+    {
+      "title": "MLB Power Rankings: All hail the Brewers (again); next stop, a World Series title?",
+      "desc": "Elsewhere, the Phillies and Red Sox are on a heater and the Tigers' post-trade deadline magic appears to have run out",
+      "url": "https://www.cbssports.com/mlb/news/mlb-power-rankings-brewers-world-series/",
+      "feed": "cbs-mlb",
+      "sha": "f82406da4cc6714e",
+      "relevance": "WARM",
+      "score": 0.275,
+      "mo": {
+        "trigger": 0.1,
+        "topDoc": "Milwaukee Brewers@New York Mets",
+        "bridges": [
+          "brewers",
+          "phillies"
+        ]
+      },
+      "factors": [
+        "injury"
+      ],
+      "sentiment": {
+        "tag": "negative",
+        "cue": "out",
+        "team": "Milwaukee Brewers"
+      },
+      "half_life_h": 72.0
+    },
+    {
+      "title": "Reds' Toglia to undergo season-ending surgery",
+      "desc": "Reds infielder/outfielder Michael Toglia will undergo season-ending surgery on his right shoulder after he was injured Friday making a diving catch.",
+      "url": "https://www.espn.com/mlb/story/_/id/49717684/reds-michael-toglia-season-ending-shoulder-surgery",
+      "feed": "espn-mlb",
+      "sha": "396826ac7c0264b1",
+      "relevance": "WARM",
+      "score": 0.273,
+      "mo": {
+        "trigger": 0.091,
+        "topDoc": "Cincinnati Reds@San Francisco Giants",
+        "bridges": [
+          "reds",
+          "michael"
+        ]
+      },
+      "factors": [
+        "injury"
+      ],
+      "sentiment": {
+        "tag": "negative",
+        "cue": "injured",
+        "team": "Cincinnati Reds"
+      },
+      "half_life_h": 72.0
+    },
+    {
+      "title": "Seven more MLB executives who could be on the hot seat after Astros' Dana Brown",
+      "desc": "Has Mike Elias' Orioles rebuild finally run out of time? Is David Stearns actually safe? Can Buster Posey turn things around for the Giants?",
+      "url": "https://www.cbssports.com/mlb/news/mlb-executives-hot-seat-mets-orioles-giants-mariners-reds-tigers-pirates/",
+      "feed": "cbs-mlb",
+      "sha": "6206f66f0684ff46",
+      "relevance": "WARM",
+      "score": 0.271,
+      "mo": {
+        "trigger": 0.083,
+        "topDoc": "Baltimore Orioles@St. Louis Cardinals",
+        "bridges": [
+          "orioles",
+          "giants"
+        ]
+      },
+      "factors": [
+        "injury"
+      ],
+      "sentiment": {
+        "tag": "negative",
+        "cue": "out",
+        "team": "Baltimore Orioles"
       },
       "half_life_h": 72.0
     }
