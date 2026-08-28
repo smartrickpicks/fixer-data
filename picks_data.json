@@ -1,7 +1,7 @@
 {
  "date": "2026-08-27",
  "sport": "MLB",
- "generated_at": "2026-08-27T23:05:01.599825Z",
+ "generated_at": "2026-08-28T01:05:01.754673Z",
  "record": {
   "w": 1078,
   "l": 949,
@@ -35,15 +35,15 @@
    "home": "San Francisco Giants",
    "pick": "San Francisco Giants",
    "model": 0.533,
-   "market": 0.478,
-   "edge": 0.054,
+   "market": 0.47,
+   "edge": 0.063,
    "model_side": "San Francisco Giants",
    "model_conf": 0.533,
    "raw_conf": 0.581,
    "raw_model": 0.581,
    "calibrated": true,
-   "dec_odds": 2.1,
-   "best_dec_odds": 2.1,
+   "dec_odds": 2.11,
+   "best_dec_odds": 2.11,
    "start": "2026-08-28T01:46:00Z",
    "hp": "Landen Roupp",
    "ap": "Jose Cabrera",
@@ -62,11 +62,11 @@
     "so": 12
    },
    "asmt": {
-    "assessment_id": "asmt_2026-08-27_arizona-diamondbacks_san-francisco-giants_e11509fc3808",
+    "assessment_id": "asmt_2026-08-27_arizona-diamondbacks_san-francisco-giants_6fc03e36a368",
     "policy_version": "assessment_policy_v1",
     "model_version": "mlb_baseline_v1",
     "devig_method": "proportional_v1",
-    "created_at": "2026-08-27T23:05:08.248605Z",
+    "created_at": "2026-08-28T01:05:06.764453Z",
     "date": "2026-08-27",
     "away": "Arizona Diamondbacks",
     "home": "San Francisco Giants",
@@ -77,29 +77,29 @@
     },
     "value_side": {
      "label": "San Francisco Giants",
-     "expected_value_per_unit": 0.1184,
-     "value_points": 5.4,
-     "american_odds": 110,
-     "decimal_odds": 2.1,
-     "book_key": "fanduel",
-     "book": "FanDuel"
+     "expected_value_per_unit": 0.1237,
+     "value_points": 6.3,
+     "american_odds": 111,
+     "decimal_odds": 2.11,
+     "book_key": "betonlineag",
+     "book": "BetOnline.ag"
     },
     "selection": "San Francisco Giants",
     "status": "qualified",
     "grade": "B",
-    "score": 78,
+    "score": 77,
     "fair_probability": 0.5326,
-    "market_break_even": 0.4762,
-    "market_reference_probability": 0.4783,
+    "market_break_even": 0.4739,
+    "market_reference_probability": 0.4696,
     "price_limit_american": -109,
-    "quote_age_seconds": 24,
+    "quote_age_seconds": 22,
     "components": {
      "value": 25,
      "calibration": 10,
      "agreement": 7,
      "stability": 15,
      "data_certainty": 15,
-     "price_quality": 6
+     "price_quality": 5
     },
     "penalties": [],
     "reason_codes": [
@@ -112,25 +112,24 @@
     "receipt": {
      "model_version": "mlb_baseline_v1",
      "calibration_id": "cal_mlb_ml_2026-08-27",
-     "forecast_generated_at": "2026-08-27T23:05:01.599825Z",
-     "quote_observed_at": "2026-08-27T23:04:44Z",
+     "forecast_generated_at": "2026-08-28T01:05:01.754673Z",
+     "quote_observed_at": "2026-08-28T01:04:44Z",
      "book_count": 9,
      "policy_version": "assessment_policy_v1",
-     "published_at": "2026-08-27T23:05:08.248605Z",
-     "sealed_at": "2026-08-27T23:05:08.248605Z"
+     "published_at": "2026-08-28T01:05:06.764453Z",
+     "sealed_at": "2026-08-28T01:05:06.764453Z"
     },
     "forecast": {
      "fair_home": 0.5326,
      "raw_home": 0.5805,
-     "ref_home": 0.4783
+     "ref_home": 0.4696
     },
-    "seal": "seal_e11509fc3808",
+    "seal": "seal_6fc03e36a368",
     "tier": {
      "label": "Qualified",
      "kind": "play"
     }
-   },
-   "changed": "value +3.3\u2192+5.4 \u00b7 price -102\u2192+110 \u00b7 status LEAN\u2192QUALIFIED"
+   }
   },
   {
    "away": "Houston Astros",
@@ -164,11 +163,11 @@
     "so": 22
    },
    "asmt": {
-    "assessment_id": "asmt_2026-08-27_houston-astros_new-york-yankees_e03212ca7a1c",
+    "assessment_id": "asmt_2026-08-27_houston-astros_new-york-yankees_e03212ca7a1c_closed_8e83a5104201",
     "policy_version": "assessment_policy_v1",
     "model_version": "mlb_baseline_v1",
     "devig_method": "proportional_v1",
-    "created_at": "2026-08-27T23:05:01.631255Z",
+    "created_at": "2026-08-28T01:05:08.570657Z",
     "date": "2026-08-27",
     "away": "Houston Astros",
     "home": "New York Yankees",
@@ -186,8 +185,8 @@
      "book_key": "draftkings",
      "book": "DraftKings"
     },
-    "selection": "Houston Astros",
-    "status": "lean",
+    "selection": null,
+    "status": "closed",
     "grade": "C",
     "score": 70,
     "fair_probability": 0.4331,
@@ -209,7 +208,8 @@
      "PRICE_ABOVE_LIMIT",
      "QUOTE_FRESH",
      "STARTER_CONFIRMED",
-     "MARKET_STABLE"
+     "MARKET_STABLE",
+     "EVENT_STARTED"
     ],
     "receipt": {
      "model_version": "mlb_baseline_v1",
@@ -219,19 +219,22 @@
      "book_count": 9,
      "policy_version": "assessment_policy_v1",
      "published_at": "2026-08-27T23:05:01.631255Z",
-     "sealed_at": "2026-08-27T23:05:01.631255Z"
+     "sealed_at": "2026-08-28T01:05:08.570657Z"
     },
     "forecast": {
      "fair_home": 0.5669,
      "raw_home": 0.6785,
      "ref_home": 0.5941
     },
-    "seal": "seal_e03212ca7a1c",
+    "seal": "seal_8e83a5104201",
     "tier": {
      "label": "Lean",
      "kind": "lean"
-    }
-   }
+    },
+    "parent_assessment_id": "asmt_2026-08-27_houston-astros_new-york-yankees_e03212ca7a1c",
+    "parent_seal": "seal_e03212ca7a1c"
+   },
+   "frozen": true
   },
   {
    "away": "Kansas City Royals",
@@ -265,11 +268,11 @@
     "so": 128
    },
    "asmt": {
-    "assessment_id": "asmt_2026-08-27_kansas-city-royals_toronto-blue-jays_240998442e8c",
+    "assessment_id": "asmt_2026-08-27_kansas-city-royals_toronto-blue-jays_240998442e8c_closed_f5425d181ec5",
     "policy_version": "assessment_policy_v1",
     "model_version": "mlb_baseline_v1",
     "devig_method": "proportional_v1",
-    "created_at": "2026-08-27T23:05:03.193437Z",
+    "created_at": "2026-08-28T01:05:08.570940Z",
     "date": "2026-08-27",
     "away": "Kansas City Royals",
     "home": "Toronto Blue Jays",
@@ -287,8 +290,8 @@
      "book_key": "fanduel",
      "book": "FanDuel"
     },
-    "selection": "Toronto Blue Jays",
-    "status": "lean",
+    "selection": null,
+    "status": "closed",
     "grade": "C",
     "score": 68,
     "fair_probability": 0.5267,
@@ -310,7 +313,8 @@
      "PRICE_ABOVE_LIMIT",
      "QUOTE_FRESH",
      "STARTER_CONFIRMED",
-     "MARKET_STABLE"
+     "MARKET_STABLE",
+     "EVENT_STARTED"
     ],
     "receipt": {
      "model_version": "mlb_baseline_v1",
@@ -320,19 +324,22 @@
      "book_count": 9,
      "policy_version": "assessment_policy_v1",
      "published_at": "2026-08-27T23:05:03.193437Z",
-     "sealed_at": "2026-08-27T23:05:03.193437Z"
+     "sealed_at": "2026-08-28T01:05:08.570940Z"
     },
     "forecast": {
      "fair_home": 0.5267,
      "raw_home": 0.562,
      "ref_home": 0.4957
     },
-    "seal": "seal_240998442e8c",
+    "seal": "seal_f5425d181ec5",
     "tier": {
      "label": "Lean",
      "kind": "lean"
-    }
-   }
+    },
+    "parent_assessment_id": "asmt_2026-08-27_kansas-city-royals_toronto-blue-jays_240998442e8c",
+    "parent_seal": "seal_240998442e8c"
+   },
+   "frozen": true
   },
   {
    "away": "Los Angeles Dodgers",
@@ -366,11 +373,11 @@
     "so": 145
    },
    "asmt": {
-    "assessment_id": "asmt_2026-08-27_los-angeles-dodgers_atlanta-braves_6e397e114cb3",
+    "assessment_id": "asmt_2026-08-27_los-angeles-dodgers_atlanta-braves_6e397e114cb3_closed_bb9721f8ab18",
     "policy_version": "assessment_policy_v1",
     "model_version": "mlb_baseline_v1",
     "devig_method": "proportional_v1",
-    "created_at": "2026-08-27T23:05:06.627062Z",
+    "created_at": "2026-08-28T01:05:08.570884Z",
     "date": "2026-08-27",
     "away": "Los Angeles Dodgers",
     "home": "Atlanta Braves",
@@ -389,7 +396,7 @@
      "book": "DraftKings"
     },
     "selection": null,
-    "status": "pass",
+    "status": "closed",
     "grade": "F",
     "score": 47,
     "fair_probability": 0.485,
@@ -410,7 +417,8 @@
      "NO_USABLE_VALUE",
      "QUOTE_FRESH",
      "STARTER_CONFIRMED",
-     "MARKET_STABLE"
+     "MARKET_STABLE",
+     "EVENT_STARTED"
     ],
     "receipt": {
      "model_version": "mlb_baseline_v1",
@@ -420,127 +428,23 @@
      "book_count": 9,
      "policy_version": "assessment_policy_v1",
      "published_at": "2026-08-27T23:05:06.627062Z",
-     "sealed_at": "2026-08-27T23:05:06.627062Z"
+     "sealed_at": "2026-08-28T01:05:08.570884Z"
     },
     "forecast": {
      "fair_home": 0.515,
      "raw_home": 0.5253,
      "ref_home": 0.5229
     },
-    "seal": "seal_6e397e114cb3",
+    "seal": "seal_bb9721f8ab18",
     "tier": {
      "label": "Pass",
      "kind": "pass"
-    }
+    },
+    "parent_assessment_id": "asmt_2026-08-27_los-angeles-dodgers_atlanta-braves_6e397e114cb3",
+    "parent_seal": "seal_6e397e114cb3"
    },
-   "changed": "value +2.0\u2192+0.8 \u00b7 price +114\u2192+107 \u00b7 status LEAN\u2192PASS"
-  },
-  {
-   "away": "Milwaukee Brewers",
-   "home": "New York Mets",
-   "pick": "New York Mets",
-   "model": 0.523,
-   "market": 0.355,
-   "edge": 0.168,
-   "model_side": "New York Mets",
-   "model_conf": 0.523,
-   "raw_conf": 0.551,
-   "raw_model": 0.551,
-   "calibrated": true,
-   "dec_odds": 2.84,
-   "best_dec_odds": 2.84,
-   "start": "2026-08-27T23:11:00Z",
-   "hp": "Sean Manaea",
-   "ap": "Jacob Misiorowski",
-   "hp_stat": {
-    "era": "4.31",
-    "w": 4,
-    "l": 5,
-    "ip": "117.0",
-    "so": 117
-   },
-   "ap_stat": {
-    "era": "1.68",
-    "w": 13,
-    "l": 5,
-    "ip": "145.0",
-    "so": 216
-   },
-   "asmt": {
-    "assessment_id": "asmt_2026-08-27_milwaukee-brewers_new-york-mets_f369bf981528",
-    "policy_version": "assessment_policy_v1",
-    "model_version": "mlb_baseline_v1",
-    "devig_method": "proportional_v1",
-    "created_at": "2026-08-27T23:05:04.901018Z",
-    "date": "2026-08-27",
-    "away": "Milwaukee Brewers",
-    "home": "New York Mets",
-    "commence_time": "2026-08-27T23:11:00Z",
-    "likely_side": {
-     "label": "New York Mets",
-     "probability": 0.5231
-    },
-    "value_side": {
-     "label": "New York Mets",
-     "expected_value_per_unit": 0.4855,
-     "value_points": 16.8,
-     "american_odds": 184,
-     "decimal_odds": 2.84,
-     "book_key": "draftkings",
-     "book": "DraftKings"
-    },
-    "selection": null,
-    "status": "model_alert",
-    "grade": "F",
-    "score": 38,
-    "fair_probability": 0.5231,
-    "market_break_even": 0.3521,
-    "market_reference_probability": 0.3551,
-    "price_limit_american": -105,
-    "quote_age_seconds": 43,
-    "components": {
-     "value": 15,
-     "calibration": 10,
-     "agreement": 7,
-     "stability": 15,
-     "data_certainty": 15,
-     "price_quality": 6
-    },
-    "penalties": [
-     {
-      "code": "OUTLIER_DISAGREEMENT",
-      "points": -30
-     }
-    ],
-    "reason_codes": [
-     "POSITIVE_EV",
-     "PRICE_ABOVE_LIMIT",
-     "OUTLIER_DISAGREEMENT",
-     "QUOTE_FRESH",
-     "STARTER_CONFIRMED",
-     "MARKET_STABLE"
-    ],
-    "receipt": {
-     "model_version": "mlb_baseline_v1",
-     "calibration_id": "cal_mlb_ml_2026-08-27",
-     "forecast_generated_at": "2026-08-27T23:05:01.599825Z",
-     "quote_observed_at": "2026-08-27T23:04:21Z",
-     "book_count": 9,
-     "policy_version": "assessment_policy_v1",
-     "published_at": "2026-08-27T23:05:04.901018Z",
-     "sealed_at": "2026-08-27T23:05:04.901018Z"
-    },
-    "forecast": {
-     "fair_home": 0.5231,
-     "raw_home": 0.5507,
-     "ref_home": 0.3551
-    },
-    "seal": "seal_f369bf981528",
-    "tier": {
-     "label": "Model Alert",
-     "kind": "alert"
-    }
-   }
+   "changed": "value +2.0\u2192+0.8 \u00b7 price +114\u2192+107 \u00b7 status LEAN\u2192PASS",
+   "frozen": true
   },
   {
    "away": "Baltimore Orioles",
@@ -644,6 +548,117 @@
     "parent_seal": "seal_0f651f85df9c"
    },
    "changed": "value +1.9\u2192+0.8 \u00b7 conf 52%\u219255% \u00b7 price +112\u2192-123 \u00b7 St. SP TBD\u2192Gordon Graceffo \u00b7 status WATCH\u2192PASS",
+   "frozen": true
+  },
+  {
+   "away": "Milwaukee Brewers",
+   "home": "New York Mets",
+   "pick": "New York Mets",
+   "model": 0.523,
+   "market": 0.355,
+   "edge": 0.168,
+   "model_side": "New York Mets",
+   "model_conf": 0.523,
+   "raw_conf": 0.551,
+   "raw_model": 0.551,
+   "calibrated": true,
+   "dec_odds": 2.84,
+   "best_dec_odds": 2.84,
+   "start": "2026-08-27T23:11:00Z",
+   "hp": "Sean Manaea",
+   "ap": "Jacob Misiorowski",
+   "hp_stat": {
+    "era": "4.31",
+    "w": 4,
+    "l": 5,
+    "ip": "117.0",
+    "so": 117
+   },
+   "ap_stat": {
+    "era": "1.68",
+    "w": 13,
+    "l": 5,
+    "ip": "145.0",
+    "so": 216
+   },
+   "asmt": {
+    "assessment_id": "asmt_2026-08-27_milwaukee-brewers_new-york-mets_f369bf981528_closed_7da34b245f95",
+    "policy_version": "assessment_policy_v1",
+    "model_version": "mlb_baseline_v1",
+    "devig_method": "proportional_v1",
+    "created_at": "2026-08-28T01:05:08.570797Z",
+    "date": "2026-08-27",
+    "away": "Milwaukee Brewers",
+    "home": "New York Mets",
+    "commence_time": "2026-08-27T23:11:00Z",
+    "likely_side": {
+     "label": "New York Mets",
+     "probability": 0.5231
+    },
+    "value_side": {
+     "label": "New York Mets",
+     "expected_value_per_unit": 0.4855,
+     "value_points": 16.8,
+     "american_odds": 184,
+     "decimal_odds": 2.84,
+     "book_key": "draftkings",
+     "book": "DraftKings"
+    },
+    "selection": null,
+    "status": "closed",
+    "grade": "F",
+    "score": 38,
+    "fair_probability": 0.5231,
+    "market_break_even": 0.3521,
+    "market_reference_probability": 0.3551,
+    "price_limit_american": -105,
+    "quote_age_seconds": 43,
+    "components": {
+     "value": 15,
+     "calibration": 10,
+     "agreement": 7,
+     "stability": 15,
+     "data_certainty": 15,
+     "price_quality": 6
+    },
+    "penalties": [
+     {
+      "code": "OUTLIER_DISAGREEMENT",
+      "points": -30
+     }
+    ],
+    "reason_codes": [
+     "POSITIVE_EV",
+     "PRICE_ABOVE_LIMIT",
+     "OUTLIER_DISAGREEMENT",
+     "QUOTE_FRESH",
+     "STARTER_CONFIRMED",
+     "MARKET_STABLE",
+     "EVENT_STARTED"
+    ],
+    "receipt": {
+     "model_version": "mlb_baseline_v1",
+     "calibration_id": "cal_mlb_ml_2026-08-27",
+     "forecast_generated_at": "2026-08-27T23:05:01.599825Z",
+     "quote_observed_at": "2026-08-27T23:04:21Z",
+     "book_count": 9,
+     "policy_version": "assessment_policy_v1",
+     "published_at": "2026-08-27T23:05:04.901018Z",
+     "sealed_at": "2026-08-28T01:05:08.570797Z"
+    },
+    "forecast": {
+     "fair_home": 0.5231,
+     "raw_home": 0.5507,
+     "ref_home": 0.3551
+    },
+    "seal": "seal_7da34b245f95",
+    "tier": {
+     "label": "Model Alert",
+     "kind": "alert"
+    },
+    "parent_assessment_id": "asmt_2026-08-27_milwaukee-brewers_new-york-mets_f369bf981528",
+    "parent_seal": "seal_f369bf981528"
+   },
    "frozen": true
   },
   {
