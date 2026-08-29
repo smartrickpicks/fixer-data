@@ -1,11 +1,37 @@
 {
-  "generated_at": "2026-08-29T13:00:03.051420+00:00",
-  "slate_date": "2026-08-28",
+  "generated_at": "2026-08-29T13:15:02.816405+00:00",
+  "slate_date": "2026-08-29",
   "games": 15,
-  "kept": 29,
-  "dropped": 25,
+  "kept": 30,
+  "dropped": 24,
   "extracted": 0,
   "items": [
+    {
+      "title": "Yanks' Fried set to return, pitch Sat. vs. Red Sox",
+      "desc": "Max Fried will come off the injured list to pitch for the Yankees in Saturday's day-night doubleheader against the Red Sox.",
+      "url": "https://www.espn.com/mlb/story/_/id/49755951/yankees-fried-come-il-pitch-saturday-red-sox",
+      "feed": "espn-mlb",
+      "sha": "523fdd0e36d97452",
+      "relevance": "HOT",
+      "score": 0.615,
+      "mo": {
+        "trigger": 0.231,
+        "topDoc": "Boston Red Sox@New York Yankees",
+        "bridges": [
+          "fried",
+          "yankees"
+        ]
+      },
+      "factors": [
+        "injury"
+      ],
+      "sentiment": {
+        "tag": "negative",
+        "cue": "injured",
+        "team": "New York Yankees"
+      },
+      "half_life_h": 72.0
+    },
     {
       "title": "Tarik Skubal emotional in return to Detroit with Dodgers, faces mixed reaction from Tigers fans",
       "desc": "There were scattered boos for Skubal before he worked six excellent innings",
@@ -13,13 +39,11 @@
       "feed": "cbs-mlb",
       "sha": "1b66373b17eb3d26",
       "relevance": "HOT",
-      "score": 0.65,
+      "score": 0.575,
       "mo": {
-        "trigger": 0.3,
+        "trigger": 0.15,
         "topDoc": "Los Angeles Dodgers@Detroit Tigers",
         "bridges": [
-          "tarik",
-          "skubal",
           "detroit",
           "dodgers",
           "tigers"
@@ -31,63 +55,9 @@
       "sentiment": {
         "tag": "neutral",
         "cue": "",
-        "team": "Los Angeles Dodgers"
+        "team": "Detroit Tigers"
       },
       "half_life_h": 12.0
-    },
-    {
-      "title": "Skubal shines, tears up in emotional Detroit return",
-      "desc": "Dodgers lefty Tarik Skubal threw six strong innings and was brought to tears in his return to Comerica Park on Friday night, acknowledging it was difficult to treat it as just another start.",
-      "url": "https://www.espn.com/mlb/story/_/id/49757470/dodgers-skubal-greeted-cheers-stellar-detroit-return",
-      "feed": "espn-mlb",
-      "sha": "2f6235fcafed181a",
-      "relevance": "HOT",
-      "score": 0.6,
-      "mo": {
-        "trigger": 0.2,
-        "topDoc": "Los Angeles Dodgers@Detroit Tigers",
-        "bridges": [
-          "skubal",
-          "detroit",
-          "dodgers",
-          "tarik"
-        ]
-      },
-      "factors": [
-        "general"
-      ],
-      "sentiment": {
-        "tag": "neutral",
-        "cue": "",
-        "team": "Los Angeles Dodgers"
-      },
-      "half_life_h": 12.0
-    },
-    {
-      "title": "Dana Brown out as Astros GM: Owner Jim Crane names himself temporary head of baseball operations",
-      "desc": "The Astros currently sit tied for first place in the AL West at one game under .500",
-      "url": "https://www.cbssports.com/mlb/news/astros-dana-brown-jim-crane/",
-      "feed": "cbs-mlb",
-      "sha": "8f690bc450b32ec0",
-      "relevance": "HOT",
-      "score": 0.588,
-      "mo": {
-        "trigger": 0.176,
-        "topDoc": "Houston Astros@New York Mets",
-        "bridges": [
-          "brown",
-          "astros"
-        ]
-      },
-      "factors": [
-        "injury"
-      ],
-      "sentiment": {
-        "tag": "negative",
-        "cue": "out",
-        "team": "Houston Astros"
-      },
-      "half_life_h": 72.0
     },
     {
       "title": "Slumping Acuna shifts to cleanup, sparks Braves",
@@ -117,6 +87,32 @@
       "half_life_h": 72.0
     },
     {
+      "title": "What's next for Aaron Judge, Max Fried and other injured Yankees?",
+      "desc": "With October approaching, we break down New York's walking wounded.",
+      "url": "https://www.espn.com/mlb/story/_/id/49731985/mlb-2026-new-york-yankees-injuries-aaron-judge-max-fried-playoffs-postseason-il",
+      "feed": "espn-mlb",
+      "sha": "d8f36d398802a850",
+      "relevance": "HOT",
+      "score": 0.567,
+      "mo": {
+        "trigger": 0.133,
+        "topDoc": "Boston Red Sox@New York Yankees",
+        "bridges": [
+          "fried",
+          "yankees"
+        ]
+      },
+      "factors": [
+        "injury"
+      ],
+      "sentiment": {
+        "tag": "negative",
+        "cue": "injured",
+        "team": "New York Yankees"
+      },
+      "half_life_h": 72.0
+    },
+    {
       "title": "White Sox give team-themed papal miter to Pope Leo XIV at the Vatican",
       "desc": "The team had previously given away White Sox-themed pope hats during their Aug. 11 game against the Cincinnati Reds.",
       "url": "https://www.espn.com/mlb/story/_/id/49743444/chicago-white-sox-pope-leo-xiv-hat-miter",
@@ -141,6 +137,31 @@
         "team": "Cincinnati Reds"
       },
       "half_life_h": 12.0
+    },
+    {
+      "title": "Dana Brown out as Astros GM: Owner Jim Crane names himself temporary head of baseball operations",
+      "desc": "The Astros currently sit tied for first place in the AL West at one game under .500",
+      "url": "https://www.cbssports.com/mlb/news/astros-dana-brown-jim-crane/",
+      "feed": "cbs-mlb",
+      "sha": "8f690bc450b32ec0",
+      "relevance": "HOT",
+      "score": 0.559,
+      "mo": {
+        "trigger": 0.118,
+        "topDoc": "Houston Astros@New York Mets",
+        "bridges": [
+          "astros"
+        ]
+      },
+      "factors": [
+        "injury"
+      ],
+      "sentiment": {
+        "tag": "negative",
+        "cue": "out",
+        "team": "Houston Astros"
+      },
+      "half_life_h": 72.0
     },
     {
       "title": "County joins city in OKing Rays' park funding plan",
@@ -220,68 +241,19 @@
       "half_life_h": 12.0
     },
     {
-      "title": "Yanks' Fried set to return, pitch Sat. vs. Red Sox",
-      "desc": "Max Fried will come off the injured list to pitch for the Yankees in Saturday's day-night doubleheader against the Red Sox.",
-      "url": "https://www.espn.com/mlb/story/_/id/49755951/yankees-fried-come-il-pitch-saturday-red-sox",
+      "title": "Skubal shines, tears up in emotional Detroit return",
+      "desc": "Dodgers lefty Tarik Skubal threw six strong innings and was brought to tears in his return to Comerica Park, acknowledging it was difficult to treat it as just another start.",
+      "url": "https://www.espn.com/mlb/story/_/id/49757470/dodgers-skubal-greeted-cheers-stellar-detroit-return",
       "feed": "espn-mlb",
-      "sha": "523fdd0e36d97452",
+      "sha": "aec43737fd78e90f",
       "relevance": "WARM",
-      "score": 0.538,
+      "score": 0.542,
       "mo": {
-        "trigger": 0.077,
-        "topDoc": "Boston Red Sox@New York Yankees",
+        "trigger": 0.083,
+        "topDoc": "Los Angeles Dodgers@Detroit Tigers",
         "bridges": [
-          "yankees"
-        ]
-      },
-      "factors": [
-        "injury"
-      ],
-      "sentiment": {
-        "tag": "negative",
-        "cue": "injured",
-        "team": "New York Yankees"
-      },
-      "half_life_h": 72.0
-    },
-    {
-      "title": "Jenkins, Twins' top prospect, singles in MLB debut",
-      "desc": "Twins top prospect Walker Jenkins has been called up from Triple-A St. Paul.",
-      "url": "https://www.espn.com/mlb/story/_/id/49756588/twins-jenkins-no-12-prospect-mlb-debut-vs-white-sox",
-      "feed": "espn-mlb",
-      "sha": "fb705edd5f7e62c8",
-      "relevance": "WARM",
-      "score": 0.538,
-      "mo": {
-        "trigger": 0.077,
-        "topDoc": "Chicago White Sox@Minnesota Twins",
-        "bridges": [
-          "twins"
-        ]
-      },
-      "factors": [
-        "roster"
-      ],
-      "sentiment": {
-        "tag": "positive",
-        "cue": "called up",
-        "team": "Minnesota Twins"
-      },
-      "half_life_h": 48.0
-    },
-    {
-      "title": "How a 9/11 hero's legacy lives on at Little League World Series",
-      "desc": "The only retired jersey in Williamsport belongs to No. 11 Michael Cammarata.",
-      "url": "https://www.espn.com/mlb/story/_/id/49745252/little-league-world-series-michael-cammarata-9-11-fallen-hero",
-      "feed": "espn-mlb",
-      "sha": "2a7484f04426ea80",
-      "relevance": "WARM",
-      "score": 0.538,
-      "mo": {
-        "trigger": 0.077,
-        "topDoc": "Kansas City Royals@Cleveland Guardians",
-        "bridges": [
-          "michael"
+          "detroit",
+          "dodgers"
         ]
       },
       "factors": [
@@ -290,7 +262,7 @@
       "sentiment": {
         "tag": "neutral",
         "cue": "",
-        "team": "Kansas City Royals"
+        "team": "Detroit Tigers"
       },
       "half_life_h": 12.0
     },
@@ -318,31 +290,6 @@
         "team": "Seattle Mariners"
       },
       "half_life_h": 12.0
-    },
-    {
-      "title": "What's next for Aaron Judge, Max Fried and other injured Yankees?",
-      "desc": "With October approaching, we break down New York's walking wounded.",
-      "url": "https://www.espn.com/mlb/story/_/id/49731985/mlb-2026-new-york-yankees-injuries-aaron-judge-max-fried-playoffs-postseason-il",
-      "feed": "espn-mlb",
-      "sha": "d8f36d398802a850",
-      "relevance": "WARM",
-      "score": 0.533,
-      "mo": {
-        "trigger": 0.067,
-        "topDoc": "Boston Red Sox@New York Yankees",
-        "bridges": [
-          "yankees"
-        ]
-      },
-      "factors": [
-        "injury"
-      ],
-      "sentiment": {
-        "tag": "negative",
-        "cue": "injured",
-        "team": "New York Yankees"
-      },
-      "half_life_h": 72.0
     },
     {
       "title": "Dodgers rotation takes another hit with Roki Sasaki headed to IL: Will Shohei Ohtani take his place?",
@@ -394,6 +341,31 @@
         "team": "Philadelphia Phillies"
       },
       "half_life_h": 12.0
+    },
+    {
+      "title": "MLB suspends Guardians prospect after falsified age and identity discovered, per report",
+      "desc": "Great lengths were taken to make a young Dominican prospect appear several years younger than his actual age",
+      "url": "https://www.cbssports.com/mlb/news/mlb-suspends-guardians-prospect-falsified-age-identity/",
+      "feed": "cbs-mlb",
+      "sha": "953a6eada3ed8f2e",
+      "relevance": "WARM",
+      "score": 0.524,
+      "mo": {
+        "trigger": 0.048,
+        "topDoc": "Kansas City Royals@Cleveland Guardians",
+        "bridges": [
+          "guardians"
+        ]
+      },
+      "factors": [
+        "suspension"
+      ],
+      "sentiment": {
+        "tag": "neutral",
+        "cue": "",
+        "team": "Cleveland Guardians"
+      },
+      "half_life_h": 96.0
     },
     {
       "title": "Christenson, WS winner with '80 Phillies, dies",
@@ -471,18 +443,42 @@
       "half_life_h": 12.0
     },
     {
+      "title": "MLB trends: Where have all the righties gone? Plus Fernando Tatis' resurgence and Kade Anderson's delivery",
+      "desc": "Right-handed hitters are taking slightly more than 50% of plate appearances this year, down 10 percentage points from 2022",
+      "url": "https://www.cbssports.com/mlb/news/mlb-trends-fernando-tatis-kade-anderson-right-handed-hitters/",
+      "feed": "cbs-mlb",
+      "sha": "bddcdbfd9e5537f9",
+      "relevance": "WARM",
+      "score": 0.519,
+      "mo": {
+        "trigger": 0.038,
+        "topDoc": "Seattle Mariners@Toronto Blue Jays",
+        "bridges": [
+          "kade"
+        ]
+      },
+      "factors": [
+        "general"
+      ],
+      "sentiment": {
+        "tag": "neutral",
+        "cue": "",
+        "team": "Seattle Mariners"
+      },
+      "half_life_h": 12.0
+    },
+    {
       "title": "Shane Bieber lands on IL in latest rotation hit as Blue Jays cling to playoff hopes",
       "desc": "Toronto is currently two games out of the American League wild card",
       "url": "https://www.cbssports.com/mlb/news/shane-bieber-injury-timeline-blue-jays-playoff-odds/",
       "feed": "cbs-mlb",
       "sha": "e16f9fe0f3ca1f5b",
       "relevance": "WARM",
-      "score": 0.4,
+      "score": 0.431,
       "mo": {
         "trigger": 0.2,
         "topDoc": "Seattle Mariners@Toronto Blue Jays",
         "bridges": [
-          "shane",
           "jays",
           "toronto"
         ]
@@ -494,7 +490,7 @@
       "sentiment": {
         "tag": "negative",
         "cue": "out",
-        "team": "Tampa Bay Rays"
+        "team": "Milwaukee Brewers"
       },
       "half_life_h": 72.0
     },
@@ -554,33 +550,6 @@
       "half_life_h": 12.0
     },
     {
-      "title": "Today's top games to watch, best bets, odds: Skubal returns to Detroit, Giants vs. Jets and more",
-      "desc": "Find best bets and props for the biggest games in sports on Friday from the SportsLine Projection Model and top CBS Sports experts",
-      "url": "https://www.cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-skubal-returns-to-detroit-giants-vs-jets-and-more/",
-      "feed": "cbs-mlb",
-      "sha": "4f19988e097b0b96",
-      "relevance": "WARM",
-      "score": 0.373,
-      "mo": {
-        "trigger": 0.12,
-        "topDoc": "Los Angeles Dodgers@Detroit Tigers",
-        "bridges": [
-          "skubal",
-          "detroit",
-          "giants"
-        ]
-      },
-      "factors": [
-        "line"
-      ],
-      "sentiment": {
-        "tag": "positive",
-        "cue": "returns",
-        "team": "Los Angeles Dodgers"
-      },
-      "half_life_h": 6.0
-    },
-    {
       "title": "Royals vs. Blue Jays MLB picks: Kansas City's too-little, too-late eight-game winning streak could end Tuesday",
       "desc": "The Royals have won an AL-best eight in a row as they visit the Blue Jays, who have a unique win streak of their own",
       "url": "https://www.cbssports.com/betting/news/royals-vs-blue-jays-mlb-picks-kansas-citys-too-little-too-late-eight-game-winning-streak-could-end-tuesday/",
@@ -635,6 +604,32 @@
       "half_life_h": 12.0
     },
     {
+      "title": "Chris Sale makes Cy Young statement with complete-game shutout as Braves complete sweep of Dodgers",
+      "desc": "The Braves gained significant ground on the Dodgers in the NL postseason picture",
+      "url": "https://www.cbssports.com/mlb/news/chris-sale-shutout-braves-dodgers-cy-young/",
+      "feed": "cbs-mlb",
+      "sha": "d626ec26f20d58f3",
+      "relevance": "WARM",
+      "score": 0.306,
+      "mo": {
+        "trigger": 0.222,
+        "topDoc": "Colorado Rockies@Atlanta Braves",
+        "bridges": [
+          "braves",
+          "dodgers"
+        ]
+      },
+      "factors": [
+        "general"
+      ],
+      "sentiment": {
+        "tag": "neutral",
+        "cue": "",
+        "team": "Atlanta Braves"
+      },
+      "half_life_h": 12.0
+    },
+    {
       "title": "Guardians vs. Angels MLB picks: Runs likely at a premium Monday between good-looking rookies Messick, Klassen",
       "desc": "It's a matchup of promising rookie pitchers as the Guardians visit the Angels",
       "url": "https://www.cbssports.com/betting/news/guardians-vs-angels-mlb-picks-runs-likely-at-a-premium-monday-between-good-looking-rookies-messick-klassen/",
@@ -661,30 +656,30 @@
       "half_life_h": 12.0
     },
     {
-      "title": "MLB suspends Guardians prospect after falsified age and identity discovered, per report",
-      "desc": "Great lengths were taken to make a young Dominican prospect appear several years younger than his actual age",
-      "url": "https://www.cbssports.com/mlb/news/mlb-suspends-guardians-prospect-falsified-age-identity/",
-      "feed": "cbs-mlb",
-      "sha": "953a6eada3ed8f2e",
+      "title": "Jenkins, Twins' top prospect, singles in MLB debut",
+      "desc": "Twins top prospect Walker Jenkins has been called up from Triple-A St. Paul.",
+      "url": "https://www.espn.com/mlb/story/_/id/49756588/twins-jenkins-no-12-prospect-mlb-debut-vs-white-sox",
+      "feed": "espn-mlb",
+      "sha": "fb705edd5f7e62c8",
       "relevance": "WARM",
-      "score": 0.274,
+      "score": 0.288,
       "mo": {
-        "trigger": 0.095,
-        "topDoc": "Kansas City Royals@Cleveland Guardians",
+        "trigger": 0.154,
+        "topDoc": "Chicago White Sox@Minnesota Twins",
         "bridges": [
-          "guardians",
-          "young"
+          "twins",
+          "walker"
         ]
       },
       "factors": [
-        "suspension"
+        "roster"
       ],
       "sentiment": {
-        "tag": "neutral",
-        "cue": "",
-        "team": "Cleveland Guardians"
+        "tag": "positive",
+        "cue": "called up",
+        "team": "Minnesota Twins"
       },
-      "half_life_h": 96.0
+      "half_life_h": 48.0
     },
     {
       "title": "Pete Crow-Armstrong furious as controversial missed balk call costs Cubs a run in close loss to Diamondbacks",
@@ -739,31 +734,56 @@
       "half_life_h": 6.0
     },
     {
-      "title": "Chris Sale makes Cy Young statement with complete-game shutout as Braves complete sweep of Dodgers",
-      "desc": "The Braves gained significant ground on the Dodgers in the NL postseason picture",
-      "url": "https://www.cbssports.com/mlb/news/chris-sale-shutout-braves-dodgers-cy-young/",
+      "title": "Seven more MLB executives who could be on the hot seat after Astros' Dana Brown",
+      "desc": "Has Mike Elias' Orioles rebuild finally run out of time? Is David Stearns actually safe? Can Buster Posey turn things around for the Giants?",
+      "url": "https://www.cbssports.com/mlb/news/mlb-executives-hot-seat-mets-orioles-giants-mariners-reds-tigers-pirates/",
       "feed": "cbs-mlb",
-      "sha": "d626ec26f20d58f3",
+      "sha": "6206f66f0684ff46",
       "relevance": "WARM",
-      "score": 0.256,
+      "score": 0.271,
       "mo": {
-        "trigger": 0.278,
-        "topDoc": "Colorado Rockies@Atlanta Braves",
+        "trigger": 0.083,
+        "topDoc": "Baltimore Orioles@Athletics",
         "bridges": [
-          "young",
-          "braves",
-          "dodgers"
+          "orioles",
+          "giants"
         ]
       },
       "factors": [
-        "general"
+        "injury"
       ],
       "sentiment": {
-        "tag": "neutral",
-        "cue": "",
+        "tag": "negative",
+        "cue": "out",
         "team": "Baltimore Orioles"
       },
-      "half_life_h": 12.0
+      "half_life_h": 72.0
+    },
+    {
+      "title": "Today's top games to watch, best bets, odds: Skubal returns to Detroit, Giants vs. Jets and more",
+      "desc": "Find best bets and props for the biggest games in sports on Friday from the SportsLine Projection Model and top CBS Sports experts",
+      "url": "https://www.cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-skubal-returns-to-detroit-giants-vs-jets-and-more/",
+      "feed": "cbs-mlb",
+      "sha": "4f19988e097b0b96",
+      "relevance": "WARM",
+      "score": 0.27,
+      "mo": {
+        "trigger": 0.08,
+        "topDoc": "Los Angeles Dodgers@Detroit Tigers",
+        "bridges": [
+          "detroit",
+          "giants"
+        ]
+      },
+      "factors": [
+        "line"
+      ],
+      "sentiment": {
+        "tag": "positive",
+        "cue": "returns",
+        "team": "Detroit Tigers"
+      },
+      "half_life_h": 6.0
     }
   ]
 }
