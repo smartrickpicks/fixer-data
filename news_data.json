@@ -1,40 +1,11 @@
 {
-  "generated_at": "2026-08-30T13:00:02.737566+00:00",
-  "slate_date": "2026-08-29",
-  "games": 15,
-  "kept": 32,
-  "dropped": 17,
+  "generated_at": "2026-08-30T13:15:02.614859+00:00",
+  "slate_date": "2026-08-30",
+  "games": 14,
+  "kept": 31,
+  "dropped": 18,
   "extracted": 0,
   "items": [
-    {
-      "title": "Nats starter Cavalli exits after grounder hits ankle",
-      "desc": "Washington Nationals pitcher Cade Cavalli left Saturday's game against Miami in the fourth inning after being hit in the right ankle by a ground ball.",
-      "url": "https://www.espn.com/mlb/story/_/id/49765910/nationals-cade-cavalli-exits-grounder-hits-ankle",
-      "feed": "espn-mlb",
-      "sha": "1a5a32885b568859",
-      "relevance": "HOT",
-      "score": 0.63,
-      "mo": {
-        "trigger": 0.261,
-        "topDoc": "Miami Marlins@Washington Nationals",
-        "bridges": [
-          "cavalli",
-          "washington",
-          "nationals",
-          "cade",
-          "miami"
-        ]
-      },
-      "factors": [
-        "lineup"
-      ],
-      "sentiment": {
-        "tag": "neutral",
-        "cue": "",
-        "team": "Washington Nationals"
-      },
-      "half_life_h": 24.0
-    },
     {
       "title": "Angels tie MLB record for blown ninth-inning leads after unbelievable turn of events in loss to Phillies",
       "desc": "Not even an incredible home run robbery could help the Angels hold the lead",
@@ -116,30 +87,58 @@
       "half_life_h": 12.0
     },
     {
-      "title": "What's next for Aaron Judge, Max Fried and other injured Yankees?",
-      "desc": "With October approaching, we break down New York's walking wounded.",
-      "url": "https://www.espn.com/mlb/story/_/id/49731985/mlb-2026-new-york-yankees-injuries-aaron-judge-max-fried-playoffs-postseason-il",
-      "feed": "espn-mlb",
-      "sha": "d8f36d398802a850",
+      "title": "Shane Bieber lands on IL in latest rotation hit as Blue Jays cling to playoff hopes",
+      "desc": "Toronto is currently two games out of the American League wild card",
+      "url": "https://www.cbssports.com/mlb/news/shane-bieber-injury-timeline-blue-jays-playoff-odds/",
+      "feed": "cbs-mlb",
+      "sha": "e16f9fe0f3ca1f5b",
       "relevance": "HOT",
       "score": 0.567,
       "mo": {
         "trigger": 0.133,
-        "topDoc": "Boston Red Sox@New York Yankees",
+        "topDoc": "Seattle Mariners@Toronto Blue Jays",
         "bridges": [
-          "fried",
-          "yankees"
+          "jays",
+          "toronto"
         ]
       },
       "factors": [
-        "injury"
+        "injury",
+        "lineup"
       ],
       "sentiment": {
         "tag": "negative",
-        "cue": "injured",
-        "team": "New York Yankees"
+        "cue": "out",
+        "team": "Toronto Blue Jays"
       },
       "half_life_h": 72.0
+    },
+    {
+      "title": "Nats starter Cavalli exits after grounder hits ankle",
+      "desc": "Washington Nationals pitcher Cade Cavalli left Saturday's game against Miami in the fourth inning after being hit in the right ankle by a ground ball.",
+      "url": "https://www.espn.com/mlb/story/_/id/49765910/nationals-cade-cavalli-exits-grounder-hits-ankle",
+      "feed": "espn-mlb",
+      "sha": "1a5a32885b568859",
+      "relevance": "HOT",
+      "score": 0.565,
+      "mo": {
+        "trigger": 0.13,
+        "topDoc": "Miami Marlins@Washington Nationals",
+        "bridges": [
+          "washington",
+          "nationals",
+          "miami"
+        ]
+      },
+      "factors": [
+        "lineup"
+      ],
+      "sentiment": {
+        "tag": "neutral",
+        "cue": "",
+        "team": "Washington Nationals"
+      },
+      "half_life_h": 24.0
     },
     {
       "title": "PCA hits three HRs after Sosa's homer challenge",
@@ -371,6 +370,31 @@
       "half_life_h": 24.0
     },
     {
+      "title": "What's next for Aaron Judge, Max Fried and other injured Yankees?",
+      "desc": "With October approaching, we break down New York's walking wounded.",
+      "url": "https://www.espn.com/mlb/story/_/id/49731985/mlb-2026-new-york-yankees-injuries-aaron-judge-max-fried-playoffs-postseason-il",
+      "feed": "espn-mlb",
+      "sha": "d8f36d398802a850",
+      "relevance": "WARM",
+      "score": 0.533,
+      "mo": {
+        "trigger": 0.067,
+        "topDoc": "Boston Red Sox@New York Yankees",
+        "bridges": [
+          "yankees"
+        ]
+      },
+      "factors": [
+        "injury"
+      ],
+      "sentiment": {
+        "tag": "negative",
+        "cue": "injured",
+        "team": "New York Yankees"
+      },
+      "half_life_h": 72.0
+    },
+    {
       "title": "Shohei Ohtani's return to Dodgers rotation uncertain as knee soreness lingers",
       "desc": "Ohtani reported some discomfort after Friday's bullpen session",
       "url": "https://www.cbssports.com/mlb/news/shohei-ohtani-injury-update-timeline-dodgers-pitching/",
@@ -523,6 +547,31 @@
       "half_life_h": 12.0
     },
     {
+      "title": "Pete Crow-Armstrong furious as controversial missed balk call costs Cubs a run in close loss to Diamondbacks",
+      "desc": "The umpiring crew missed an obvious balk with Crow-Armstrong on third base in a scoreless game",
+      "url": "https://www.cbssports.com/mlb/news/pete-crow-armstrong-missed-balk-call-cubs-diamondbacks/",
+      "feed": "cbs-mlb",
+      "sha": "494dab7b4346477f",
+      "relevance": "WARM",
+      "score": 0.522,
+      "mo": {
+        "trigger": 0.043,
+        "topDoc": "Cincinnati Reds@Chicago Cubs",
+        "bridges": [
+          "cubs"
+        ]
+      },
+      "factors": [
+        "general"
+      ],
+      "sentiment": {
+        "tag": "neutral",
+        "cue": "",
+        "team": "Chicago Cubs"
+      },
+      "half_life_h": 12.0
+    },
+    {
       "title": "Ohtani (knee) 'not 100%'; mound return uncertain",
       "desc": "Shohei Ohtani continued to feel discomfort in his left knee coming off his latest bullpen session, and the Dodgers are still unsure when he will rejoin their rotation",
       "url": "https://www.espn.com/mlb/story/_/id/49763527/dodgers-ohtani-knee-mound-mound-return-uncertain",
@@ -548,56 +597,29 @@
       "half_life_h": 24.0
     },
     {
-      "title": "MLB trends: Where have all the righties gone? Plus Fernando Tatis' resurgence and Kade Anderson's delivery",
-      "desc": "Right-handed hitters are taking slightly more than 50% of plate appearances this year, down 10 percentage points from 2022",
-      "url": "https://www.cbssports.com/mlb/news/mlb-trends-fernando-tatis-kade-anderson-right-handed-hitters/",
+      "title": "Today's top games to watch, best bets, odds: Skubal returns to Detroit, Giants vs. Jets and more",
+      "desc": "Find best bets and props for the biggest games in sports on Friday from the SportsLine Projection Model and top CBS Sports experts",
+      "url": "https://www.cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-skubal-returns-to-detroit-giants-vs-jets-and-more/",
       "feed": "cbs-mlb",
-      "sha": "bddcdbfd9e5537f9",
+      "sha": "4f19988e097b0b96",
       "relevance": "WARM",
-      "score": 0.519,
+      "score": 0.52,
       "mo": {
-        "trigger": 0.038,
-        "topDoc": "Seattle Mariners@Toronto Blue Jays",
+        "trigger": 0.04,
+        "topDoc": "Los Angeles Dodgers@Detroit Tigers",
         "bridges": [
-          "kade"
+          "detroit"
         ]
       },
       "factors": [
-        "general"
+        "line"
       ],
       "sentiment": {
-        "tag": "neutral",
-        "cue": "",
-        "team": "Seattle Mariners"
+        "tag": "positive",
+        "cue": "returns",
+        "team": "Detroit Tigers"
       },
-      "half_life_h": 12.0
-    },
-    {
-      "title": "Shane Bieber lands on IL in latest rotation hit as Blue Jays cling to playoff hopes",
-      "desc": "Toronto is currently two games out of the American League wild card",
-      "url": "https://www.cbssports.com/mlb/news/shane-bieber-injury-timeline-blue-jays-playoff-odds/",
-      "feed": "cbs-mlb",
-      "sha": "e16f9fe0f3ca1f5b",
-      "relevance": "WARM",
-      "score": 0.431,
-      "mo": {
-        "trigger": 0.2,
-        "topDoc": "Seattle Mariners@Toronto Blue Jays",
-        "bridges": [
-          "jays",
-          "toronto"
-        ]
-      },
-      "factors": [
-        "injury",
-        "lineup"
-      ],
-      "sentiment": {
-        "tag": "negative",
-        "cue": "out",
-        "team": "Milwaukee Brewers"
-      },
-      "half_life_h": 72.0
+      "half_life_h": 6.0
     },
     {
       "title": "Rays vs. Tigers Wednesday MLB picks: Freddy Peralta trade acquisition has not paid off for Tampa Bay yet",
@@ -655,6 +677,33 @@
       "half_life_h": 12.0
     },
     {
+      "title": "Guardians vs. Angels MLB picks: Runs likely at a premium Monday between good-looking rookies Messick, Klassen",
+      "desc": "It's a matchup of promising rookie pitchers as the Guardians visit the Angels",
+      "url": "https://www.cbssports.com/betting/news/guardians-vs-angels-mlb-picks-runs-likely-at-a-premium-monday-between-good-looking-rookies-messick-klassen/",
+      "feed": "cbs-mlb",
+      "sha": "f61f82da069a7237",
+      "relevance": "WARM",
+      "score": 0.371,
+      "mo": {
+        "trigger": 0.238,
+        "topDoc": "Kansas City Royals@Cleveland Guardians",
+        "bridges": [
+          "guardians",
+          "angels",
+          "messick"
+        ]
+      },
+      "factors": [
+        "general"
+      ],
+      "sentiment": {
+        "tag": "neutral",
+        "cue": "",
+        "team": "Cleveland Guardians"
+      },
+      "half_life_h": 12.0
+    },
+    {
       "title": "Royals vs. Blue Jays MLB picks: Kansas City's too-little, too-late eight-game winning streak could end Tuesday",
       "desc": "The Royals have won an AL-best eight in a row as they visit the Blue Jays, who have a unique win streak of their own",
       "url": "https://www.cbssports.com/betting/news/royals-vs-blue-jays-mlb-picks-kansas-citys-too-little-too-late-eight-game-winning-streak-could-end-tuesday/",
@@ -688,7 +737,7 @@
       "feed": "cbs-mlb",
       "sha": "d49daca30b88e866",
       "relevance": "WARM",
-      "score": 0.326,
+      "score": 0.327,
       "mo": {
         "trigger": 0.235,
         "topDoc": "Colorado Rockies@Atlanta Braves",
@@ -705,84 +754,6 @@
         "tag": "neutral",
         "cue": "",
         "team": "Los Angeles Dodgers"
-      },
-      "half_life_h": 12.0
-    },
-    {
-      "title": "Chris Sale makes Cy Young statement with complete-game shutout as Braves complete sweep of Dodgers",
-      "desc": "The Braves gained significant ground on the Dodgers in the NL postseason picture",
-      "url": "https://www.cbssports.com/mlb/news/chris-sale-shutout-braves-dodgers-cy-young/",
-      "feed": "cbs-mlb",
-      "sha": "d626ec26f20d58f3",
-      "relevance": "WARM",
-      "score": 0.306,
-      "mo": {
-        "trigger": 0.222,
-        "topDoc": "Colorado Rockies@Atlanta Braves",
-        "bridges": [
-          "braves",
-          "dodgers"
-        ]
-      },
-      "factors": [
-        "general"
-      ],
-      "sentiment": {
-        "tag": "neutral",
-        "cue": "",
-        "team": "Atlanta Braves"
-      },
-      "half_life_h": 12.0
-    },
-    {
-      "title": "Guardians vs. Angels MLB picks: Runs likely at a premium Monday between good-looking rookies Messick, Klassen",
-      "desc": "It's a matchup of promising rookie pitchers as the Guardians visit the Angels",
-      "url": "https://www.cbssports.com/betting/news/guardians-vs-angels-mlb-picks-runs-likely-at-a-premium-monday-between-good-looking-rookies-messick-klassen/",
-      "feed": "cbs-mlb",
-      "sha": "f61f82da069a7237",
-      "relevance": "WARM",
-      "score": 0.298,
-      "mo": {
-        "trigger": 0.19,
-        "topDoc": "Kansas City Royals@Cleveland Guardians",
-        "bridges": [
-          "guardians",
-          "angels"
-        ]
-      },
-      "factors": [
-        "general"
-      ],
-      "sentiment": {
-        "tag": "neutral",
-        "cue": "",
-        "team": "Cleveland Guardians"
-      },
-      "half_life_h": 12.0
-    },
-    {
-      "title": "Pete Crow-Armstrong furious as controversial missed balk call costs Cubs a run in close loss to Diamondbacks",
-      "desc": "The umpiring crew missed an obvious balk with Crow-Armstrong on third base in a scoreless game",
-      "url": "https://www.cbssports.com/mlb/news/pete-crow-armstrong-missed-balk-call-cubs-diamondbacks/",
-      "feed": "cbs-mlb",
-      "sha": "494dab7b4346477f",
-      "relevance": "WARM",
-      "score": 0.272,
-      "mo": {
-        "trigger": 0.087,
-        "topDoc": "Cincinnati Reds@Chicago Cubs",
-        "bridges": [
-          "cubs",
-          "diamondbacks"
-        ]
-      },
-      "factors": [
-        "general"
-      ],
-      "sentiment": {
-        "tag": "neutral",
-        "cue": "",
-        "team": "Chicago Cubs"
       },
       "half_life_h": 12.0
     },
@@ -813,30 +784,31 @@
       "half_life_h": 6.0
     },
     {
-      "title": "Today's top games to watch, best bets, odds: Skubal returns to Detroit, Giants vs. Jets and more",
-      "desc": "Find best bets and props for the biggest games in sports on Friday from the SportsLine Projection Model and top CBS Sports experts",
-      "url": "https://www.cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-skubal-returns-to-detroit-giants-vs-jets-and-more/",
+      "title": "Chris Sale makes Cy Young statement with complete-game shutout as Braves complete sweep of Dodgers",
+      "desc": "The Braves gained significant ground on the Dodgers in the NL postseason picture",
+      "url": "https://www.cbssports.com/mlb/news/chris-sale-shutout-braves-dodgers-cy-young/",
       "feed": "cbs-mlb",
-      "sha": "4f19988e097b0b96",
+      "sha": "d626ec26f20d58f3",
       "relevance": "WARM",
-      "score": 0.27,
+      "score": 0.256,
       "mo": {
-        "trigger": 0.08,
-        "topDoc": "Los Angeles Dodgers@Detroit Tigers",
+        "trigger": 0.278,
+        "topDoc": "Colorado Rockies@Atlanta Braves",
         "bridges": [
-          "detroit",
-          "giants"
+          "chris",
+          "braves",
+          "dodgers"
         ]
       },
       "factors": [
-        "line"
+        "general"
       ],
       "sentiment": {
-        "tag": "positive",
-        "cue": "returns",
-        "team": "Detroit Tigers"
+        "tag": "neutral",
+        "cue": "",
+        "team": "Baltimore Orioles"
       },
-      "half_life_h": 6.0
+      "half_life_h": 12.0
     }
   ]
 }
