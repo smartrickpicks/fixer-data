@@ -1,7 +1,7 @@
 {
  "date": "2026-09-06",
  "sport": "MLB",
- "generated_at": "2026-09-06T23:05:02.114673Z",
+ "generated_at": "2026-09-07T01:05:02.368424Z",
  "record": {
   "w": 1152,
   "l": 1010,
@@ -35,8 +35,8 @@
    "home": "Los Angeles Dodgers",
    "pick": "Washington Nationals",
    "model": 0.437,
-   "market": 0.358,
-   "edge": 0.079,
+   "market": 0.359,
+   "edge": 0.077,
    "model_side": "Los Angeles Dodgers",
    "model_conf": 0.563,
    "raw_conf": 0.66,
@@ -62,11 +62,11 @@
     "so": 86
    },
    "asmt": {
-    "assessment_id": "asmt_2026-09-06_washington-nationals_los-angeles-dodgers_60cf25a2405a",
+    "assessment_id": "asmt_2026-09-06_washington-nationals_los-angeles-dodgers_1e4309fd8779",
     "policy_version": "assessment_policy_v1",
     "model_version": "mlb_baseline_v1",
     "devig_method": "proportional_v1",
-    "created_at": "2026-09-06T23:05:05.528398Z",
+    "created_at": "2026-09-07T01:05:03.989714Z",
     "date": "2026-09-06",
     "away": "Washington Nationals",
     "home": "Los Angeles Dodgers",
@@ -78,7 +78,7 @@
     "value_side": {
      "label": "Washington Nationals",
      "expected_value_per_unit": 0.2013,
-     "value_points": 7.9,
+     "value_points": 7.7,
      "american_odds": 175,
      "decimal_odds": 2.75,
      "book_key": "betrivers",
@@ -90,9 +90,9 @@
     "score": 69,
     "fair_probability": 0.4368,
     "market_break_even": 0.3636,
-    "market_reference_probability": 0.3578,
+    "market_reference_probability": 0.3594,
     "price_limit_american": 134,
-    "quote_age_seconds": 7,
+    "quote_age_seconds": 31,
     "components": {
      "value": 17,
      "calibration": 10,
@@ -112,19 +112,19 @@
     "receipt": {
      "model_version": "mlb_baseline_v1",
      "calibration_id": "cal_mlb_ml_2026-09-06",
-     "forecast_generated_at": "2026-09-06T23:05:02.114673Z",
-     "quote_observed_at": "2026-09-06T23:04:58Z",
+     "forecast_generated_at": "2026-09-07T01:05:02.368424Z",
+     "quote_observed_at": "2026-09-07T01:04:32Z",
      "book_count": 9,
      "policy_version": "assessment_policy_v1",
-     "published_at": "2026-09-06T23:05:05.528398Z",
-     "sealed_at": "2026-09-06T23:05:05.528398Z"
+     "published_at": "2026-09-07T01:05:03.989714Z",
+     "sealed_at": "2026-09-07T01:05:03.989714Z"
     },
     "forecast": {
      "fair_home": 0.5632,
      "raw_home": 0.6597,
-     "ref_home": 0.6422
+     "ref_home": 0.6406
     },
-    "seal": "seal_60cf25a2405a",
+    "seal": "seal_1e4309fd8779",
     "tier": {
      "label": "Lean",
      "kind": "lean"
@@ -136,15 +136,15 @@
    "home": "Philadelphia Phillies",
    "pick": "Atlanta Braves",
    "model": 0.54,
-   "market": 0.398,
-   "edge": 0.142,
+   "market": 0.393,
+   "edge": 0.147,
    "model_side": "Atlanta Braves",
    "model_conf": 0.54,
    "raw_conf": 0.595,
    "raw_model": 0.595,
    "calibrated": true,
-   "dec_odds": 2.46,
-   "best_dec_odds": 2.46,
+   "dec_odds": 2.52,
+   "best_dec_odds": 2.52,
    "start": "2026-09-07T17:06:00Z",
    "hp": "Aaron Nola",
    "ap": "Tyler Mahle",
@@ -163,11 +163,11 @@
     "so": 124
    },
    "asmt": {
-    "assessment_id": "asmt_2026-09-06_atlanta-braves_philadelphia-phillies_1bcba5cc7d37",
+    "assessment_id": "asmt_2026-09-06_atlanta-braves_philadelphia-phillies_06901fb32d63",
     "policy_version": "assessment_policy_v1",
     "model_version": "mlb_baseline_v1",
     "devig_method": "proportional_v1",
-    "created_at": "2026-09-06T23:05:02.135472Z",
+    "created_at": "2026-09-07T01:05:02.377179Z",
     "date": "2026-09-06",
     "away": "Atlanta Braves",
     "home": "Philadelphia Phillies",
@@ -178,22 +178,22 @@
     },
     "value_side": {
      "label": "Atlanta Braves",
-     "expected_value_per_unit": 0.3282,
-     "value_points": 14.2,
-     "american_odds": 146,
-     "decimal_odds": 2.46,
-     "book_key": "fanduel",
-     "book": "FanDuel"
+     "expected_value_per_unit": 0.3606,
+     "value_points": 14.7,
+     "american_odds": 152,
+     "decimal_odds": 2.52,
+     "book_key": "lowvig",
+     "book": "LowVig.ag"
     },
     "selection": null,
     "status": "model_alert",
     "grade": "F",
     "score": 37,
     "fair_probability": 0.5399,
-    "market_break_even": 0.4065,
-    "market_reference_probability": 0.3984,
+    "market_break_even": 0.3968,
+    "market_reference_probability": 0.3928,
     "price_limit_american": -112,
-    "quote_age_seconds": 4,
+    "quote_age_seconds": 7,
     "components": {
      "value": 15,
      "calibration": 10,
@@ -219,24 +219,25 @@
     "receipt": {
      "model_version": "mlb_baseline_v1",
      "calibration_id": "cal_mlb_ml_2026-09-06",
-     "forecast_generated_at": "2026-09-06T23:05:02.114673Z",
-     "quote_observed_at": "2026-09-06T23:04:58Z",
+     "forecast_generated_at": "2026-09-07T01:05:02.368424Z",
+     "quote_observed_at": "2026-09-07T01:04:55Z",
      "book_count": 8,
      "policy_version": "assessment_policy_v1",
-     "published_at": "2026-09-06T23:05:02.135472Z",
-     "sealed_at": "2026-09-06T23:05:02.135472Z"
+     "published_at": "2026-09-07T01:05:02.377179Z",
+     "sealed_at": "2026-09-07T01:05:02.377179Z"
     },
     "forecast": {
      "fair_home": 0.4601,
      "raw_home": 0.4047,
-     "ref_home": 0.6016
+     "ref_home": 0.6072
     },
-    "seal": "seal_1bcba5cc7d37",
+    "seal": "seal_06901fb32d63",
     "tier": {
      "label": "Model Alert",
      "kind": "alert"
     }
-   }
+   },
+   "changed": "price +146\u2192+152"
   },
   {
    "away": "Minnesota Twins",
