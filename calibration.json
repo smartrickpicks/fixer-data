@@ -1,36 +1,36 @@
 {
- "graded_at": "2026-09-08T12:34:22.413278Z",
- "n_picks": 2188,
+ "graded_at": "2026-09-09T12:34:17.401568Z",
+ "n_picks": 2203,
  "overall_pred_conf": 0.6005,
- "overall_realized": 0.5356,
- "overconfidence": 0.0649,
- "ece": 0.0648,
+ "overall_realized": 0.537,
+ "overconfidence": 0.0635,
+ "ece": 0.0644,
  "mce": 0.2563,
- "brier": 0.2545,
+ "brier": 0.2543,
  "reliability": [
   {
    "lo": 0.5,
    "hi": 0.55,
-   "n": 687,
+   "n": 693,
    "pred_mean": 0.5239,
-   "realized": 0.5226,
-   "gap": -0.0014
+   "realized": 0.5253,
+   "gap": 0.0013
   },
   {
    "lo": 0.55,
    "hi": 0.6,
-   "n": 560,
+   "n": 561,
    "pred_mean": 0.5743,
-   "realized": 0.5179,
-   "gap": -0.0564
+   "realized": 0.5169,
+   "gap": -0.0573
   },
   {
    "lo": 0.6,
    "hi": 0.65,
-   "n": 421,
-   "pred_mean": 0.6239,
-   "realized": 0.5036,
-   "gap": -0.1203
+   "n": 426,
+   "pred_mean": 0.6238,
+   "realized": 0.507,
+   "gap": -0.1168
   },
   {
    "lo": 0.65,
@@ -43,10 +43,10 @@
   {
    "lo": 0.7,
    "hi": 0.75,
-   "n": 152,
-   "pred_mean": 0.7223,
-   "realized": 0.6118,
-   "gap": -0.1104
+   "n": 155,
+   "pred_mean": 0.7225,
+   "realized": 0.6129,
+   "gap": -0.1096
   },
   {
    "lo": 0.75,
@@ -92,18 +92,30 @@
  "isotonic_map": [
   {
    "raw": 0.5239,
-   "calibrated": 0.5162
+   "calibrated": 0.5179
+  },
+  {
+   "raw": 0.5743,
+   "calibrated": 0.5179
+  },
+  {
+   "raw": 0.6238,
+   "calibrated": 0.5179
   },
   {
    "raw": 0.6737,
    "calibrated": 0.5746
   },
   {
-   "raw": 0.7223,
-   "calibrated": 0.6118
+   "raw": 0.7225,
+   "calibrated": 0.6129
   },
   {
    "raw": 0.7736,
+   "calibrated": 0.6383
+  },
+  {
+   "raw": 0.823,
    "calibrated": 0.6383
   },
   {
