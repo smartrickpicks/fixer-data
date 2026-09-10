@@ -1,7 +1,7 @@
 {
  "date": "2026-09-10",
  "sport": "MLB",
- "generated_at": "2026-09-10T21:05:02.066329Z",
+ "generated_at": "2026-09-10T23:05:01.652925Z",
  "record": {
   "w": 1190,
   "l": 1028,
@@ -31,11 +31,113 @@
  "min_ev": 0.02,
  "games": [
   {
+   "away": "Pittsburgh Pirates",
+   "home": "Chicago White Sox",
+   "pick": "Pittsburgh Pirates",
+   "model": 0.517,
+   "market": 0.481,
+   "edge": 0.036,
+   "model_side": "Pittsburgh Pirates",
+   "model_conf": 0.517,
+   "raw_conf": 0.524,
+   "raw_model": 0.524,
+   "calibrated": true,
+   "dec_odds": 2.06,
+   "best_dec_odds": 2.06,
+   "start": "2026-09-10T23:41:00Z",
+   "hp": "Hagen Smith",
+   "ap": "Jared Jones",
+   "hp_stat": {
+    "era": "0.56",
+    "w": 3,
+    "l": 1,
+    "ip": "16.0",
+    "so": 23
+   },
+   "ap_stat": {
+    "era": "4.46",
+    "w": 3,
+    "l": 6,
+    "ip": "78.2",
+    "so": 92
+   },
+   "asmt": {
+    "assessment_id": "asmt_2026-09-10_pittsburgh-pirates_chicago-white-sox_8611d308ded7",
+    "policy_version": "assessment_policy_v1",
+    "model_version": "mlb_baseline_v1",
+    "devig_method": "proportional_v1",
+    "created_at": "2026-09-10T23:05:03.562137Z",
+    "date": "2026-09-10",
+    "away": "Pittsburgh Pirates",
+    "home": "Chicago White Sox",
+    "commence_time": "2026-09-10T23:41:00Z",
+    "likely_side": {
+     "label": "Pittsburgh Pirates",
+     "probability": 0.5174
+    },
+    "value_side": {
+     "label": "Pittsburgh Pirates",
+     "expected_value_per_unit": 0.0658,
+     "value_points": 3.6,
+     "american_odds": 106,
+     "decimal_odds": 2.06,
+     "book_key": "betonlineag",
+     "book": "BetOnline.ag"
+    },
+    "selection": "Pittsburgh Pirates",
+    "status": "lean",
+    "grade": "C",
+    "score": 74,
+    "fair_probability": 0.5174,
+    "market_break_even": 0.4854,
+    "market_reference_probability": 0.4814,
+    "price_limit_american": -102,
+    "quote_age_seconds": 48,
+    "components": {
+     "value": 21,
+     "calibration": 11,
+     "agreement": 7,
+     "stability": 15,
+     "data_certainty": 15,
+     "price_quality": 5
+    },
+    "penalties": [],
+    "reason_codes": [
+     "POSITIVE_EV",
+     "PRICE_ABOVE_LIMIT",
+     "QUOTE_FRESH",
+     "STARTER_CONFIRMED",
+     "MARKET_STABLE"
+    ],
+    "receipt": {
+     "model_version": "mlb_baseline_v1",
+     "calibration_id": "cal_mlb_ml_2026-09-10",
+     "forecast_generated_at": "2026-09-10T23:05:01.652925Z",
+     "quote_observed_at": "2026-09-10T23:04:15Z",
+     "book_count": 9,
+     "policy_version": "assessment_policy_v1",
+     "published_at": "2026-09-10T23:05:03.562137Z",
+     "sealed_at": "2026-09-10T23:05:03.562137Z"
+    },
+    "forecast": {
+     "fair_home": 0.4826,
+     "raw_home": 0.4757,
+     "ref_home": 0.5186
+    },
+    "seal": "seal_8611d308ded7",
+    "tier": {
+     "label": "Lean",
+     "kind": "lean"
+    }
+   },
+   "changed": "value +1.9\u2192+3.6 \u00b7 price -104\u2192+106 \u00b7 status PASS\u2192LEAN"
+  },
+  {
    "away": "Colorado Rockies",
    "home": "New York Yankees",
    "pick": "Colorado Rockies",
    "model": 0.335,
-   "market": 0.285,
+   "market": 0.284,
    "edge": 0.051,
    "model_side": "New York Yankees",
    "model_conf": 0.665,
@@ -44,7 +146,7 @@
    "calibrated": true,
    "dec_odds": 3.48,
    "best_dec_odds": 3.48,
-   "start": "2026-09-10T23:05:00Z",
+   "start": "2026-09-10T23:10:00Z",
    "hp": "Max Fried",
    "ap": "Ryan Feltner",
    "hp_stat": {
@@ -55,22 +157,22 @@
     "so": 87
    },
    "ap_stat": {
-    "era": "5.91",
+    "era": "5.82",
     "w": 5,
     "l": 9,
     "ip": "106.2",
     "so": 81
    },
    "asmt": {
-    "assessment_id": "asmt_2026-09-10_colorado-rockies_new-york-yankees_2641c03fd804",
+    "assessment_id": "asmt_2026-09-10_colorado-rockies_new-york-yankees_cf280766df08",
     "policy_version": "assessment_policy_v1",
     "model_version": "mlb_baseline_v1",
     "devig_method": "proportional_v1",
-    "created_at": "2026-09-10T21:05:03.539407Z",
+    "created_at": "2026-09-10T23:05:01.678505Z",
     "date": "2026-09-10",
     "away": "Colorado Rockies",
     "home": "New York Yankees",
-    "commence_time": "2026-09-10T23:05:00Z",
+    "commence_time": "2026-09-10T23:10:00Z",
     "likely_side": {
      "label": "New York Yankees",
      "probability": 0.6648
@@ -90,9 +192,9 @@
     "score": 73,
     "fair_probability": 0.3352,
     "market_break_even": 0.2874,
-    "market_reference_probability": 0.2847,
+    "market_reference_probability": 0.2839,
     "price_limit_american": 205,
-    "quote_age_seconds": 47,
+    "quote_age_seconds": 45,
     "components": {
      "value": 20,
      "calibration": 11,
@@ -112,122 +214,22 @@
     "receipt": {
      "model_version": "mlb_baseline_v1",
      "calibration_id": "cal_mlb_ml_2026-09-10",
-     "forecast_generated_at": "2026-09-10T21:05:02.066329Z",
-     "quote_observed_at": "2026-09-10T21:04:16Z",
+     "forecast_generated_at": "2026-09-10T23:05:01.652925Z",
+     "quote_observed_at": "2026-09-10T23:04:16Z",
      "book_count": 9,
      "policy_version": "assessment_policy_v1",
-     "published_at": "2026-09-10T21:05:03.539407Z",
-     "sealed_at": "2026-09-10T21:05:03.539407Z"
+     "published_at": "2026-09-10T23:05:01.678505Z",
+     "sealed_at": "2026-09-10T23:05:01.678505Z"
     },
     "forecast": {
      "fair_home": 0.6648,
      "raw_home": 0.8606,
-     "ref_home": 0.7153
+     "ref_home": 0.7161
     },
-    "seal": "seal_2641c03fd804",
+    "seal": "seal_cf280766df08",
     "tier": {
      "label": "Lean",
      "kind": "lean"
-    }
-   }
-  },
-  {
-   "away": "Pittsburgh Pirates",
-   "home": "Chicago White Sox",
-   "pick": "Pittsburgh Pirates",
-   "model": 0.517,
-   "market": 0.498,
-   "edge": 0.019,
-   "model_side": "Pittsburgh Pirates",
-   "model_conf": 0.517,
-   "raw_conf": 0.524,
-   "raw_model": 0.524,
-   "calibrated": true,
-   "dec_odds": 1.962,
-   "best_dec_odds": 1.962,
-   "start": "2026-09-10T23:41:00Z",
-   "hp": "Hagen Smith",
-   "ap": "Jared Jones",
-   "hp_stat": {
-    "era": "0.56",
-    "w": 3,
-    "l": 1,
-    "ip": "16.0",
-    "so": 23
-   },
-   "ap_stat": {
-    "era": "4.46",
-    "w": 3,
-    "l": 6,
-    "ip": "78.2",
-    "so": 92
-   },
-   "asmt": {
-    "assessment_id": "asmt_2026-09-10_pittsburgh-pirates_chicago-white-sox_7fa7cceb94af",
-    "policy_version": "assessment_policy_v1",
-    "model_version": "mlb_baseline_v1",
-    "devig_method": "proportional_v1",
-    "created_at": "2026-09-10T21:05:04.913449Z",
-    "date": "2026-09-10",
-    "away": "Pittsburgh Pirates",
-    "home": "Chicago White Sox",
-    "commence_time": "2026-09-10T23:41:00Z",
-    "likely_side": {
-     "label": "Pittsburgh Pirates",
-     "probability": 0.5174
-    },
-    "value_side": {
-     "label": "Pittsburgh Pirates",
-     "expected_value_per_unit": 0.0149,
-     "value_points": 1.9,
-     "american_odds": -104,
-     "decimal_odds": 1.962,
-     "book_key": "draftkings",
-     "book": "DraftKings"
-    },
-    "selection": null,
-    "status": "pass",
-    "grade": "F",
-    "score": 48,
-    "fair_probability": 0.5174,
-    "market_break_even": 0.5098,
-    "market_reference_probability": 0.4979,
-    "price_limit_american": -102,
-    "quote_age_seconds": 48,
-    "components": {
-     "value": 0,
-     "calibration": 11,
-     "agreement": 7,
-     "stability": 15,
-     "data_certainty": 15,
-     "price_quality": 0
-    },
-    "penalties": [],
-    "reason_codes": [
-     "NO_USABLE_VALUE",
-     "QUOTE_FRESH",
-     "STARTER_CONFIRMED",
-     "MARKET_STABLE"
-    ],
-    "receipt": {
-     "model_version": "mlb_baseline_v1",
-     "calibration_id": "cal_mlb_ml_2026-09-10",
-     "forecast_generated_at": "2026-09-10T21:05:02.066329Z",
-     "quote_observed_at": "2026-09-10T21:04:16Z",
-     "book_count": 9,
-     "policy_version": "assessment_policy_v1",
-     "published_at": "2026-09-10T21:05:04.913449Z",
-     "sealed_at": "2026-09-10T21:05:04.913449Z"
-    },
-    "forecast": {
-     "fair_home": 0.4826,
-     "raw_home": 0.4757,
-     "ref_home": 0.5021
-    },
-    "seal": "seal_7fa7cceb94af",
-    "tier": {
-     "label": "Pass",
-     "kind": "pass"
     }
    }
   },
