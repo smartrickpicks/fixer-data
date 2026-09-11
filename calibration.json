@@ -1,26 +1,26 @@
 {
- "graded_at": "2026-09-10T12:34:16.932995Z",
- "n_picks": 2218,
- "overall_pred_conf": 0.6006,
- "overall_realized": 0.5365,
- "overconfidence": 0.0641,
- "ece": 0.0643,
+ "graded_at": "2026-09-11T12:34:19.942588Z",
+ "n_picks": 2223,
+ "overall_pred_conf": 0.6007,
+ "overall_realized": 0.5367,
+ "overconfidence": 0.064,
+ "ece": 0.0647,
  "mce": 0.2563,
  "brier": 0.2544,
  "reliability": [
   {
    "lo": 0.5,
    "hi": 0.55,
-   "n": 696,
+   "n": 697,
    "pred_mean": 0.524,
-   "realized": 0.5244,
-   "gap": 0.0004
+   "realized": 0.5251,
+   "gap": 0.0011
   },
   {
    "lo": 0.55,
    "hi": 0.6,
-   "n": 565,
-   "pred_mean": 0.5743,
+   "n": 567,
+   "pred_mean": 0.5742,
    "realized": 0.5168,
    "gap": -0.0575
   },
@@ -43,10 +43,10 @@
   {
    "lo": 0.7,
    "hi": 0.75,
-   "n": 158,
-   "pred_mean": 0.7225,
-   "realized": 0.6139,
-   "gap": -0.1086
+   "n": 159,
+   "pred_mean": 0.7226,
+   "realized": 0.6101,
+   "gap": -0.1125
   },
   {
    "lo": 0.75,
@@ -67,10 +67,10 @@
   {
    "lo": 0.85,
    "hi": 0.9,
-   "n": 6,
-   "pred_mean": 0.8633,
-   "realized": 0.6667,
-   "gap": -0.1966
+   "n": 7,
+   "pred_mean": 0.8629,
+   "realized": 0.7143,
+   "gap": -0.1486
   },
   {
    "lo": 0.9,
@@ -92,23 +92,23 @@
  "isotonic_map": [
   {
    "raw": 0.524,
-   "calibrated": 0.5174
+   "calibrated": 0.5177
   },
   {
-   "raw": 0.5743,
-   "calibrated": 0.5174
+   "raw": 0.5742,
+   "calibrated": 0.5177
   },
   {
    "raw": 0.6238,
-   "calibrated": 0.5174
+   "calibrated": 0.5177
   },
   {
    "raw": 0.6736,
    "calibrated": 0.5725
   },
   {
-   "raw": 0.7225,
-   "calibrated": 0.6139
+   "raw": 0.7226,
+   "calibrated": 0.6101
   },
   {
    "raw": 0.7736,
@@ -119,8 +119,8 @@
    "calibrated": 0.6383
   },
   {
-   "raw": 0.8633,
-   "calibrated": 0.6667
+   "raw": 0.8629,
+   "calibrated": 0.7143
   }
  ],
  "note": "ECE = avg gap between stated confidence and realized win-rate, weighted by volume. Lower is better. isotonic_map re-fits raw confidence to the monotone calibrated estimate."
