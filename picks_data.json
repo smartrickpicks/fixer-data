@@ -1,7 +1,7 @@
 {
  "date": "2026-09-13",
  "sport": "MLB",
- "generated_at": "2026-09-13T21:05:02.527931Z",
+ "generated_at": "2026-09-13T23:05:02.453782Z",
  "record": {
   "w": 1211,
   "l": 1042,
@@ -35,8 +35,8 @@
    "home": "San Francisco Giants",
    "pick": "San Francisco Giants",
    "model": 0.483,
-   "market": 0.435,
-   "edge": 0.047,
+   "market": 0.438,
+   "edge": 0.045,
    "model_side": "San Diego Padres",
    "model_conf": 0.517,
    "raw_conf": 0.563,
@@ -62,11 +62,11 @@
     "so": 26
    },
    "asmt": {
-    "assessment_id": "asmt_2026-09-13_san-diego-padres_san-francisco-giants_cd412e65f567",
+    "assessment_id": "asmt_2026-09-13_san-diego-padres_san-francisco-giants_7faa6e8390c8",
     "policy_version": "assessment_policy_v1",
     "model_version": "mlb_baseline_v1",
     "devig_method": "proportional_v1",
-    "created_at": "2026-09-13T21:05:11.659477Z",
+    "created_at": "2026-09-13T23:05:05.797293Z",
     "date": "2026-09-13",
     "away": "San Diego Padres",
     "home": "San Francisco Giants",
@@ -78,7 +78,7 @@
     "value_side": {
      "label": "San Francisco Giants",
      "expected_value_per_unit": 0.0911,
-     "value_points": 4.7,
+     "value_points": 4.5,
      "american_odds": 126,
      "decimal_odds": 2.26,
      "book_key": "betonlineag",
@@ -90,9 +90,9 @@
     "score": 78,
     "fair_probability": 0.4828,
     "market_break_even": 0.4425,
-    "market_reference_probability": 0.4354,
+    "market_reference_probability": 0.4378,
     "price_limit_american": 112,
-    "quote_age_seconds": 56,
+    "quote_age_seconds": 10,
     "components": {
      "value": 25,
      "calibration": 11,
@@ -112,130 +112,24 @@
     "receipt": {
      "model_version": "mlb_baseline_v1",
      "calibration_id": "cal_mlb_ml_2026-09-13",
-     "forecast_generated_at": "2026-09-13T21:05:02.527931Z",
-     "quote_observed_at": "2026-09-13T21:04:15Z",
+     "forecast_generated_at": "2026-09-13T23:05:02.453782Z",
+     "quote_observed_at": "2026-09-13T23:04:55Z",
      "book_count": 9,
      "policy_version": "assessment_policy_v1",
-     "published_at": "2026-09-13T21:05:11.659477Z",
-     "sealed_at": "2026-09-13T21:05:11.659477Z"
+     "published_at": "2026-09-13T23:05:05.797293Z",
+     "sealed_at": "2026-09-13T23:05:05.797293Z"
     },
     "forecast": {
      "fair_home": 0.4828,
      "raw_home": 0.4373,
-     "ref_home": 0.4354
+     "ref_home": 0.4378
     },
-    "seal": "seal_cd412e65f567",
+    "seal": "seal_7faa6e8390c8",
     "tier": {
      "label": "Qualified",
      "kind": "play"
     }
-   },
-   "changed": "value +2.5\u2192+4.7 \u00b7 price +115\u2192+126 \u00b7 status LEAN\u2192QUALIFIED"
-  },
-  {
-   "away": "Texas Rangers",
-   "home": "Arizona Diamondbacks",
-   "pick": "Texas Rangers",
-   "model": 0.517,
-   "market": 0.456,
-   "edge": 0.061,
-   "model_side": "Texas Rangers",
-   "model_conf": 0.517,
-   "raw_conf": 0.501,
-   "raw_model": 0.501,
-   "calibrated": true,
-   "dec_odds": 2.16,
-   "best_dec_odds": 2.16,
-   "start": "2026-09-13T20:11:00Z",
-   "hp": "Eduardo Rodriguez",
-   "ap": "Cal Quantrill",
-   "hp_stat": {
-    "era": "2.31",
-    "w": 3,
-    "l": 3,
-    "ip": "66.1",
-    "so": 74
-   },
-   "ap_stat": {
-    "era": "2.89",
-    "w": 8,
-    "l": 5,
-    "ip": "102.2",
-    "so": 77
-   },
-   "asmt": {
-    "assessment_id": "asmt_2026-09-13_texas-rangers_arizona-diamondbacks_d10ce682c1a0_closed_ced7b49d09c0",
-    "policy_version": "assessment_policy_v1",
-    "model_version": "mlb_baseline_v1",
-    "devig_method": "proportional_v1",
-    "created_at": "2026-09-13T21:05:13.634857Z",
-    "date": "2026-09-13",
-    "away": "Texas Rangers",
-    "home": "Arizona Diamondbacks",
-    "commence_time": "2026-09-13T20:11:00Z",
-    "likely_side": {
-     "label": "Texas Rangers",
-     "probability": 0.5172
-    },
-    "value_side": {
-     "label": "Texas Rangers",
-     "expected_value_per_unit": 0.1172,
-     "value_points": 6.1,
-     "american_odds": 116,
-     "decimal_odds": 2.16,
-     "book_key": "betrivers",
-     "book": "BetRivers"
-    },
-    "selection": null,
-    "status": "closed",
-    "grade": "B",
-    "score": 78,
-    "fair_probability": 0.5172,
-    "market_break_even": 0.463,
-    "market_reference_probability": 0.4561,
-    "price_limit_american": -102,
-    "quote_age_seconds": 28,
-    "components": {
-     "value": 25,
-     "calibration": 11,
-     "agreement": 7,
-     "stability": 15,
-     "data_certainty": 15,
-     "price_quality": 5
-    },
-    "penalties": [],
-    "reason_codes": [
-     "POSITIVE_EV",
-     "PRICE_ABOVE_LIMIT",
-     "QUOTE_FRESH",
-     "STARTER_CONFIRMED",
-     "MARKET_STABLE",
-     "EVENT_STARTED"
-    ],
-    "receipt": {
-     "model_version": "mlb_baseline_v1",
-     "calibration_id": "cal_mlb_ml_2026-09-13",
-     "forecast_generated_at": "2026-09-13T19:05:02.154342Z",
-     "quote_observed_at": "2026-09-13T19:04:55Z",
-     "book_count": 9,
-     "policy_version": "assessment_policy_v1",
-     "published_at": "2026-09-13T19:05:23.466693Z",
-     "sealed_at": "2026-09-13T21:05:13.634857Z"
-    },
-    "forecast": {
-     "fair_home": 0.4828,
-     "raw_home": 0.4988,
-     "ref_home": 0.5439
-    },
-    "seal": "seal_ced7b49d09c0",
-    "tier": {
-     "label": "Qualified",
-     "kind": "play"
-    },
-    "parent_assessment_id": "asmt_2026-09-13_texas-rangers_arizona-diamondbacks_d10ce682c1a0",
-    "parent_seal": "seal_d10ce682c1a0"
-   },
-   "frozen": true
+   }
   },
   {
    "away": "Seattle Mariners",
@@ -339,6 +233,111 @@
     },
     "parent_assessment_id": "asmt_2026-09-13_seattle-mariners_athletics_46a499b2bbcd",
     "parent_seal": "seal_46a499b2bbcd"
+   },
+   "frozen": true
+  },
+  {
+   "away": "Texas Rangers",
+   "home": "Arizona Diamondbacks",
+   "pick": "Texas Rangers",
+   "model": 0.517,
+   "market": 0.456,
+   "edge": 0.061,
+   "model_side": "Texas Rangers",
+   "model_conf": 0.517,
+   "raw_conf": 0.501,
+   "raw_model": 0.501,
+   "calibrated": true,
+   "dec_odds": 2.16,
+   "best_dec_odds": 2.16,
+   "start": "2026-09-13T20:11:00Z",
+   "hp": "Eduardo Rodriguez",
+   "ap": "Cal Quantrill",
+   "hp_stat": {
+    "era": "2.31",
+    "w": 3,
+    "l": 3,
+    "ip": "66.1",
+    "so": 74
+   },
+   "ap_stat": {
+    "era": "2.89",
+    "w": 8,
+    "l": 5,
+    "ip": "102.2",
+    "so": 77
+   },
+   "asmt": {
+    "assessment_id": "asmt_2026-09-13_texas-rangers_arizona-diamondbacks_d10ce682c1a0_closed_ced7b49d09c0",
+    "policy_version": "assessment_policy_v1",
+    "model_version": "mlb_baseline_v1",
+    "devig_method": "proportional_v1",
+    "created_at": "2026-09-13T21:05:13.634857Z",
+    "date": "2026-09-13",
+    "away": "Texas Rangers",
+    "home": "Arizona Diamondbacks",
+    "commence_time": "2026-09-13T20:11:00Z",
+    "likely_side": {
+     "label": "Texas Rangers",
+     "probability": 0.5172
+    },
+    "value_side": {
+     "label": "Texas Rangers",
+     "expected_value_per_unit": 0.1172,
+     "value_points": 6.1,
+     "american_odds": 116,
+     "decimal_odds": 2.16,
+     "book_key": "betrivers",
+     "book": "BetRivers"
+    },
+    "selection": null,
+    "status": "closed",
+    "grade": "B",
+    "score": 78,
+    "fair_probability": 0.5172,
+    "market_break_even": 0.463,
+    "market_reference_probability": 0.4561,
+    "price_limit_american": -102,
+    "quote_age_seconds": 28,
+    "components": {
+     "value": 25,
+     "calibration": 11,
+     "agreement": 7,
+     "stability": 15,
+     "data_certainty": 15,
+     "price_quality": 5
+    },
+    "penalties": [],
+    "reason_codes": [
+     "POSITIVE_EV",
+     "PRICE_ABOVE_LIMIT",
+     "QUOTE_FRESH",
+     "STARTER_CONFIRMED",
+     "MARKET_STABLE",
+     "EVENT_STARTED"
+    ],
+    "receipt": {
+     "model_version": "mlb_baseline_v1",
+     "calibration_id": "cal_mlb_ml_2026-09-13",
+     "forecast_generated_at": "2026-09-13T19:05:02.154342Z",
+     "quote_observed_at": "2026-09-13T19:04:55Z",
+     "book_count": 9,
+     "policy_version": "assessment_policy_v1",
+     "published_at": "2026-09-13T19:05:23.466693Z",
+     "sealed_at": "2026-09-13T21:05:13.634857Z"
+    },
+    "forecast": {
+     "fair_home": 0.4828,
+     "raw_home": 0.4988,
+     "ref_home": 0.5439
+    },
+    "seal": "seal_ced7b49d09c0",
+    "tier": {
+     "label": "Qualified",
+     "kind": "play"
+    },
+    "parent_assessment_id": "asmt_2026-09-13_texas-rangers_arizona-diamondbacks_d10ce682c1a0",
+    "parent_seal": "seal_d10ce682c1a0"
    },
    "frozen": true
   },
