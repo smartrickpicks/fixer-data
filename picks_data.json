@@ -1,7 +1,7 @@
 {
  "date": "2026-09-21",
  "sport": "MLB",
- "generated_at": "2026-09-21T17:05:02.133332Z",
+ "generated_at": "2026-09-21T19:05:02.075348Z",
  "record": {
   "w": 1278,
   "l": 1084,
@@ -31,73 +31,61 @@
  "min_ev": 0.02,
  "games": [
   {
-   "away": "Minnesota Twins",
-   "home": "San Francisco Giants",
-   "pick": "San Francisco Giants",
-   "model": 0.565,
-   "market": 0.477,
-   "edge": 0.089,
-   "model_side": "San Francisco Giants",
-   "model_conf": 0.565,
-   "raw_conf": 0.674,
-   "raw_model": 0.674,
+   "away": "Washington Nationals",
+   "home": "Detroit Tigers",
+   "pick": "Washington Nationals",
+   "model": 0.477,
+   "market": 0.412,
+   "edge": 0.065,
+   "model_side": "Detroit Tigers",
+   "model_conf": 0.523,
+   "raw_conf": 0.513,
+   "raw_model": 0.487,
    "calibrated": true,
-   "dec_odds": 2.06,
-   "best_dec_odds": 2.06,
-   "start": "2026-09-22T01:46:00Z",
-   "hp": "Blade Tidwell",
-   "ap": "Zebby Matthews",
-   "hp_stat": {
-    "era": "4.56",
-    "w": 1,
-    "l": 2,
-    "ip": "53.1",
-    "so": 42
-   },
-   "ap_stat": {
-    "era": "4.74",
-    "w": 9,
-    "l": 10,
-    "ip": "125.1",
-    "so": 107
-   },
+   "dec_odds": 2.39,
+   "best_dec_odds": 2.39,
+   "start": "2026-09-22T22:41:00Z",
+   "hp": "River Ryan",
+   "ap": "DJ Herz",
+   "hp_stat": null,
+   "ap_stat": null,
    "asmt": {
-    "assessment_id": "asmt_2026-09-21_minnesota-twins_san-francisco-giants_5c5cd8cf3914",
+    "assessment_id": "asmt_2026-09-21_washington-nationals_detroit-tigers_ce2676780629",
     "policy_version": "assessment_policy_v1",
     "model_version": "mlb_baseline_v1",
     "devig_method": "proportional_v1",
-    "created_at": "2026-09-21T17:05:05.042551Z",
+    "created_at": "2026-09-21T19:05:03.670405Z",
     "date": "2026-09-21",
-    "away": "Minnesota Twins",
-    "home": "San Francisco Giants",
-    "commence_time": "2026-09-22T01:46:00Z",
+    "away": "Washington Nationals",
+    "home": "Detroit Tigers",
+    "commence_time": "2026-09-22T22:41:00Z",
     "likely_side": {
-     "label": "San Francisco Giants",
-     "probability": 0.5654
+     "label": "Detroit Tigers",
+     "probability": 0.5232
     },
     "value_side": {
-     "label": "San Francisco Giants",
-     "expected_value_per_unit": 0.1648,
-     "value_points": 8.9,
-     "american_odds": 106,
-     "decimal_odds": 2.06,
-     "book_key": "betus",
-     "book": "BetUS"
+     "label": "Washington Nationals",
+     "expected_value_per_unit": 0.1396,
+     "value_points": 6.5,
+     "american_odds": 139,
+     "decimal_odds": 2.39,
+     "book_key": "bovada",
+     "book": "Bovada"
     },
-    "selection": "San Francisco Giants",
+    "selection": "Washington Nationals",
     "status": "lean",
     "grade": "C",
     "score": 74,
-    "fair_probability": 0.5654,
-    "market_break_even": 0.4854,
-    "market_reference_probability": 0.4766,
-    "price_limit_american": -124,
-    "quote_age_seconds": 29,
+    "fair_probability": 0.4768,
+    "market_break_even": 0.4184,
+    "market_reference_probability": 0.4118,
+    "price_limit_american": 114,
+    "quote_age_seconds": 36,
     "components": {
-     "value": 21,
+     "value": 23,
      "calibration": 11,
      "agreement": 7,
-     "stability": 15,
+     "stability": 13,
      "data_certainty": 15,
      "price_quality": 5
     },
@@ -112,39 +100,40 @@
     "receipt": {
      "model_version": "mlb_baseline_v1",
      "calibration_id": "cal_mlb_ml_2026-09-21",
-     "forecast_generated_at": "2026-09-21T17:05:02.133332Z",
-     "quote_observed_at": "2026-09-21T17:04:36Z",
-     "book_count": 9,
+     "forecast_generated_at": "2026-09-21T19:05:02.075348Z",
+     "quote_observed_at": "2026-09-21T19:04:27Z",
+     "book_count": 5,
      "policy_version": "assessment_policy_v1",
-     "published_at": "2026-09-21T17:05:05.042551Z",
-     "sealed_at": "2026-09-21T17:05:05.042551Z"
+     "published_at": "2026-09-21T19:05:03.670405Z",
+     "sealed_at": "2026-09-21T19:05:03.670405Z"
     },
     "forecast": {
-     "fair_home": 0.5654,
-     "raw_home": 0.6741,
-     "ref_home": 0.4766
+     "fair_home": 0.5232,
+     "raw_home": 0.5128,
+     "ref_home": 0.5882
     },
-    "seal": "seal_5c5cd8cf3914",
+    "seal": "seal_ce2676780629",
     "tier": {
      "label": "Lean",
      "kind": "lean"
     }
-   }
+   },
+   "changed": "value +4.7\u2192+6.5 \u00b7 price +124\u2192+139 \u00b7 status WATCH\u2192LEAN"
   },
   {
    "away": "Toronto Blue Jays",
    "home": "Baltimore Orioles",
    "pick": "Toronto Blue Jays",
    "model": 0.523,
-   "market": 0.476,
-   "edge": 0.047,
+   "market": 0.477,
+   "edge": 0.046,
    "model_side": "Toronto Blue Jays",
    "model_conf": 0.523,
    "raw_conf": 0.62,
    "raw_model": 0.62,
    "calibrated": true,
-   "dec_odds": 2.02,
-   "best_dec_odds": 2.02,
+   "dec_odds": 2.04,
+   "best_dec_odds": 2.04,
    "start": "2026-09-22T22:36:00Z",
    "hp": "Shane Baz",
    "ap": "Trey Yesavage",
@@ -163,11 +152,11 @@
     "so": 91
    },
    "asmt": {
-    "assessment_id": "asmt_2026-09-21_toronto-blue-jays_baltimore-orioles_ab78e60145ce",
+    "assessment_id": "asmt_2026-09-21_toronto-blue-jays_baltimore-orioles_061c2921c54b",
     "policy_version": "assessment_policy_v1",
     "model_version": "mlb_baseline_v1",
     "devig_method": "proportional_v1",
-    "created_at": "2026-09-21T17:05:02.136331Z",
+    "created_at": "2026-09-21T19:05:02.105383Z",
     "date": "2026-09-21",
     "away": "Toronto Blue Jays",
     "home": "Baltimore Orioles",
@@ -178,27 +167,27 @@
     },
     "value_side": {
      "label": "Toronto Blue Jays",
-     "expected_value_per_unit": 0.0569,
-     "value_points": 4.7,
-     "american_odds": 102,
-     "decimal_odds": 2.02,
-     "book_key": "fanduel",
-     "book": "FanDuel"
+     "expected_value_per_unit": 0.0673,
+     "value_points": 4.6,
+     "american_odds": 104,
+     "decimal_odds": 2.04,
+     "book_key": "lowvig",
+     "book": "LowVig.ag"
     },
     "selection": "Toronto Blue Jays",
     "status": "lean",
     "grade": "C",
-    "score": 67,
+    "score": 73,
     "fair_probability": 0.5232,
-    "market_break_even": 0.495,
-    "market_reference_probability": 0.4758,
+    "market_break_even": 0.4902,
+    "market_reference_probability": 0.4773,
     "price_limit_american": -105,
-    "quote_age_seconds": 26,
+    "quote_age_seconds": 39,
     "components": {
-     "value": 19,
+     "value": 22,
      "calibration": 11,
      "agreement": 7,
-     "stability": 10,
+     "stability": 13,
      "data_certainty": 15,
      "price_quality": 5
     },
@@ -207,125 +196,138 @@
      "POSITIVE_EV",
      "PRICE_ABOVE_LIMIT",
      "QUOTE_FRESH",
-     "STARTER_CONFIRMED"
+     "STARTER_CONFIRMED",
+     "MARKET_STABLE"
     ],
     "receipt": {
      "model_version": "mlb_baseline_v1",
      "calibration_id": "cal_mlb_ml_2026-09-21",
-     "forecast_generated_at": "2026-09-21T17:05:02.133332Z",
-     "quote_observed_at": "2026-09-21T17:04:36Z",
-     "book_count": 2,
+     "forecast_generated_at": "2026-09-21T19:05:02.075348Z",
+     "quote_observed_at": "2026-09-21T19:04:23Z",
+     "book_count": 5,
      "policy_version": "assessment_policy_v1",
-     "published_at": "2026-09-21T17:05:02.136331Z",
-     "sealed_at": "2026-09-21T17:05:02.136331Z"
+     "published_at": "2026-09-21T19:05:02.105383Z",
+     "sealed_at": "2026-09-21T19:05:02.105383Z"
     },
     "forecast": {
      "fair_home": 0.4768,
      "raw_home": 0.3796,
-     "ref_home": 0.5242
+     "ref_home": 0.5227
     },
-    "seal": "seal_ab78e60145ce",
+    "seal": "seal_061c2921c54b",
     "tier": {
      "label": "Lean",
      "kind": "lean"
     }
-   },
-   "changed": "value +2.8\u2192+4.7"
+   }
   },
   {
-   "away": "Washington Nationals",
-   "home": "Detroit Tigers",
-   "pick": "Washington Nationals",
-   "model": 0.477,
-   "market": 0.429,
-   "edge": 0.047,
-   "model_side": "Detroit Tigers",
-   "model_conf": 0.523,
-   "raw_conf": 0.513,
-   "raw_model": 0.487,
+   "away": "Minnesota Twins",
+   "home": "San Francisco Giants",
+   "pick": "San Francisco Giants",
+   "model": 0.565,
+   "market": 0.455,
+   "edge": 0.111,
+   "model_side": "San Francisco Giants",
+   "model_conf": 0.565,
+   "raw_conf": 0.674,
+   "raw_model": 0.674,
    "calibrated": true,
-   "dec_odds": 2.24,
-   "best_dec_odds": 2.24,
-   "start": "2026-09-22T22:41:00Z",
-   "hp": "River Ryan",
-   "ap": "DJ Herz",
-   "hp_stat": null,
-   "ap_stat": null,
+   "dec_odds": 2.14,
+   "best_dec_odds": 2.14,
+   "start": "2026-09-23T01:46:00Z",
+   "hp": "Blade Tidwell",
+   "ap": "Zebby Matthews",
+   "hp_stat": {
+    "era": "4.56",
+    "w": 1,
+    "l": 2,
+    "ip": "53.1",
+    "so": 42
+   },
+   "ap_stat": {
+    "era": "4.74",
+    "w": 9,
+    "l": 10,
+    "ip": "125.1",
+    "so": 107
+   },
    "asmt": {
-    "assessment_id": "asmt_2026-09-21_washington-nationals_detroit-tigers_6ae3e4e44e36",
+    "assessment_id": "asmt_2026-09-21_minnesota-twins_san-francisco-giants_baab5a52a542",
     "policy_version": "assessment_policy_v1",
     "model_version": "mlb_baseline_v1",
     "devig_method": "proportional_v1",
-    "created_at": "2026-09-21T17:05:03.879589Z",
+    "created_at": "2026-09-21T19:05:04.977096Z",
     "date": "2026-09-21",
-    "away": "Washington Nationals",
-    "home": "Detroit Tigers",
-    "commence_time": "2026-09-22T22:41:00Z",
+    "away": "Minnesota Twins",
+    "home": "San Francisco Giants",
+    "commence_time": "2026-09-23T01:46:00Z",
     "likely_side": {
-     "label": "Detroit Tigers",
-     "probability": 0.5232
+     "label": "San Francisco Giants",
+     "probability": 0.5654
     },
     "value_side": {
-     "label": "Washington Nationals",
-     "expected_value_per_unit": 0.068,
-     "value_points": 4.7,
-     "american_odds": 124,
-     "decimal_odds": 2.24,
+     "label": "San Francisco Giants",
+     "expected_value_per_unit": 0.21,
+     "value_points": 11.1,
+     "american_odds": 114,
+     "decimal_odds": 2.14,
      "book_key": "fanduel",
      "book": "FanDuel"
     },
     "selection": null,
-    "status": "watch",
-    "grade": "D",
-    "score": 55,
-    "fair_probability": 0.4768,
-    "market_break_even": 0.4464,
-    "market_reference_probability": 0.4293,
-    "price_limit_american": 114,
-    "quote_age_seconds": 27,
+    "status": "model_alert",
+    "grade": "F",
+    "score": 37,
+    "fair_probability": 0.5654,
+    "market_break_even": 0.4673,
+    "market_reference_probability": 0.4548,
+    "price_limit_american": -124,
+    "quote_age_seconds": 18,
     "components": {
-     "value": 22,
+     "value": 16,
      "calibration": 11,
      "agreement": 7,
-     "stability": 10,
+     "stability": 13,
      "data_certainty": 15,
      "price_quality": 5
     },
     "penalties": [
      {
-      "code": "MARKET_ISOLATED",
-      "points": -15
+      "code": "OUTLIER_DISAGREEMENT",
+      "points": -30
      }
     ],
     "reason_codes": [
      "POSITIVE_EV",
      "PRICE_ABOVE_LIMIT",
+     "OUTLIER_DISAGREEMENT",
      "QUOTE_FRESH",
      "STARTER_CONFIRMED",
-     "MARKET_ISOLATED"
+     "MARKET_STABLE"
     ],
     "receipt": {
      "model_version": "mlb_baseline_v1",
      "calibration_id": "cal_mlb_ml_2026-09-21",
-     "forecast_generated_at": "2026-09-21T17:05:02.133332Z",
-     "quote_observed_at": "2026-09-21T17:04:36Z",
-     "book_count": 1,
+     "forecast_generated_at": "2026-09-21T19:05:02.075348Z",
+     "quote_observed_at": "2026-09-21T19:04:46Z",
+     "book_count": 5,
      "policy_version": "assessment_policy_v1",
-     "published_at": "2026-09-21T17:05:03.879589Z",
-     "sealed_at": "2026-09-21T17:05:03.879589Z"
+     "published_at": "2026-09-21T19:05:04.977096Z",
+     "sealed_at": "2026-09-21T19:05:04.977096Z"
     },
     "forecast": {
-     "fair_home": 0.5232,
-     "raw_home": 0.5128,
-     "ref_home": 0.5707
+     "fair_home": 0.5654,
+     "raw_home": 0.6741,
+     "ref_home": 0.4548
     },
-    "seal": "seal_6ae3e4e44e36",
+    "seal": "seal_baab5a52a542",
     "tier": {
-     "label": "Watch",
-     "kind": "watch"
+     "label": "Model Alert",
+     "kind": "alert"
     }
    },
-   "changed": "value +2.6\u2192+4.7 \u00b7 price +117\u2192+124 \u00b7 status LEAN\u2192WATCH"
+   "changed": "value +8.9\u2192+11.1 \u00b7 price +106\u2192+114 \u00b7 status LEAN\u2192MODEL_ALERT"
   }
  ],
  "feed_version": 2,
