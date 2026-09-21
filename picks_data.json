@@ -1,7 +1,7 @@
 {
  "date": "2026-09-21",
  "sport": "MLB",
- "generated_at": "2026-09-21T21:05:01.918397Z",
+ "generated_at": "2026-09-21T23:05:01.891889Z",
  "record": {
   "w": 1278,
   "l": 1084,
@@ -62,11 +62,11 @@
     "so": 91
    },
    "asmt": {
-    "assessment_id": "asmt_2026-09-21_toronto-blue-jays_baltimore-orioles_849a75dd67fe",
+    "assessment_id": "asmt_2026-09-21_toronto-blue-jays_baltimore-orioles_7a9b6b127ace",
     "policy_version": "assessment_policy_v1",
     "model_version": "mlb_baseline_v1",
     "devig_method": "proportional_v1",
-    "created_at": "2026-09-21T21:05:01.957127Z",
+    "created_at": "2026-09-21T23:05:01.957630Z",
     "date": "2026-09-21",
     "away": "Toronto Blue Jays",
     "home": "Baltimore Orioles",
@@ -85,19 +85,19 @@
      "book": "LowVig.ag"
     },
     "selection": "Toronto Blue Jays",
-    "status": "lean",
-    "grade": "C",
-    "score": 73,
+    "status": "qualified",
+    "grade": "B",
+    "score": 75,
     "fair_probability": 0.5232,
     "market_break_even": 0.4902,
-    "market_reference_probability": 0.4767,
+    "market_reference_probability": 0.4769,
     "price_limit_american": -105,
-    "quote_age_seconds": 12,
+    "quote_age_seconds": 51,
     "components": {
      "value": 22,
      "calibration": 11,
      "agreement": 7,
-     "stability": 13,
+     "stability": 15,
      "data_certainty": 15,
      "price_quality": 5
     },
@@ -112,24 +112,25 @@
     "receipt": {
      "model_version": "mlb_baseline_v1",
      "calibration_id": "cal_mlb_ml_2026-09-21",
-     "forecast_generated_at": "2026-09-21T21:05:01.918397Z",
-     "quote_observed_at": "2026-09-21T21:04:49Z",
-     "book_count": 5,
+     "forecast_generated_at": "2026-09-21T23:05:01.891889Z",
+     "quote_observed_at": "2026-09-21T23:04:10Z",
+     "book_count": 6,
      "policy_version": "assessment_policy_v1",
-     "published_at": "2026-09-21T21:05:01.957127Z",
-     "sealed_at": "2026-09-21T21:05:01.957127Z"
+     "published_at": "2026-09-21T23:05:01.957630Z",
+     "sealed_at": "2026-09-21T23:05:01.957630Z"
     },
     "forecast": {
      "fair_home": 0.4768,
      "raw_home": 0.3796,
-     "ref_home": 0.5233
+     "ref_home": 0.5231
     },
-    "seal": "seal_849a75dd67fe",
+    "seal": "seal_7a9b6b127ace",
     "tier": {
-     "label": "Lean",
-     "kind": "lean"
+     "label": "Qualified",
+     "kind": "play"
     }
-   }
+   },
+   "changed": "status LEAN\u2192QUALIFIED"
   },
   {
    "away": "Washington Nationals",
@@ -148,14 +149,26 @@
    "start": "2026-09-22T22:41:00Z",
    "hp": "River Ryan",
    "ap": "DJ Herz",
-   "hp_stat": null,
-   "ap_stat": null,
+   "hp_stat": {
+    "era": "0.00",
+    "w": 0,
+    "l": 0,
+    "ip": "1.1",
+    "so": 1
+   },
+   "ap_stat": {
+    "era": "18.00",
+    "w": 0,
+    "l": 0,
+    "ip": "1.0",
+    "so": 2
+   },
    "asmt": {
-    "assessment_id": "asmt_2026-09-21_washington-nationals_detroit-tigers_4c6af13983d6",
+    "assessment_id": "asmt_2026-09-21_washington-nationals_detroit-tigers_ac3e3e3fd0e2",
     "policy_version": "assessment_policy_v1",
     "model_version": "mlb_baseline_v1",
     "devig_method": "proportional_v1",
-    "created_at": "2026-09-21T21:05:03.632499Z",
+    "created_at": "2026-09-21T23:05:03.673379Z",
     "date": "2026-09-21",
     "away": "Washington Nationals",
     "home": "Detroit Tigers",
@@ -176,17 +189,17 @@
     "selection": "Washington Nationals",
     "status": "lean",
     "grade": "C",
-    "score": 72,
+    "score": 74,
     "fair_probability": 0.4768,
     "market_break_even": 0.4115,
-    "market_reference_probability": 0.4036,
+    "market_reference_probability": 0.4041,
     "price_limit_american": 114,
-    "quote_age_seconds": 14,
+    "quote_age_seconds": 53,
     "components": {
      "value": 21,
      "calibration": 11,
      "agreement": 7,
-     "stability": 13,
+     "stability": 15,
      "data_certainty": 15,
      "price_quality": 5
     },
@@ -201,19 +214,19 @@
     "receipt": {
      "model_version": "mlb_baseline_v1",
      "calibration_id": "cal_mlb_ml_2026-09-21",
-     "forecast_generated_at": "2026-09-21T21:05:01.918397Z",
-     "quote_observed_at": "2026-09-21T21:04:49Z",
-     "book_count": 5,
+     "forecast_generated_at": "2026-09-21T23:05:01.891889Z",
+     "quote_observed_at": "2026-09-21T23:04:10Z",
+     "book_count": 7,
      "policy_version": "assessment_policy_v1",
-     "published_at": "2026-09-21T21:05:03.632499Z",
-     "sealed_at": "2026-09-21T21:05:03.632499Z"
+     "published_at": "2026-09-21T23:05:03.673379Z",
+     "sealed_at": "2026-09-21T23:05:03.673379Z"
     },
     "forecast": {
      "fair_home": 0.5232,
      "raw_home": 0.5128,
-     "ref_home": 0.5964
+     "ref_home": 0.5959
     },
-    "seal": "seal_4c6af13983d6",
+    "seal": "seal_ac3e3e3fd0e2",
     "tier": {
      "label": "Lean",
      "kind": "lean"
@@ -252,11 +265,11 @@
     "so": 107
    },
    "asmt": {
-    "assessment_id": "asmt_2026-09-21_minnesota-twins_san-francisco-giants_73caadbff491",
+    "assessment_id": "asmt_2026-09-21_minnesota-twins_san-francisco-giants_5b442cfea04d",
     "policy_version": "assessment_policy_v1",
     "model_version": "mlb_baseline_v1",
     "devig_method": "proportional_v1",
-    "created_at": "2026-09-21T21:05:05.439445Z",
+    "created_at": "2026-09-21T23:05:05.413392Z",
     "date": "2026-09-21",
     "away": "Minnesota Twins",
     "home": "San Francisco Giants",
@@ -277,17 +290,17 @@
     "selection": null,
     "status": "model_alert",
     "grade": "F",
-    "score": 37,
+    "score": 39,
     "fair_probability": 0.5654,
     "market_break_even": 0.4673,
     "market_reference_probability": 0.4532,
     "price_limit_american": -124,
-    "quote_age_seconds": 17,
+    "quote_age_seconds": 34,
     "components": {
      "value": 16,
      "calibration": 11,
      "agreement": 7,
-     "stability": 13,
+     "stability": 15,
      "data_certainty": 15,
      "price_quality": 5
     },
@@ -308,19 +321,19 @@
     "receipt": {
      "model_version": "mlb_baseline_v1",
      "calibration_id": "cal_mlb_ml_2026-09-21",
-     "forecast_generated_at": "2026-09-21T21:05:01.918397Z",
-     "quote_observed_at": "2026-09-21T21:04:48Z",
-     "book_count": 5,
+     "forecast_generated_at": "2026-09-21T23:05:01.891889Z",
+     "quote_observed_at": "2026-09-21T23:04:31Z",
+     "book_count": 6,
      "policy_version": "assessment_policy_v1",
-     "published_at": "2026-09-21T21:05:05.439445Z",
-     "sealed_at": "2026-09-21T21:05:05.439445Z"
+     "published_at": "2026-09-21T23:05:05.413392Z",
+     "sealed_at": "2026-09-21T23:05:05.413392Z"
     },
     "forecast": {
      "fair_home": 0.5654,
      "raw_home": 0.6741,
      "ref_home": 0.4532
     },
-    "seal": "seal_73caadbff491",
+    "seal": "seal_5b442cfea04d",
     "tier": {
      "label": "Model Alert",
      "kind": "alert"
