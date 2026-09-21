@@ -1,7 +1,7 @@
 {
  "date": "2026-09-20",
  "sport": "MLB",
- "generated_at": "2026-09-20T23:05:02.278354Z",
+ "generated_at": "2026-09-21T01:05:02.027560Z",
  "record": {
   "w": 1270,
   "l": 1077,
@@ -30,113 +30,6 @@
  },
  "min_ev": 0.02,
  "games": [
-  {
-   "away": "Milwaukee Brewers",
-   "home": "Baltimore Orioles",
-   "pick": "Baltimore Orioles",
-   "model": 0.523,
-   "market": 0.346,
-   "edge": 0.177,
-   "model_side": "Baltimore Orioles",
-   "model_conf": 0.523,
-   "raw_conf": 0.558,
-   "raw_model": 0.558,
-   "calibrated": true,
-   "dec_odds": 2.84,
-   "best_dec_odds": 2.84,
-   "start": "2026-09-20T23:21:00Z",
-   "hp": "Brandon Young",
-   "ap": "Jacob Misiorowski",
-   "hp_stat": {
-    "era": "3.65",
-    "w": 9,
-    "l": 4,
-    "ip": "145.2",
-    "so": 118
-   },
-   "ap_stat": {
-    "era": "1.89",
-    "w": 15,
-    "l": 5,
-    "ip": "166.1",
-    "so": 243
-   },
-   "asmt": {
-    "assessment_id": "asmt_2026-09-20_milwaukee-brewers_baltimore-orioles_0baf78c4169d",
-    "policy_version": "assessment_policy_v1",
-    "model_version": "mlb_baseline_v1",
-    "devig_method": "proportional_v1",
-    "created_at": "2026-09-20T23:05:05.547709Z",
-    "date": "2026-09-20",
-    "away": "Milwaukee Brewers",
-    "home": "Baltimore Orioles",
-    "commence_time": "2026-09-20T23:21:00Z",
-    "likely_side": {
-     "label": "Baltimore Orioles",
-     "probability": 0.5234
-    },
-    "value_side": {
-     "label": "Baltimore Orioles",
-     "expected_value_per_unit": 0.4865,
-     "value_points": 17.7,
-     "american_odds": 184,
-     "decimal_odds": 2.84,
-     "book_key": "betonlineag",
-     "book": "BetOnline.ag"
-    },
-    "selection": null,
-    "status": "model_alert",
-    "grade": "F",
-    "score": 38,
-    "fair_probability": 0.5234,
-    "market_break_even": 0.3521,
-    "market_reference_probability": 0.3461,
-    "price_limit_american": -105,
-    "quote_age_seconds": 28,
-    "components": {
-     "value": 15,
-     "calibration": 11,
-     "agreement": 7,
-     "stability": 15,
-     "data_certainty": 15,
-     "price_quality": 5
-    },
-    "penalties": [
-     {
-      "code": "OUTLIER_DISAGREEMENT",
-      "points": -30
-     }
-    ],
-    "reason_codes": [
-     "POSITIVE_EV",
-     "PRICE_ABOVE_LIMIT",
-     "OUTLIER_DISAGREEMENT",
-     "QUOTE_FRESH",
-     "STARTER_CONFIRMED",
-     "MARKET_STABLE"
-    ],
-    "receipt": {
-     "model_version": "mlb_baseline_v1",
-     "calibration_id": "cal_mlb_ml_2026-09-20",
-     "forecast_generated_at": "2026-09-20T23:05:02.278354Z",
-     "quote_observed_at": "2026-09-20T23:04:37Z",
-     "book_count": 9,
-     "policy_version": "assessment_policy_v1",
-     "published_at": "2026-09-20T23:05:05.547709Z",
-     "sealed_at": "2026-09-20T23:05:05.547709Z"
-    },
-    "forecast": {
-     "fair_home": 0.5234,
-     "raw_home": 0.5578,
-     "ref_home": 0.3461
-    },
-    "seal": "seal_0baf78c4169d",
-    "tier": {
-     "label": "Model Alert",
-     "kind": "alert"
-    }
-   }
-  },
   {
    "away": "Atlanta Braves",
    "home": "Houston Astros",
@@ -1515,6 +1408,117 @@
     "parent_seal": "seal_eed2e1b150d3"
    },
    "changed": "Los SP TBD\u2192Jack Dreyer",
+   "frozen": true
+  },
+  {
+   "away": "Milwaukee Brewers",
+   "home": "Baltimore Orioles",
+   "pick": "Baltimore Orioles",
+   "model": 0.523,
+   "market": 0.346,
+   "edge": 0.177,
+   "model_side": "Baltimore Orioles",
+   "model_conf": 0.523,
+   "raw_conf": 0.558,
+   "raw_model": 0.558,
+   "calibrated": true,
+   "dec_odds": 2.84,
+   "best_dec_odds": 2.84,
+   "start": "2026-09-20T23:21:00Z",
+   "hp": "Brandon Young",
+   "ap": "Jacob Misiorowski",
+   "hp_stat": {
+    "era": "3.65",
+    "w": 9,
+    "l": 4,
+    "ip": "145.2",
+    "so": 118
+   },
+   "ap_stat": {
+    "era": "1.89",
+    "w": 15,
+    "l": 5,
+    "ip": "166.1",
+    "so": 243
+   },
+   "asmt": {
+    "assessment_id": "asmt_2026-09-20_milwaukee-brewers_baltimore-orioles_0baf78c4169d_closed_fcdf43735097",
+    "policy_version": "assessment_policy_v1",
+    "model_version": "mlb_baseline_v1",
+    "devig_method": "proportional_v1",
+    "created_at": "2026-09-21T01:05:04.045741Z",
+    "date": "2026-09-20",
+    "away": "Milwaukee Brewers",
+    "home": "Baltimore Orioles",
+    "commence_time": "2026-09-20T23:21:00Z",
+    "likely_side": {
+     "label": "Baltimore Orioles",
+     "probability": 0.5234
+    },
+    "value_side": {
+     "label": "Baltimore Orioles",
+     "expected_value_per_unit": 0.4865,
+     "value_points": 17.7,
+     "american_odds": 184,
+     "decimal_odds": 2.84,
+     "book_key": "betonlineag",
+     "book": "BetOnline.ag"
+    },
+    "selection": null,
+    "status": "closed",
+    "grade": "F",
+    "score": 38,
+    "fair_probability": 0.5234,
+    "market_break_even": 0.3521,
+    "market_reference_probability": 0.3461,
+    "price_limit_american": -105,
+    "quote_age_seconds": 28,
+    "components": {
+     "value": 15,
+     "calibration": 11,
+     "agreement": 7,
+     "stability": 15,
+     "data_certainty": 15,
+     "price_quality": 5
+    },
+    "penalties": [
+     {
+      "code": "OUTLIER_DISAGREEMENT",
+      "points": -30
+     }
+    ],
+    "reason_codes": [
+     "POSITIVE_EV",
+     "PRICE_ABOVE_LIMIT",
+     "OUTLIER_DISAGREEMENT",
+     "QUOTE_FRESH",
+     "STARTER_CONFIRMED",
+     "MARKET_STABLE",
+     "EVENT_STARTED"
+    ],
+    "receipt": {
+     "model_version": "mlb_baseline_v1",
+     "calibration_id": "cal_mlb_ml_2026-09-20",
+     "forecast_generated_at": "2026-09-20T23:05:02.278354Z",
+     "quote_observed_at": "2026-09-20T23:04:37Z",
+     "book_count": 9,
+     "policy_version": "assessment_policy_v1",
+     "published_at": "2026-09-20T23:05:05.547709Z",
+     "sealed_at": "2026-09-21T01:05:04.045741Z"
+    },
+    "forecast": {
+     "fair_home": 0.5234,
+     "raw_home": 0.5578,
+     "ref_home": 0.3461
+    },
+    "seal": "seal_fcdf43735097",
+    "tier": {
+     "label": "Model Alert",
+     "kind": "alert"
+    },
+    "parent_assessment_id": "asmt_2026-09-20_milwaukee-brewers_baltimore-orioles_0baf78c4169d",
+    "parent_seal": "seal_0baf78c4169d"
+   },
    "frozen": true
   },
   {
