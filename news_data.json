@@ -1,11 +1,38 @@
 {
-  "generated_at": "2026-09-24T21:15:02.128016+00:00",
+  "generated_at": "2026-09-24T21:30:02.358552+00:00",
   "slate_date": "2026-09-24",
   "games": 12,
-  "kept": 30,
-  "dropped": 21,
+  "kept": 31,
+  "dropped": 20,
   "extracted": 0,
   "items": [
+    {
+      "title": "Cubs clinch second straight playoff berth with win over Marlins",
+      "desc": "The Chicago Cubs clinched their second straight postseason berth a 2-1 victory over the Miami Marlins on Thursday.",
+      "url": "https://www.espn.com/mlb/story/_/id/50023000/cubs-earn-second-straight-playoff-berth-win-marlins",
+      "feed": "espn-mlb",
+      "sha": "ebc70a6cd1d0e303",
+      "relevance": "HOT",
+      "score": 0.614,
+      "mo": {
+        "trigger": 0.316,
+        "topDoc": "Miami Marlins@Chicago Cubs",
+        "bridges": [
+          "cubs",
+          "marlins",
+          "miami"
+        ]
+      },
+      "factors": [
+        "general"
+      ],
+      "sentiment": {
+        "tag": "neutral",
+        "cue": "",
+        "team": "Chicago Cubs"
+      },
+      "half_life_h": 12.0
+    },
     {
       "title": "Yankees vs. Rays preview, prediction: Everything to know about four-game series with AL East title on the line",
       "desc": "The Rays enter the three-day, four-game set with a six-game lead over the Yankees",
@@ -597,31 +624,6 @@
       "half_life_h": 72.0
     },
     {
-      "title": "MLB Power Rankings: Dodgers World Series wouldn't prove need for a salary cap, but facts never stopped anyone",
-      "desc": "With one week to go in the regular season, the question will soon shift to whether anyone can unseat the reigning champions in October",
-      "url": "https://www.cbssports.com/mlb/news/mlb-power-rankings-dodgers-world-series-salary-cap-cba/",
-      "feed": "cbs-mlb",
-      "sha": "07c99c6afa650e07",
-      "relevance": "WARM",
-      "score": 0.52,
-      "mo": {
-        "trigger": 0.04,
-        "topDoc": "San Diego Padres@Los Angeles Dodgers",
-        "bridges": [
-          "dodgers"
-        ]
-      },
-      "factors": [
-        "general"
-      ],
-      "sentiment": {
-        "tag": "neutral",
-        "cue": "",
-        "team": "Los Angeles Dodgers"
-      },
-      "half_life_h": 12.0
-    },
-    {
       "title": "How do the Giants move on from 2026 failures? Veteran players, fresh faces could hold the key to 2027",
       "desc": "Buster Posey took risks in 2026, including in the dugout with Tony Vitello, and few paid off as the Giants end the season barely above the Rockies",
       "url": "https://www.cbssports.com/mlb/news/giants-2026-failures-rafael-devers-willy-adames-bryce-eldridge-tony-vitello/",
@@ -668,6 +670,32 @@
         "tag": "negative",
         "cue": "out",
         "team": "Cincinnati Reds"
+      },
+      "half_life_h": 72.0
+    },
+    {
+      "title": "Cubs clinch playoff berth: Why Chicago could line up for a World Series win 10 years after its last title",
+      "desc": "For the second straight season, the Cubs are headed to the playoffs out of the wild-card race",
+      "url": "https://www.cbssports.com/mlb/news/cubs-clinch-playoff-berth-world-series-contender/",
+      "feed": "cbs-mlb",
+      "sha": "bada986e646fdd12",
+      "relevance": "WARM",
+      "score": 0.492,
+      "mo": {
+        "trigger": 0.143,
+        "topDoc": "Miami Marlins@Chicago Cubs",
+        "bridges": [
+          "cubs"
+        ]
+      },
+      "factors": [
+        "injury",
+        "line"
+      ],
+      "sentiment": {
+        "tag": "negative",
+        "cue": "out",
+        "team": "Chicago Cubs"
       },
       "half_life_h": 72.0
     },
